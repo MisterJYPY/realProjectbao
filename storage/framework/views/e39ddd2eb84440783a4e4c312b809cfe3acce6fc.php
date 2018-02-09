@@ -27,7 +27,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
-                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">La TECHNOLOGIE <br><span>De demain </span> <br>
+                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">EN PANNES<br><span>D'IDEES ? </span> <br>
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -42,7 +42,8 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.1"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam.
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Nous reflechissons pour vous ! Notre quotidien ? <br>
+                        Coordonner, Innover, Conseiller, Anticiper, Securiser, Imaginer, Negocier, Etre Constament a votre Ecoute
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -97,7 +98,7 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.1"
-                         style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">We are experience company
+                         style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -111,7 +112,7 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.05"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">All You Need for building
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span style="align : center;">BOA-TECHNOLOGIES</span>
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -125,7 +126,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span>Creative &amp; Professional </span>
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span>Creatif & Professionnel </span>
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -287,70 +288,70 @@
 <section class="projects-section">
     <div class="container">
         <div class="project-title">
-            <h2>Our - Latest Projects</h2>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>Nos - Derniers Produits</h2>
+            <p>Caracterisée par le respect des delais, des normes de qualités en la matiere, BAO-TECHNOLOGIES a su toujours repondre
+            a l'attente de ses clients et partenaires avec les exigences d'un monde en plein changement</p>
         </div>
         <ul class="filter">
-            <li><a class="active" href="#" data-filter="*">Show All</a></li>
-            <li><a href="#" data-filter=".buildings">Buildings</a></li>
-            <li><a href="#" data-filter=".interior">Interior</a></li>
-            <li><a href="#" data-filter=".energy">Energy</a></li>
-            <li><a href="#" data-filter=".isolation">Isolation</a></li>
+            <li><a class="active" href="#" data-filter="*">Tout</a></li>
+            <li><a href="#" data-filter=".buildings">Serigraphie</a></li>
+            <li><a href="#" data-filter=".interior">Bonerie</a></li>
+            <li><a href="#" data-filter=".energy">Evenementiel</a></li>
+            <li><a href="#" data-filter=".isolation">Imprimerie</a></li>
+            <li><a href="#" data-filter=".interior">Dematerialisation</a></li>
         </ul>
         <div class="project-box iso-call">
             <div class="project-post buildings isolation">
-                <img src="upload/projects/1.jpg" alt="">
+                <img src="upload/projects/produit8.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Elegant Building</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post interior">
-                <img src="upload/projects/2.jpg" alt="">
+                <img src="upload/projects/produit1.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Beatiful House</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post buildings isolation">
-                <img src="upload/projects/3.jpg" alt="">
+                <img src="upload/projects/produit2.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Classic House</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post buildings">
-                <img src="upload/projects/4.jpg" alt="">
+                <img src="upload/projects/produit3.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Modern and trending house</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post interior isolation">
-                <img src="upload/projects/5.jpg" alt="">
+                <img src="upload/projects/produit4.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Afarist Building</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post energy">
-                <img src="upload/projects/6.jpg" alt="">
+                <img src="upload/projects/produit5.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">traditional Building</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post buildings">
-                <img src="upload/projects/7.jpg" alt="">
+                <img src="upload/projects/produit6.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Small house</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post isolation">
-                <img src="upload/projects/8.jpg" alt="">
+                <img src="upload/projects/produit7.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Large town Buildings</a></h2>
                     <span>bulding, house</span>
@@ -515,9 +516,8 @@
     <div class="container">
         <div class="clients-title">
             <h2>Clients - Nos references</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            <p>BAO-TECNOLOGIES possède un large carnet d'addresse de partenaires et clients, avec les quels elle a pu demontrer un savoir
+                faire remarquable et une solide relation de confiance de par son experience</p>
         </div>
         <div class="row">
             <div class="col-md-5">
