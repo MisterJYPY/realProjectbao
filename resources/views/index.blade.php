@@ -21,7 +21,7 @@
     <!-- REVOLUTION BANNER CSS SETTINGS -->
 	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-
+	<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
 	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.migrate.js"></script>
@@ -35,6 +35,9 @@
     <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+
+	<!-- Import Leaflet JS Library -->
+	<script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
 
 </head>
 <body>
