@@ -366,7 +366,7 @@
 <section class="about-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <img src="upload/others/4.jpg" alt="">
                 <h2>Who we are</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -376,44 +376,63 @@
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
 
                 <!-- Nav tabs -->
                 <div class="tab-posts-box">
                     <ul class="nav nav-tabs" id="myTab">
                         <li class="active">
-                            <a href="#option1" data-toggle="tab">Building</a>
+                            <a href="#option1" data-toggle="tab">Serigraphie</a>
                         </li>
                         <li>
-                            <a href="#option2" data-toggle="tab">Renovation</a>
+                            <a href="#option2" data-toggle="tab">Imprimerie</a>
                         </li>
                         <li>
-                            <a href="#option3" data-toggle="tab">Isolation</a>
+                            <a href="#option3" data-toggle="tab">Bonerie</a>
+                        </li>
+                        <li>
+                            <a href="#option4" data-toggle="tab">Evenementiel</a>
+                        </li>
+                        <li>
+                            <a href="#option5" data-toggle="tab">Dematerialisation</a>
                         </li>
                     </ul>
 
                     <div class="tab-content">
                         <div class="tab-pane active" id="option1">
                             <img src="upload/others/6.jpg" alt="">
-                            <h3>Building</h3>
+                            <h3>Serigraphie</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. ullamco laboris nisi ut aliquip ex ea commodo.</p>
                         </div>
                         <div class="tab-pane" id="option2">
                             <img src="upload/others/5.jpg" alt="">
-                            <h3>Renovation</h3>
+                            <h3>Imprimerie</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. ullamco laboris nisi ut aliquip ex ea commodo.</p>
                         </div>
                         <div class="tab-pane" id="option3">
                             <img src="upload/others/2.jpg" alt="">
-                            <h3>Isolation</h3>
+                            <h3>Bonerie</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ullamco laboris nisi ut aliquip ex ea commodo.</p>
-
+                        </div>
+                        <div class="tab-pane" id="option4">
+                            <img src="upload/others/6.jpg" alt="">
+                            <h3>Evenementiel</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        </div>
+                        <div class="tab-pane" id="option5">
+                            <img src="upload/others/2.jpg" alt="">
+                            <h3>Dematerialisation</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ullamco laboris nisi ut aliquip ex ea commodo.</p>
                         </div>
                     </div>
                 </div>

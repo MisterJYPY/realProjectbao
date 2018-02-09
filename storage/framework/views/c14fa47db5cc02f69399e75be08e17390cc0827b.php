@@ -82,22 +82,9 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="drop"><a class="active" href="<?php echo e(route('home')); ?>">Acceuil</a>
-								<ul class="dropdown">
-									<li><a href="index.html">Home Default</a></li>
-									<li><a href="home2.html">Home 2</a></li>
-									<li><a href="home-presentation.html">Home Presentation</a></li>
-								</ul>
-							</li>
-							<li class="drop"><a href="<?php echo e(route('projet')); ?>">Nos Projets</a>
-								<ul class="dropdown">
-									<li><a href="projects-2col.html">Projects 2 Colums</a></li>
-									<li><a href="projects-3col.html">Projects 3 Colums</a></li>
-									<li><a href="projects.html">Projects 4 Colums</a></li>
-									<li><a href="single-project.html">Single Project</a></li>
-								</ul>
-							</li>
-							<li><a href="about.html">Qui sommes-nous?</a></li>
+							<li class="drop"><a class="active" href="<?php echo e(route('home')); ?>">Acceuil</a></li>
+							<li class="drop"><a href="<?php echo e(route('projet')); ?>">Nos Projets</a></li>
+							<li><a href="<?php echo e(route('apropos')); ?>">Qui sommes-nous?</a></li>
 							<li class="drop"><a href="<?php echo e(route('allServices')); ?>">Nos Services</a>
 								<ul class="dropdown">
 									<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
