@@ -59,4 +59,18 @@ Route::get('dematerialisation', 'dematerialisationController@index')->name('dema
  */
 Route::get('projet', 'projetController@index')->name('projet');
 
+
 //***========================FIN ROUTE POUR LES SERVICES===============***//
+
+//==========================ROUTE POUR LES BLOGS=================//
+
+/**
+ *Route pour la page d'acceuil
+ */
+Route::get('bao_blog', 'blogController@index')->name('bao_blog');
+
+/**
+ * Route pour la page d'accueil pour les contacts
+ */
+
+Route::get('bao_contact', 'contactController@index')->name('bao_contact');
