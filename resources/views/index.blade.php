@@ -86,7 +86,7 @@
 								<ul class="dropdown">
 									<li><a href="index.html">Home Default</a></li>
 									<li><a href="home2.html">Home 2</a></li>
-									<li><a href="home-presentation.html">Home Presentation</a></li>
+									<li><a href="home-presentation.html">Aceuil 3</a></li>
 								</ul>
 							</li>
 							<li class="drop"><a href="{{route('projet')}}">Nos Projets</a>
