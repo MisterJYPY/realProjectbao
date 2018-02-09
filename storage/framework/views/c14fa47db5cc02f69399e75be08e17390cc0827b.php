@@ -21,7 +21,7 @@
     <!-- REVOLUTION BANNER CSS SETTINGS -->
 	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-
+	<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
 	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.migrate.js"></script>
@@ -31,10 +31,14 @@
   	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 	<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/plugins-scroll.js"></script>
+
     <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
     <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+
+	<!-- Import Leaflet JS Library -->
+	<script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
 
 </head>
 <body>
@@ -95,7 +99,7 @@
 									<li><a href="<?php echo e(route('projet')); ?>">Projecting</a></li>
 								</ul>
 							</li>
-							<li class="drop"><a href="blog.html">Blog</a>
+							<li class="drop"><a href="<?php echo e(route('bao_blog')); ?>">Blog</a>
 								<ul class="dropdown">
 									<li><a href="blog.html">Blog Default</a></li>
 									<li><a href="blog-3col.html">Blog 3 Colums</a></li>
@@ -103,7 +107,7 @@
 									<li><a href="single-post.html">Single Post</a></li>
 								</ul>
 							</li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="<?php echo e(route('bao_contact')); ?>">Contact</a></li>
 							<li class="search drop"><a href="#" class="open-search"><i class="fa fa-search"></i></a>
 								<form class="form-search">
 									<input type="search" placeholder="Search:"/>
@@ -247,5 +251,7 @@
 		});	//ready
 		
 	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+	<script type="text/javascript" src="js/gmap3.min.js"></script>
 </body>
 </html>
