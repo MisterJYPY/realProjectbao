@@ -19,6 +19,11 @@ Route::get('/', function () {
  */
 Route::get('home', 'homeController@index')->name('home');
 //==========================ROUTE POUR LES SERVICES=================//
+
+/**
+ * QUI SOMMES NOUS? ROUTE
+ */
+Route::get('apropos', 'aproposController@index')->name('apropos');
 /**
  * Pour Tout les Services
  */
