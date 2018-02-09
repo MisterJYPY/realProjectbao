@@ -147,12 +147,12 @@
 							<div class="footer-widget">
 								<h2>quelques widgets</h2>
 								<ul class="flickr">
-									<li><a href="#"><img src="upload/flickr/1.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/4.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/5.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/6.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/7.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/8.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_complet.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_habit.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_maquillage.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_tshirt.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_cartable.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_calendar.jpg" alt=""></a></li>
 								</ul>
 							</div>
 						</div>
