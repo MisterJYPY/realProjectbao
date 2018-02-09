@@ -1,7 +1,4 @@
-@extends('index')
-@section('content')
-		<!-- page-banner-section 
-			================================================== -->
+<?php $__env->startSection('content'); ?>
 		<section class="page-banner-section">
 			<div class="container">
 				<div class="row">
@@ -10,9 +7,9 @@
 					</div>
 					<div class="col-md-6">
 						<ul class="page-depth">
-							<li><a href="{{route('home')}}">Bao-Technoligies</a></li>
-							<li><a href="{{route('allServices')}}">Services</a></li>
-							<li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
+							<li><a href="<?php echo e(route('home')); ?>">Bao-Technoligies</a></li>
+							<li><a href="<?php echo e(route('allServices')); ?>">Services</a></li>
+							<li><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
 						</ul>
 					</div>
 				</div>
@@ -28,13 +25,13 @@
 					<div class="col-md-3">
 						<div class="side-navigation">
 							<ul class="side-navigation-list">
-								<li><a href="{{route('allServices')}}">Nos Services</a></li>
-								<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
-								<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
-								<li><a href="{{route('bonerie')}}">Bonerie</a></li>
-								<li><a class="active" href="{{route('evenementiel')}}">Evenementiel</a></li>
-								<li><a href="{{route('dematerialisation')}}">Dematerialisation</a></li>
-								<li><a href="{{route('projet')}}">Projet</a></li>
+								<li><a href="<?php echo e(route('allServices')); ?>">Nos Services</a></li>
+								<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
+								<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
+								<li><a class="active" href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+								<li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
+								<li><a href="<?php echo e(route('dematerialisation')); ?>">Dematerialisation</a></li>
+								<li><a href="<?php echo e(route('projet')); ?>">Projet</a></li>
 							</ul>
 							<div class="contact-info">
 								<h2>Contact Info</h2>
@@ -51,7 +48,8 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="services-post">
-										<img src="upload/others/paint2.jpg" alt="">
+										<img src="upload/others/iso1.jpg" alt="">
+										<img src="upload/others/iso3.jpg" alt="">
 										<h2>All isolation</h2>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -64,7 +62,8 @@
 								</div>
 								<div class="col-md-6">
 									<div class="services-post">
-										<img src="upload/others/paint3.jpg" alt="">
+										<img src="upload/others/iso2.jpg" alt="">
+										<img src="upload/others/iso4.jpg" alt="">
 										<h2>Perfect work</h2>
 										<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 										consequat.</p>
@@ -75,13 +74,11 @@
 									</div>
 								</div>
 							</div>
-							<div class="services-post">
-								<img src="upload/others/paint1.jpg" alt="">
-							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- End services-page section -->
-@endsection
+		<?php $__env->stopSection(); ?>
+<?php echo $__env->make('index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

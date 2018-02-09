@@ -1,5 +1,4 @@
-@extends('index')
-@section('content')
+<?php $__env->startSection('content'); ?>
 		<!-- page-banner-section 
 			================================================== -->
 		<section class="page-banner-section">
@@ -10,9 +9,9 @@
 					</div>
 					<div class="col-md-6">
 						<ul class="page-depth">
-							<li><a href="{{route('home')}}">Bao-Technoligies</a></li>
-							<li><a href="{{route('allServices')}}">Services</a></li>
-							<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
+							<li><a href="<?php echo e(route('home')); ?>">Bao-Technoligies</a></li>
+							<li><a href="<?php echo e(route('allServices')); ?>">Services</a></li>
+							<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
 						</ul>
 					</div>
 				</div>
@@ -28,13 +27,13 @@
 					<div class="col-md-3">
 						<div class="side-navigation">
 							<ul class="side-navigation-list">
-								<li><a href="{{route('allServices')}}">Nos Services</a></li>
-								<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
-								<li><a class="active" href="{{route('imprimerie')}}">Imprimerie</a></li>
-								<li><a href="{{route('bonerie')}}">Bonerie</a></li>
-								<li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
-								<li><a href="{{route('dematerialisation')}}">Dematerialisation</a></li>
-								<li><a href="{{route('projet')}}">Projet</a></li>
+								<li><a href="<?php echo e(route('allServices')); ?>">Nos Services</a></li>
+								<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
+								<li><a class="active" href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
+								<li><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+								<li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
+								<li><a href="<?php echo e(route('dematerialisation')); ?>">Dematerialisation</a></li>
+								<li><a href="<?php echo e(route('projet')); ?>">Projet</a></li>
 							</ul>
 							<div class="contact-info">
 								<h2>Contact Info</h2>
@@ -86,4 +85,6 @@
 			</div>
 		</section>
 		<!-- End services-page section -->
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

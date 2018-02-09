@@ -1,5 +1,5 @@
-@extends('index');
-@section('content')
+;
+<?php $__env->startSection('content'); ?>
 <section id="home-section" class="slider1">
 
     <!--
@@ -367,8 +367,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <video style="margin-bottom:5px" autoplay="true" width="350" height="200" controls="controls"><source src="videos/test.mp4" type="video/mp4"/></video>
-                <h2 style="margin:5px">Qui sommes nous</h2>
+                <img src="upload/others/4.jpg" alt="">
+                <h2>Who we are</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p>Ut enim ad minim veniam,	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -482,19 +482,19 @@
     <div class="container">
 
         <div class="title-section">
-            <h1>Temoignage <span>Reference</span></h1>
+            <h1>Clients <span>Testimonials</span></h1>
         </div>
 
         <div class="testimonial-box">
             <ul class="bxslider">
                 <li>
                     <h2>John Smith</h2>
-                    <span>Chef d'entreprise</span>
+                    <span>HouseBuild Chief</span>
                     <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. <br> Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a,<br> ultricies in, diam. Sed arcu. Cras consequat.</p>
                 </li>
                 <li>
                     <h2>Besim Dauti</h2>
-                    <span>Directrice</span>
+                    <span>Project Menager</span>
                     <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. <br> Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a,<br> ultricies in, diam. Sed arcu. Cras consequat.</p>
                 </li>
                 <li>
@@ -509,12 +509,71 @@
 </section>
 <!-- End testimonial section -->
 
+<!-- news-section
+    ================================================== -->
+<section class="news-section">
+    <div class="container">
+        <div class="news-title">
+            <h2>Our - Latest News</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="news-box">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="news-post">
+                        <img src="upload/others/ser1.jpg" alt="">
+                        <h2><a href="single-post.html">We construct buildings</a></h2>
+                        <span>22 Jannuary 2015</span>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="single-post.html">Continue Reading...</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="news-post">
+                        <img src="upload/others/ser2.jpg" alt="">
+                        <h2><a href="single-post.html">We work on area</a></h2>
+                        <span>22 Jannuary 2015</span>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="single-post.html">Continue Reading...</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="news-post">
+                        <img src="upload/others/ser3.jpg" alt="">
+                        <h2><a href="single-post.html">We build objects</a></h2>
+                        <span>22 Jannuary 2015</span>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="single-post.html">Continue Reading...</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="news-post">
+                        <img src="upload/others/ser4.jpg" alt="">
+                        <h2><a href="single-post.html">We are professional</a></h2>
+                        <span>22 Jannuary 2015</span>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="single-post.html">Continue Reading...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End news section -->
+
 <!-- clients-section
     ================================================== -->
 <section class="clients-section">
     <div class="container">
         <div class="clients-title">
-            <h2>Clients - Nos references</h2>
+            <h2>Clients - Our Partners</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
@@ -523,34 +582,34 @@
             <div class="col-md-5">
                 <ul class="client-list">
                     <li>
-                        <a href="#"><img src="images/clients/logo_allianz.png" alt=""></a>
+                        <a href="#"><img src="images/clients/client1.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/logo_hcr.png" alt=""></a>
+                        <a href="#"><img src="images/clients/client2.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/logo_pci.png" alt=""></a>
+                        <a href="#"><img src="images/clients/client3.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/logo_sib.png" alt=""></a>
+                        <a href="#"><img src="images/clients/client4.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/logo_bad.jpg" alt=""></a>
+                        <a href="#"><img src="images/clients/client5.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/logo_bnetd.jpg" alt=""></a>
+                        <a href="#"><img src="images/clients/client6.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/logo_cie.jpg" alt=""></a>
+                        <a href="#"><img src="images/clients/client1.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/logo_sir.jpg" alt=""></a>
+                        <a href="#"><img src="images/clients/client2.png" alt=""></a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-6">
                 <blockquote>
-                    <p>Certains de <span>nos partenaires</span> et <span>clients</span>, sont tres satisfait de notre travail. <br>Voulez vous être <span>le prochain</span> ?</p>
+                    <p>There are some of <span>our partners</span> and <span>customers</span>, who are very satisfied with our work. <br>Do you want to be <span>next one</span> ?</p>
                 </blockquote>
             </div>
         </div>
@@ -559,4 +618,5 @@
 </section>
 <!-- End clients section -->
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

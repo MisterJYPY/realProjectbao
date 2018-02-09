@@ -86,20 +86,20 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="drop"><a class="active" href="{{route('home')}}">Acceuil</a></li>
-							<li class="drop"><a href="{{route('projet')}}">Nos Projets</a></li>
-							<li><a href="{{route('apropos')}}">Qui sommes-nous?</a></li>
-							<li class="drop"><a href="{{route('allServices')}}">Nos Services</a>
+							<li class="drop"><a class="active" href="<?php echo e(route('home')); ?>">Acceuil</a></li>
+							<li class="drop"><a href="<?php echo e(route('projet')); ?>">Nos Projets</a></li>
+							<li><a href="<?php echo e(route('apropos')); ?>">Qui sommes-nous?</a></li>
+							<li class="drop"><a href="<?php echo e(route('allServices')); ?>">Nos Services</a>
 								<ul class="dropdown">
-									<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
-									<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
-									<li><a href="{{route('bonerie')}}">Bonerie</a></li>
-									<li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
-									<li><a href="{{route('dematerialisation')}}">Dematerialisation</a></li>
-									<li><a href="{{route('projet')}}">Projecting</a></li>
+									<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
+									<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
+									<li><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+									<li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
+									<li><a href="<?php echo e(route('dematerialisation')); ?>">Dematerialisation</a></li>
+									<li><a href="<?php echo e(route('projet')); ?>">Projecting</a></li>
 								</ul>
 							</li>
-							<li class="drop"><a href="{{route('bao_blog')}}">Blog</a>
+							<li class="drop"><a href="<?php echo e(route('bao_blog')); ?>">Blog</a>
 								<ul class="dropdown">
 									<li><a href="blog.html">Blog Default</a></li>
 									<li><a href="blog-3col.html">Blog 3 Colums</a></li>
@@ -107,7 +107,7 @@
 									<li><a href="single-post.html">Single Post</a></li>
 								</ul>
 							</li>
-							<li><a href="{{route('bao_contact')}}">Contact</a></li>
+							<li><a href="<?php echo e(route('bao_contact')); ?>">Contact</a></li>
 							<li class="search drop"><a href="#" class="open-search"><i class="fa fa-search"></i></a>
 								<form class="form-search">
 									<input type="search" placeholder="Search:"/>
@@ -122,7 +122,7 @@
 			</nav>
 		</header>
 		<!-- End Header -->
-		@yield('content');
+		<?php echo $__env->yieldContent('content'); ?>;
 		<footer>
 			<div class="up-footer">
 				<div class="container">
