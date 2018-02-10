@@ -17,6 +17,7 @@ class CreateArticlesTable extends Migration
             $table->increments('id');
             $table->string('intitule')->unique;
             $table->string('description');
+            $table->string('lienImage');
             $table->unsignedInteger('categories');
             $table->foreign('categories')
                 ->references('id')->on('categories')
