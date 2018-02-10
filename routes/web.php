@@ -74,3 +74,8 @@ Route::get('bao_blog', 'blogController@index')->name('bao_blog');
  */
 
 Route::get('bao_contact', 'contactController@index')->name('bao_contact');
+
+//***========================FIN ROUTE POUR LES SERVICES===============***//
+
+//==========================ROUTE POUR L'ADMINISTRATION=================//
+Route::get('dashbao', 'dashbaoController@index')->name('dashbao');

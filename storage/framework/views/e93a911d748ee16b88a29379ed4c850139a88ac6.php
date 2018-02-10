@@ -27,7 +27,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
-                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">La TECHNOLOGIE <br><span>De demain </span> <br>
+                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">EN PANNES<br><span>D'IDEES ? </span> <br>
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -42,7 +42,8 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.1"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam.
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Nous reflechissons pour vous ! Notre quotidien ? <br>
+                        Coordonner, Innover, Conseiller, Anticiper, Securiser, Imaginer, Negocier, Etre Constament a votre Ecoute
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -97,7 +98,7 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.1"
-                         style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">We are experience company
+                         style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -111,7 +112,7 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.05"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">All You Need for building
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span style="align : center;">BOA-TECHNOLOGIES</span>
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -125,7 +126,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span>Creative &amp; Professional </span>
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span>Creatif & Professionnel </span>
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -287,70 +288,70 @@
 <section class="projects-section">
     <div class="container">
         <div class="project-title">
-            <h2>Our - Latest Projects</h2>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>Nos - Derniers Produits</h2>
+            <p>Caracterisée par le respect des delais, des normes de qualités en la matiere, BAO-TECHNOLOGIES a su toujours repondre
+            a l'attente de ses clients et partenaires avec les exigences d'un monde en plein changement</p>
         </div>
         <ul class="filter">
-            <li><a class="active" href="#" data-filter="*">Show All</a></li>
-            <li><a href="#" data-filter=".buildings">Buildings</a></li>
-            <li><a href="#" data-filter=".interior">Interior</a></li>
-            <li><a href="#" data-filter=".energy">Energy</a></li>
-            <li><a href="#" data-filter=".isolation">Isolation</a></li>
+            <li><a class="active" href="#" data-filter="*">Tout</a></li>
+            <li><a href="#" data-filter=".buildings">Serigraphie</a></li>
+            <li><a href="#" data-filter=".interior">Bonerie</a></li>
+            <li><a href="#" data-filter=".energy">Evenementiel</a></li>
+            <li><a href="#" data-filter=".isolation">Imprimerie</a></li>
+            <li><a href="#" data-filter=".interior">Dematerialisation</a></li>
         </ul>
         <div class="project-box iso-call">
             <div class="project-post buildings isolation">
-                <img src="upload/projects/1.jpg" alt="">
+                <img src="upload/projects/produit8.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Elegant Building</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post interior">
-                <img src="upload/projects/2.jpg" alt="">
+                <img src="upload/projects/produit1.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Beatiful House</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post buildings isolation">
-                <img src="upload/projects/3.jpg" alt="">
+                <img src="upload/projects/produit2.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Classic House</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post buildings">
-                <img src="upload/projects/4.jpg" alt="">
+                <img src="upload/projects/produit3.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Modern and trending house</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post interior isolation">
-                <img src="upload/projects/5.jpg" alt="">
+                <img src="upload/projects/produit4.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Afarist Building</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post energy">
-                <img src="upload/projects/6.jpg" alt="">
+                <img src="upload/projects/produit5.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">traditional Building</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post buildings">
-                <img src="upload/projects/7.jpg" alt="">
+                <img src="upload/projects/produit6.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Small house</a></h2>
                     <span>bulding, house</span>
                 </div>
             </div>
             <div class="project-post isolation">
-                <img src="upload/projects/8.jpg" alt="">
+                <img src="upload/projects/produit7.jpg" alt="">
                 <div class="hover-box">
                     <h2><a href="single-project.html">Large town Buildings</a></h2>
                     <span>bulding, house</span>
@@ -367,8 +368,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="upload/others/4.jpg" alt="">
-                <h2>Who we are</h2>
+                <video style="margin-bottom:5px" autoplay="true" width="350" height="200" controls="controls"><source src="videos/test.mp4" type="video/mp4"/></video>
+                <h2 style="margin:5px">Qui sommes nous</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p>Ut enim ad minim veniam,	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -482,19 +483,19 @@
     <div class="container">
 
         <div class="title-section">
-            <h1>Clients <span>Testimonials</span></h1>
+            <h1>Temoignage <span>Reference</span></h1>
         </div>
 
         <div class="testimonial-box">
             <ul class="bxslider">
                 <li>
                     <h2>John Smith</h2>
-                    <span>HouseBuild Chief</span>
+                    <span>Chef d'entreprise</span>
                     <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. <br> Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a,<br> ultricies in, diam. Sed arcu. Cras consequat.</p>
                 </li>
                 <li>
                     <h2>Besim Dauti</h2>
-                    <span>Project Menager</span>
+                    <span>Directrice</span>
                     <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. <br> Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a,<br> ultricies in, diam. Sed arcu. Cras consequat.</p>
                 </li>
                 <li>
@@ -509,107 +510,47 @@
 </section>
 <!-- End testimonial section -->
 
-<!-- news-section
-    ================================================== -->
-<section class="news-section">
-    <div class="container">
-        <div class="news-title">
-            <h2>Our - Latest News</h2>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="news-box">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="news-post">
-                        <img src="upload/others/ser1.jpg" alt="">
-                        <h2><a href="single-post.html">We construct buildings</a></h2>
-                        <span>22 Jannuary 2015</span>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur.</p>
-                        <a href="single-post.html">Continue Reading...</a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="news-post">
-                        <img src="upload/others/ser2.jpg" alt="">
-                        <h2><a href="single-post.html">We work on area</a></h2>
-                        <span>22 Jannuary 2015</span>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur.</p>
-                        <a href="single-post.html">Continue Reading...</a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="news-post">
-                        <img src="upload/others/ser3.jpg" alt="">
-                        <h2><a href="single-post.html">We build objects</a></h2>
-                        <span>22 Jannuary 2015</span>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur.</p>
-                        <a href="single-post.html">Continue Reading...</a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="news-post">
-                        <img src="upload/others/ser4.jpg" alt="">
-                        <h2><a href="single-post.html">We are professional</a></h2>
-                        <span>22 Jannuary 2015</span>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur.</p>
-                        <a href="single-post.html">Continue Reading...</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-<!-- End news section -->
-
 <!-- clients-section
     ================================================== -->
 <section class="clients-section">
     <div class="container">
         <div class="clients-title">
-            <h2>Clients - Our Partners</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            <h2>Clients - Nos references</h2>
+            <p>BAO-TECNOLOGIES possède un large carnet d'addresse de partenaires et clients, avec les quels elle a pu demontrer un savoir
+                faire remarquable et une solide relation de confiance de par son experience</p>
         </div>
         <div class="row">
             <div class="col-md-5">
                 <ul class="client-list">
                     <li>
-                        <a href="#"><img src="images/clients/client1.png" alt=""></a>
+                        <a href="#"><img src="images/clients/logo_allianz.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/client2.png" alt=""></a>
+                        <a href="#"><img src="images/clients/logo_hcr.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/client3.png" alt=""></a>
+                        <a href="#"><img src="images/clients/logo_pci.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/client4.png" alt=""></a>
+                        <a href="#"><img src="images/clients/logo_sib.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/client5.png" alt=""></a>
+                        <a href="#"><img src="images/clients/logo_bad.jpg" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/client6.png" alt=""></a>
+                        <a href="#"><img src="images/clients/logo_bnetd.jpg" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/client1.png" alt=""></a>
+                        <a href="#"><img src="images/clients/logo_cie.jpg" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/clients/client2.png" alt=""></a>
+                        <a href="#"><img src="images/clients/logo_sir.jpg" alt=""></a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-6">
                 <blockquote>
-                    <p>There are some of <span>our partners</span> and <span>customers</span>, who are very satisfied with our work. <br>Do you want to be <span>next one</span> ?</p>
+                    <p>Certains de <span>nos partenaires</span> et <span>clients</span>, sont tres satisfait de notre travail. <br>Voulez vous être <span>le prochain</span> ?</p>
                 </blockquote>
             </div>
         </div>
