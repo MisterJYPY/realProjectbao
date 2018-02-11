@@ -30,7 +30,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
   <body>
-     @yield('content')
+     <?php echo $__env->yieldContent('content'); ?>
     <!-- Javascript files-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper.js/umd/popper.min.js"> </script>

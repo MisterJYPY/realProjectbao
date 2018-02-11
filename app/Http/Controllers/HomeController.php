@@ -38,7 +38,8 @@ class HomeController extends Controller
         $nbreServices=services::all()->count();
         $nbrePersonnels=personels::all()->count();
         $nbreArticles=articles::all()->count();
-        return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles'));
+        $nomUser=Auth::user()->name;
+        return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles','nomUser'));
 
     }
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bootstrap Dashboard by Bootstrapious.com</title>
+    <title>Admin Bao</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -37,25 +37,32 @@
         <!-- Sidebar Header    -->
         <div class="sidenav-header d-flex align-items-center justify-content-center">
             <!-- User Info-->
-            <div class="sidenav-header-inner text-center"><img src="img/avatar-1.jpg" alt="person" class="img-fluid rounded-circle">
-                <h2 class="h5">Anderson Hardy</h2><span>Web Developer</span>
+            <div class="sidenav-header-inner text-center"><img src="img/lunette.jpeg" alt="person" class="img-fluid rounded-circle">
+                <h2 class="h5"><?php echo e($nomUser); ?></h2><span> Enginer </span>
             </div>
             <!-- Small Brand information, appears on minimized sidebar-->
             <div class="sidenav-header-logo"><a href="index.html" class="brand-small text-center"> <strong>B</strong><strong class="text-primary">D</strong></a></div>
         </div>
         <!-- Sidebar Navigation Menus-->
         <div class="main-menu">
-            <h5 class="sidenav-heading">Main</h5>
+            <h5 class="sidenav-heading">Menu</h5>
             <ul id="side-main-menu" class="side-menu list-unstyled">
                 <li><a href="index.html"> <i class="icon-home"></i>Home                             </a></li>
                 <li><a href="forms.html"> <i class="icon-form"></i>Forms                             </a></li>
                 <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts                             </a></li>
-                <li><a href="tables.html"> <i class="icon-grid"></i>Tables                             </a></li>
-                <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Example dropdown </a>
+                <li><a href="tables.html"> <i class="icon-grid"></i>lettres</a></li>
+                <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Articles</a>
                     <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-                        <li><a href="#">Page</a></li>
-                        <li><a href="#">Page</a></li>
-                        <li><a href="#">Page</a></li>
+                        <li><a href="<?php echo e(route('insertNewArticle')); ?>">Enregistrer</a></li>
+                        <li><a href="#">Lister</a></li>
+                        <li><a href="#">Modifier</a></li>
+                    </ul>
+                </li>
+                <li><a href="#exampledropdownDropdown1" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Personnel</a>
+                    <ul id="exampledropdownDropdown1" class="collapse list-unstyled ">
+                        <li><a href="#">Enregistrer</a></li>
+                        <li><a href="#">Lister</a></li>
+                        <li><a href="#">Modifier</a></li>
                     </ul>
                 </li>
                 <li><a href="login.html"> <i class="icon-interface-windows"></i>Login page                             </a></li>
@@ -129,73 +136,14 @@
                                 <li><a rel="nofollow" href="#" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-envelope"></i>Read all messages    </strong></a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="login.html" class="nav-link logout">Logout<i class="fa fa-sign-out"></i></a></li>
+                        <li class="nav-item"><a href="<?php echo e(route('deconnect')); ?>" class="nav-link logout">Logout<i class="fa fa-sign-out"></i></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <!-- Counts Section -->
-    <section class="dashboard-counts section-padding">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Count item widget-->
-                <div class="col-xl-2 col-md-4 col-6">
-                    <div class="wrapper count-title d-flex">
-                        <div class="icon"><i class="icon-user"></i></div>
-                        <div class="name"><strong class="text-uppercase">New Clients</strong><span>Last 7 days</span>
-                            <div class="count-number">25</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Count item widget-->
-                <div class="col-xl-2 col-md-4 col-6">
-                    <div class="wrapper count-title d-flex">
-                        <div class="icon"><i class="icon-padnote"></i></div>
-                        <div class="name"><strong class="text-uppercase">Work Orders</strong><span>Last 5 days</span>
-                            <div class="count-number">400</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Count item widget-->
-                <div class="col-xl-2 col-md-4 col-6">
-                    <div class="wrapper count-title d-flex">
-                        <div class="icon"><i class="icon-check"></i></div>
-                        <div class="name"><strong class="text-uppercase">New Quotes</strong><span>Last 2 months</span>
-                            <div class="count-number">342</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Count item widget-->
-                <div class="col-xl-2 col-md-4 col-6">
-                    <div class="wrapper count-title d-flex">
-                        <div class="icon"><i class="icon-bill"></i></div>
-                        <div class="name"><strong class="text-uppercase">New Invoices</strong><span>Last 2 days</span>
-                            <div class="count-number">123</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Count item widget-->
-                <div class="col-xl-2 col-md-4 col-6">
-                    <div class="wrapper count-title d-flex">
-                        <div class="icon"><i class="icon-list"></i></div>
-                        <div class="name"><strong class="text-uppercase">Open Cases</strong><span>Last 3 months</span>
-                            <div class="count-number">92</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Count item widget-->
-                <div class="col-xl-2 col-md-4 col-6">
-                    <div class="wrapper count-title d-flex">
-                        <div class="icon"><i class="icon-list-1"></i></div>
-                        <div class="name"><strong class="text-uppercase">New Cases</strong><span>Last 7 days</span>
-                            <div class="count-number">70</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
  <?php echo $__env->yieldContent('content'); ?>
     <footer class="main-footer">
         <div class="container-fluid">

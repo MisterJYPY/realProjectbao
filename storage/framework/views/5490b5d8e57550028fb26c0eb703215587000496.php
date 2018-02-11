@@ -1,6 +1,4 @@
-@extends('connect')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <div class=" page login-page">
 <div class="container">
@@ -11,25 +9,26 @@
                 Cela requiert une authentifiaction préalable. Veuillez donc remplir les champs
                 ci-dessous et appuyer sur le bouton de soumission.</p>
 
-                    <form class="form-horizontal" id="register-form" method="POST" action="{{ route('login') }}">
-                        {{ csrf_field() }}
+                    <form class="form-horizontal" id="register-form" method="POST" action="<?php echo e(route('login')); ?>">
+                        <?php echo e(csrf_field()); ?>
+
                         <div class="form-group-material">
-                            <input id="register-email" type="email" name="email" value="{{ old('email') }}" class="input-material" required  autofocus>
+                            <input id="register-email" type="email" name="email" value="<?php echo e(old('email')); ?>" class="input-material" required  autofocus>
                             <label for="register-email" class="label-material">Email Address      </label>
-                            @if ($errors->has('email'))
+                            <?php if($errors->has('email')): ?>
                                 <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
+                                        <strong><?php echo e($errors->first('email')); ?></strong>
                                     </span>
-                            @endif
+                            <?php endif; ?>
                         </div>
                         <div class="form-group-material">
                             <input id="register-passowrd" type="password" name="password" required class="input-material">
                             <label for="register-passowrd" class="label-material">Password        </label>
-                            @if ($errors->has('password'))
+                            <?php if($errors->has('password')): ?>
                                 <span class="help-block">
-                                        <strong>{{ $errors->first('password') }}</strong>
+                                        <strong><?php echo e($errors->first('password')); ?></strong>
                                     </span>
-                            @endif
+                            <?php endif; ?>
                         </div>
 
 
@@ -38,7 +37,7 @@
                                 <button type="submit" class="btn btn-primary"> Entrer
                                 </button>
 
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                <a class="btn btn-link" href="<?php echo e(route('password.request')); ?>">
                                     Mot de passe oublié?
                                 </a>
                             </div>
@@ -50,4 +49,6 @@
     </div>
 </div>
     </div>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('connect', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
