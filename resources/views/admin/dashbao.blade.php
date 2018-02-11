@@ -1,6 +1,68 @@
+
  @extends('admin.templateDash')
  @section('content')
-      <!-- Header Section-->
+
+   <section class="dashboard-counts section-padding">
+     <div class="container-fluid">
+       <div class="row">
+         <!-- Count item widget-->
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="wrapper count-title d-flex">
+             <div class="icon"><i class="icon-user"></i></div>
+             <div class="name"><strong class="text-uppercase">Visites</strong><span> A l'instant</span>
+               <div class="count-number">0</div>
+             </div>
+           </div>
+         </div>
+         <!-- Count item widget-->
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="wrapper count-title d-flex">
+             <div class="icon"><i class="icon-padnote"></i></div>
+             <div class="name"><strong class="text-uppercase">Nbre Visites</strong><span> Jours</span>
+               <div class="count-number">0</div>
+             </div>
+           </div>
+         </div>
+         <!-- Count item widget-->
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="wrapper count-title d-flex">
+             <div class="icon"><i class="icon-check"></i></div>
+             <div class="name"><strong class="text-uppercase">Nbre Visites</strong><span> 7 derniers Jours</span>
+               <div class="count-number">0</div>
+             </div>
+           </div>
+         </div>
+         <!-- Count item widget-->
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="wrapper count-title d-flex">
+             <div class="icon"><i class="icon-bill"></i></div>
+             <div class="name"><strong class="text-uppercase"> Articles </strong><span> Tous</span>
+               <div class="count-number">{{$nbreArticles}}</div>
+             </div>
+           </div>
+         </div>
+         <!-- Count item widget-->
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="wrapper count-title d-flex">
+             <div class="icon"><i class="icon-list"></i></div>
+             <div class="name"><strong class="text-uppercase">Services</strong><span> All</span>
+               <div class="count-number">{{$nbreServices}}</div>
+             </div>
+           </div>
+         </div>
+         <!-- Count item widget-->
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="wrapper count-title d-flex">
+             <div class="icon"><i class="icon-list-1"></i></div>
+             <div class="name"><strong class="text-uppercase">Personnels</strong><span> All</span>
+               <div class="count-number">{{$nbrePersonnels}}</div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+
       <section class="dashboard-header section-padding">
         <div class="container-fluid">
           <div class="row d-flex align-items-md-stretch">
@@ -10,35 +72,35 @@
                 <h2 class="display h4">To do List</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <ul class="check-lists list-unstyled">
-                  <li class="d-flex align-items-center"> 
+                  <li class="d-flex align-items-center">
                     <input type="checkbox" id="list-1" name="list-1" class="form-control-custom">
                     <label for="list-1">Similique sunt in culpa qui officia</label>
                   </li>
-                  <li class="d-flex align-items-center"> 
+                  <li class="d-flex align-items-center">
                     <input type="checkbox" id="list-2" name="list-2" class="form-control-custom">
                     <label for="list-2">Ed ut perspiciatis unde omnis iste</label>
                   </li>
-                  <li class="d-flex align-items-center"> 
+                  <li class="d-flex align-items-center">
                     <input type="checkbox" id="list-3" name="list-3" class="form-control-custom">
                     <label for="list-3">At vero eos et accusamus et iusto </label>
                   </li>
-                  <li class="d-flex align-items-center"> 
+                  <li class="d-flex align-items-center">
                     <input type="checkbox" id="list-4" name="list-4" class="form-control-custom">
                     <label for="list-4">Explicabo Nemo ipsam voluptatem</label>
                   </li>
-                  <li class="d-flex align-items-center"> 
+                  <li class="d-flex align-items-center">
                     <input type="checkbox" id="list-5" name="list-5" class="form-control-custom">
                     <label for="list-5">Similique sunt in culpa qui officia</label>
                   </li>
-                  <li class="d-flex align-items-center"> 
+                  <li class="d-flex align-items-center">
                     <input type="checkbox" id="list-6" name="list-6" class="form-control-custom">
                     <label for="list-6">At vero eos et accusamus et iusto </label>
                   </li>
-                  <li class="d-flex align-items-center"> 
+                  <li class="d-flex align-items-center">
                     <input type="checkbox" id="list-7" name="list-7" class="form-control-custom">
                     <label for="list-7">Similique sunt in culpa qui officia</label>
                   </li>
-                  <li class="d-flex align-items-center"> 
+                  <li class="d-flex align-items-center">
                     <input type="checkbox" id="list-8" name="list-8" class="form-control-custom">
                     <label for="list-8">Ed ut perspiciatis unde omnis iste</label>
                   </li>
@@ -124,7 +186,7 @@
                 <div id="updates-box" role="tabpanel" class="collapse show">
                   <ul class="news list-unstyled">
                     <!-- Item-->
-                    <li class="d-flex justify-content-between"> 
+                    <li class="d-flex justify-content-between">
                       <div class="left-col d-flex">
                         <div class="icon"><i class="icon-rss-feed"></i></div>
                         <div class="title"><strong>Lorem ipsum dolor sit amet.</strong>
@@ -136,7 +198,7 @@
                       </div>
                     </li>
                     <!-- Item-->
-                    <li class="d-flex justify-content-between"> 
+                    <li class="d-flex justify-content-between">
                       <div class="left-col d-flex">
                         <div class="icon"><i class="icon-rss-feed"></i></div>
                         <div class="title"><strong>Lorem ipsum dolor sit amet.</strong>
@@ -148,7 +210,7 @@
                       </div>
                     </li>
                     <!-- Item-->
-                    <li class="d-flex justify-content-between"> 
+                    <li class="d-flex justify-content-between">
                       <div class="left-col d-flex">
                         <div class="icon"><i class="icon-rss-feed"></i></div>
                         <div class="title"><strong>Lorem ipsum dolor sit amet.</strong>
@@ -160,7 +222,7 @@
                       </div>
                     </li>
                     <!-- Item-->
-                    <li class="d-flex justify-content-between"> 
+                    <li class="d-flex justify-content-between">
                       <div class="left-col d-flex">
                         <div class="icon"><i class="icon-rss-feed"></i></div>
                         <div class="title"><strong>Lorem ipsum dolor sit amet.</strong>
@@ -172,7 +234,7 @@
                       </div>
                     </li>
                     <!-- Item-->
-                    <li class="d-flex justify-content-between"> 
+                    <li class="d-flex justify-content-between">
                       <div class="left-col d-flex">
                         <div class="icon"><i class="icon-rss-feed"></i></div>
                         <div class="title"><strong>Lorem ipsum dolor sit amet.</strong>
@@ -184,7 +246,7 @@
                       </div>
                     </li>
                     <!-- Item-->
-                    <li class="d-flex justify-content-between"> 
+                    <li class="d-flex justify-content-between">
                       <div class="left-col d-flex">
                         <div class="icon"><i class="icon-rss-feed"></i></div>
                         <div class="title"><strong>Lorem ipsum dolor sit amet.</strong>
@@ -339,4 +401,4 @@
           </div>
         </div>
       </section>
-   @endsection
+    @endsection
