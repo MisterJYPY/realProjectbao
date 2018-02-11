@@ -3,11 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\articles;
-use App\personels;
 use App\services;
 use Illuminate\Http\Request;
 
-class dashbaoController extends Controller
+class articlesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,10 +15,9 @@ class dashbaoController extends Controller
      */
     public function index()
     {
-        $nbreServices=services::all()->count();
-        $nbrePersonnels=personels::all()->count();
-        $nbreArticles=articles::all()->count();
-        return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles'));
+        $services=services::all();
+
+        return view('admin.articlesInsert',compact('services'));
     }
 
     /**
@@ -40,7 +38,7 @@ class dashbaoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd($_REQUEST);
     }
 
     /**
