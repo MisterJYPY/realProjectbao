@@ -8,7 +8,11 @@ use App\personels;
 use App\services;
 use Illuminate\Support\Facades\Auth;
 
+<<<<<<< HEAD:app/Http/Controllers/homeController.php:app/Http/Controllers/homeController.php
 class HomeController extends Controller
+=======
+class acceuilController extends Controller
+>>>>>>> d273c5fe3edd1bbc31a3f46509af10695d98a8cc:app/Http/Controllers/acceuilController.php:app/Http/Controllers/acceuilController.php
 {
     /**
      * Create a new controller instance.
@@ -17,7 +21,12 @@ class HomeController extends Controller
      */
     public function __construct()
     {
+<<<<<<< HEAD:app/Http/Controllers/homeController.php:app/Http/Controllers/homeController.php
         $this->middleware('auth');
+=======
+        $connect=false;
+        return view('homeContent',compact('connect'));
+>>>>>>> d273c5fe3edd1bbc31a3f46509af10695d98a8cc:app/Http/Controllers/acceuilController.php:app/Http/Controllers/acceuilController.php
     }
 
     /**
