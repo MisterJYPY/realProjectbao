@@ -109,8 +109,17 @@
 									<button type="submit">
 										<i class="fa fa-search"></i>
 									</button>
-								</form>
+				s				</form>
 							</li>
+
+						<?php if(session('connect')=='connect'): ?>
+							<li class="drop"><a href="<?php echo e(route('deconnect')); ?>">Log out</a>
+							</li>
+
+							<?php else: ?>
+								<li class="drop"><a href="<?php echo e(route('dashbao')); ?>">Log In</a>
+								</li>
+							<?php endif; ?>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container -->
