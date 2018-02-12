@@ -134,11 +134,11 @@
 							<div class="footer-widget">
 								<h2>Spécialisation</h2>
 								<ul class="tag-list">
-									<li><a href="#">Serigraphie</a></li>
-									<li><a href="#">Imprimerie</a></li>
-									<li><a href="#">Bonerie</a></li>
-									<li><a href="#">Evenementiel</a></li>
-									<li><a href="#">Dematérialisation</a></li>
+									<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
+									<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
+									<li><a href="{{route('bonerie')}}">Bonerie</a></li>
+									<li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
+									<li><a href="{{route('dematerialisation')}}">Dematérialisation</a></li>
 
 								</ul>
 							</div>

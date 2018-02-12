@@ -162,7 +162,7 @@
                          data-splitin="none"
                          data-splitout="none"
                          data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
+                        data-endelementdelay="0.1"
                          style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span>Domaine</span> d'Expertise<br>
                     </div>
 
@@ -178,8 +178,8 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.1"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"> LOCATION LOGISTIQUE EVENEMENTIELLE <br> CONFECTION ET COMMUNICATION DE MARQUE ET BRANDING<br>
-                            IMPRIMERIE ET IMPRESSION ET SUR TOUS SUPPORT </br> DEMATERIALISATION
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"> Location Logistique Evenementielle <br> Confection & Confection de Marque & Branding<br>
+                            Imprimerie & Impression & Sur tout Support </br> Dematerialisation
 
                     </div>
 
@@ -196,7 +196,7 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
-                         style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn'>load more</a>
+                         style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn'>Voir plus</a>
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -240,16 +240,22 @@
                 <div class="offer-post">
                     <a href="services.html"><img src="upload/others/bao_services2.jpg" alt=""></a>
                     <h2><a href="services.html">Imprimerie tout support</a></h2>
-                    <p>A nice home deck provides a beautiful and relaxing spot for you and your family to enjoy the outdoors. Our professional handymen are ready to help you with all your deck repair and deck maintenance needs.</p>
-                    <p>A nice home deck provides a beautiful and relaxing spot for you and your family to enjoy the outdoors. Our professional handymen are ready</p>
+                    <p>BAO dispose du materiel repondant a toutes vos attentes dans le domaine de l'impremerie numerique, l'offset, du reportage...</p>
+                    <p>Une equipe dynamique et creative dans le seul but de realiser votre communication par objet.</p>
+                    <li><i class="fa fa-cube"></i> Carte de visite, Prospectus...</li>
+                    <li><i class="fa fa-cube"></i> Numerique Petit & Grand </li>
+                    <li><i class="fa fa-cube"></i> Affiche Publicitaire, Kakemono </li>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="offer-post">
                     <a href="services.html"><img src="upload/others/bao_services4.jpg" alt=""></a>
                     <h2><a href="services.html">Serigraphie</a></h2>
-                    <p>A nice home deck provides a beautiful and relaxing spot for you and your family to enjoy the outdoors. Our professional handymen are ready to help you with all your deck repair and deck maintenance needs.</p>
-                    <p>A nice home deck provides a beautiful and relaxing spot for you and your family to enjoy the outdoors. Our professional handymen are ready</p>
+                    <p>Serigraphes professionnels, notre maitrise des dernieres techniques d'impression nous permet de vous proposer des solutions optimales selon vos besoins</p>
+                    <li><i class="fa fa-flag"></i> Tricots, Polos, Banderole, Broderie</li>
+                    <li><i class="fa fa-flag"></i> Stylos, Porte Clé</li>
+                    <li><i class="fa fa-flag"></i> Sacs de Seminaire</li>
+                    <li><i class="fa fa-flag"></i> Pagnes, Casquettes, Tampons...</li>
                 </div>
             </div>
             <div class="col-md-3">
@@ -270,13 +276,13 @@
                 <div class="offer-post">
                     <a href="services.html"><img src="upload/others/bao_services1.jpg" alt=""></a>
                     <h2><a href="services.html">Communication Evenementiel</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <p>Avec des techniques de dernières generation, nous travail faire de votre evenement celui qui doit etre entendu, vu et suivi par tous !</p>
                     <ul class="offer-list second">
-                        <li><i class="fa fa-cube"></i> Plannings</li>
-                        <li><i class="fa fa-cube"></i> Fast Work</li>
-                        <li><i class="fa fa-cube"></i> Precise</li>
+                        <li><i class="fa fa-image"></i> Affichage Publicitaire</li>
+                        <li><i class="fa fa-cube"></i> Lettres Lumineuses</li>
+                        <li><i class="fa fa-cube"></i> Espaces Publiciatires</li>
                     </ul>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>plusieurs partenaires de reference deja satisfait, voulez vous etre le prochain?</p>
                 </div>
             </div>
         </div>
@@ -363,7 +369,7 @@
 </section>
 <!-- End projects -->
 
-<!-- about section QUI SOMMES NOUS ?
+<!-- about section QUI SOMMES NOUS ? & TECHNIQUES DE TRAVAIL
     ================================================== -->
 <section class="about-section">
     <div class="container">
@@ -371,12 +377,10 @@
             <div class="col-md-4">
                 <video style="margin-bottom:5px" autoplay="true" width="350" height="200" controls="controls"><source src="videos/test.mp4" type="video/mp4"/></video>
                 <h2 style="margin:5px">Qui sommes nous</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>Ut enim ad minim veniam,	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Existant depuis 2005, La Boîte A Outils est une entreprise à responsabilité limité (SARL) au capital de 3 000 000. Située a la cité
+                 à la cité des Arts, Rue C46, nous avons pour coeur de metier le manufaturier de textile, cuir et métal, Fournitures et mobilier de bureau
+                le materiel et consommable informatiques.</p>
+
             </div>
             <div class="col-md-8">
 
@@ -402,21 +406,19 @@
 
                     <div class="tab-content">
                         <div class="tab-pane active" id="option1">
-                            <img src="upload/others/6.jpg" alt="">
+                            <img src="upload/others/bao6.jpg" alt="">
                             <h3>Serigraphie</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                            <p>Serigraphes professionnels,
+                                notre maitrise des dernieres techniques d'impression nous permet de
+                                vous proposer des solutions optimales selon vos besoins</p>
                         </div>
                         <div class="tab-pane" id="option2">
-                            <img src="upload/others/5.jpg" alt="">
+                            <img src="upload/others/bao5.jpg" alt="">
                             <h3>Imprimerie</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                            <p>Une equipe dynamique et creative dans le seul but de realiser votre communication par objet.</p>
                         </div>
                         <div class="tab-pane" id="option3">
-                            <img src="upload/others/2.jpg" alt="">
+                            <img src="upload/others/bao4.jpg" alt="">
                             <h3>Bonerie</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -425,16 +427,16 @@
                         <div class="tab-pane" id="option4">
                             <img src="upload/others/6.jpg" alt="">
                             <h3>Evenementiel</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                            <p>Une source intarisable de conseil, d'orientation et de prise de decision en termes de communication marketing.
+                            Nous fournissons des devis de communication adapté a vos exigences en 24h.</p>
                         </div>
                         <div class="tab-pane" id="option5">
-                            <img src="upload/others/2.jpg" alt="">
+                            <img src="upload/others/bao2.jpg" alt="">
                             <h3>Dematerialisation</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                            <p>La dématérialisation des documents vous permettra d’économiser des ressources au sein de votre entreprise.
+                                Un document dématerialisé passe donc d’un support papier à un support numérique et devient donc accessible,
+                                au même moment, à plusieurs personnes.
+                                Un Logiciel de GED permet une gestion documentaire plus aisée.</p>
                         </div>
                     </div>
                 </div>
@@ -443,30 +445,30 @@
                     <div class="accord-elem active">
                         <div class="accord-title">
                             <a class="accord-link" href="#"></a>
-                            <h2>Vivamus vestibulum nulla nec ante.</h2>
+                            <h2>Consulter Notre Catalogue : SERIGRAPHIE ET IMPREMERIE</h2>
                         </div>
                         <div class="accord-content">
-                            <p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque.</p>
+                            <p>Une game variée d'offre pour vous satisafaire. <a href="upload/others/Catalogue_web.pdf" target="_blank">Cliquez ici pour Consulter<a/></p>
                         </div>
                     </div>
 
                     <div class="accord-elem">
                         <div class="accord-title">
                             <a class="accord-link" href="#"></a>
-                            <h2>Morbi in sem quis dui placerat ornare. </h2>
+                            <h2>Consulter Notre Catalogue : Communication Evenementielle</h2>
                         </div>
                         <div class="accord-content">
-                            <p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque.</p>
+                            <p>Une game variée d'offre pour vous satisafaire. <a href="upload/others/Catalogue_web.pdf" target="_blank">Cliquez ici pour Consulter<a/></p>
                         </div>
                     </div>
 
                     <div class="accord-elem">
                         <div class="accord-title">
                             <a class="accord-link" href="#"></a>
-                            <h2>Lorem ipsum dolor sit amet. </h2>
+                            <h2>Consulter Notre Catalogue : BONERIE</h2>
                         </div>
                         <div class="accord-content">
-                            <p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque.</p>
+                            <p>Une game variée d'offre pour vous satisafaire. <a href="upload/others/Catalogue_web.pdf" target="_blank">Cliquez ici pour Consulter<a/></p>
                         </div>
                     </div>
                 </div>

@@ -80,7 +80,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html"><img src="images/bao_logo.jpg" alt=""></a>
+						<a class="navbar-brand" href="index.html"><img src="images/bao_logo.png" alt="Bao"></a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -100,12 +100,7 @@
 								</ul>
 							</li>
 							<li class="drop"><a href="<?php echo e(route('bao_blog')); ?>">Blog</a>
-								<ul class="dropdown">
-									<li><a href="blog.html">Blog Default</a></li>
-									<li><a href="blog-3col.html">Blog 3 Colums</a></li>
-									<li><a href="blog-2col.html">Blog 2 Colums</a></li>
-									<li><a href="single-post.html">Single Post</a></li>
-								</ul>
+
 							</li>
 							<li><a href="<?php echo e(route('bao_contact')); ?>">Contact</a></li>
 							<li class="search drop"><a href="#" class="open-search"><i class="fa fa-search"></i></a>
@@ -129,51 +124,52 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="footer-widget">
-								<h2>About Us</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna.</p>
-								<img src="images/footer-logo.png" alt="">
+								<h2>A propos de nous</h2>
+								<p>La boite à outils est toujours resté indépendante, proche de ces racines, fidele à ses valeurs.
+								Toujours la recherche de nouveautés, d'idées et d'ouverture pour ces clients. Ainsi nous travaillons toujours à accrocher notre cible, la séduire, la convaincre,la rassurée.</p>
+								<img src="images/bao_logo.png" alt="bao logo">
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="footer-widget">
-								<h2>Tags</h2>
+								<h2>Spécialisation</h2>
 								<ul class="tag-list">
-									<li><a href="#">Building</a></li>
-									<li><a href="#">interior</a></li>
-									<li><a href="#">isolation</a></li>
-									<li><a href="#">kitchen</a></li>
-									<li><a href="#">energy</a></li>
+									<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
+									<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
+									<li><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+									<li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
+									<li><a href="<?php echo e(route('dematerialisation')); ?>">Dematérialisation</a></li>
+
 								</ul>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="footer-widget">
-								<h2>Flickr widget</h2>
+								<h2>quelques widgets</h2>
 								<ul class="flickr">
-									<li><a href="#"><img src="upload/flickr/1.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/4.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/5.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/6.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/7.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/8.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_complet.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_habit.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_maquillage.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_tshirt.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_cartable.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/gadgetBao/bao_calendar.jpg" alt=""></a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="footer-widget info-widget">
 								<h2>Info</h2>
-								<p class="first-par">You can contact or visit us during working time.</p>
-								<p><span>Tel: </span> 1234 - 5678 - 9012</p>
-								<p><span>Email: </span> support@housebuild.com</p>
-								<p><span>Working Hours: </span> 8:00 a.m - 17:00 a.m</p>
+								<p class="first-par">Vous pouvez nous contacter à tout instant</p>
+								<p><span>Tel: </span> 00225 - 224 468 87</p>
+								<p><span>Email: </span> info@bao-technologie.com</p>
+								<p><span>Nos heures de Travail: </span> 8:00 h - 17:00 h</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<p class="copyright">
-				&copy; Copyright 2014. "Housebuild" by Nunforest. All rights reserved.
+				&copy; Copyright 2018. @BaoTeam  All rights reserved.
 			</p>
 		</footer>
 		<!-- End footer -->
