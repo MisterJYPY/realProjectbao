@@ -1,5 +1,4 @@
-@extends('admin.templateDash')
-@section('content')
+<?php $__env->startSection('content'); ?>
     <style>
         .filterable {
             margin-top: 15px;
@@ -27,8 +26,9 @@
 
     </style>
 <div class="container-fluid">
-    <form id="articlesForm" method="post" class="form"  action="{{route('productRegister')}}">
-        {{ csrf_field() }}
+    <form id="articlesForm" method="post" class="form"  action="<?php echo e(route('productRegister')); ?>">
+        <?php echo e(csrf_field()); ?>
+
 <div class="row" >
     <div class="col-md-6 ">
         <div class="card">
@@ -53,9 +53,9 @@
                     <div class="form-group">
                         <label>Services:</label>
                         <select class="selectpicker" name="services">
-                            @foreach($categories as $service)
-                            <option title="Combo 1">{{$service->intitule}}</option>
-                             @endforeach
+                            <?php $__currentLoopData = $categories; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $service): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                            <option title="Combo 1"><?php echo e($service->intitule); ?></option>
+                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     </select>
                     </div>
 
@@ -204,4 +204,5 @@
             });
         });
     </script>
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('admin.templateDash', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

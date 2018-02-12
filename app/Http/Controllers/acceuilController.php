@@ -14,6 +14,7 @@ class acceuilController extends Controller
     public function index()
     {
         $connect=false;
+        session(['connect'=> 'non']);
         return view('homeContent',compact('connect'));
     }
 
