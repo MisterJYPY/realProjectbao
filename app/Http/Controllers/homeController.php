@@ -13,6 +13,9 @@ class homeController extends Controller
      */
     public function index()
     {
+        /**
+         * home ajouter
+         */
         $connect=false;
        return view('homeContent',compact('connect'));
     }
