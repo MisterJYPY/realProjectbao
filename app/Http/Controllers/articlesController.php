@@ -8,6 +8,7 @@ use App\services;
 use App\categories;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class articlesController extends Controller
 {
@@ -79,18 +80,27 @@ class articlesController extends Controller
                 'lienImage'=>$CheminMoyen]);
 
             /**
-             * Insertions pour
+             * Insertions pour l'image moyen
              */
             articles_img::firstOrCreate([
                 'nom'=>$nomMoyen,
                 'url'=>$CheminMoyen,
                 'type'=>'moyen',
-                'articles'=>$articlesEnregistre->id,
-                'services'=>$services,
-                'lienImage'=>$CheminMoyen]);
+                'articles'=>$articlesEnregistre->id]
+                );
+
+            /**
+             * Insertions pour l'image moyen
+             */
+            articles_img::firstOrCreate([
+                'nom'=>$nomPetit,
+                'url'=> $cheminPetit,
+                'type'=>'petit',
+                'articles'=>$articlesEnregistre->id]);
+
             Session::flash('SuccesRapport','Article enregistré avec succes');
 
-            return redirect()->route('listeRapport');
+            return redirect()->route('insertNewArticle');
 
         } else{
             Session::flash('EchecRapport','Echec  denvoi');
