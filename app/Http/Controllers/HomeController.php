@@ -22,6 +22,7 @@ class HomeController extends Controller
 
     /**
      * methode pour la deconnexion
+     * error modif
      */
     public function logout()
     {
