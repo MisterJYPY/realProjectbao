@@ -74,3 +74,36 @@ Route::get('bao_blog', 'blogController@index')->name('bao_blog');
  */
 
 Route::get('bao_contact', 'contactController@index')->name('bao_contact');
+
+//***========================FIN ROUTE POUR LES SERVICES===============***//
+
+//==========================ROUTE POUR L'ADMINISTRATION=================//
+
+/**
+ * route pour la page d'acceuille de la partie administration
+ */
+//Route::get('dashbao', 'dashbaoController@index')->name('dashbao');
+
+/**
+ * route pour l'insertion de nouvelles articles
+ */
+Route::get('insertNewArticle', 'articlesController@index')->name('insertNewArticle');
+
+/**
+ * Route pour l'enregistrement d'un nouveau article depuis un formulaire
+ */
+Route::post('productRegister', 'articlesController@store')->name('productRegister');
+
+//==========================ROUTE POUR LA CONNEXION=================//
+
+/**
+ * Routes pour les connections
+ */
+Auth::routes();
+
+Route::get('/dashbao', 'HomeController@index')->name('dashbao');
+
+/**
+ * route pour le deconnexion
+ */
+Route::get('deconnect', 'HomeController@logout')->name('deconnect');
