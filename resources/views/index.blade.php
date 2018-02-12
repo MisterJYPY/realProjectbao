@@ -111,6 +111,15 @@
 									</button>
 								</form>
 							</li>
+
+						@if(session('connect')=='connect')
+							<li class="drop"><a href="{{route('deconnect')}}">Log out</a>
+							</li>
+
+							@else
+								<li class="drop"><a href="{{route('dashbao')}}">Log In</a>
+								</li>
+							@endif
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container -->

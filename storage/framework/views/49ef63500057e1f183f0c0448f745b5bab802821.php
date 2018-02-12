@@ -1,6 +1,6 @@
 <?php $__env->startSection('content'); ?>
 <div class="container-fluid">
-    <form id="articlesForm" method="post" class="form"  action="<?php echo e(route('productRegister')); ?>">
+    <form id="articlesForm" method="post" class="form"  action="<?php echo e(route('productRegister')); ?>" enctype="multipart/form-data">
         <?php echo e(csrf_field()); ?>
 
 <div class="row" >
@@ -11,7 +11,6 @@
             </div>
             <div class="card-body">
                 <p>Ceci permettra de dynamiser les affichages sur le site</p>
-                <form>
                     <div class="form-group">
                         <label>intulé de l'article</label>
                         <input type="text" placeholder="Intitule de l'article" name="intitule" class="form-control">
@@ -21,18 +20,17 @@
                         <textarea type="text" placeholder="Description" name="description" class="form-control"></textarea>
                     </div>
                     <div class="form-group">
-                        <label>Image de l'articles</label>
-                        <input type="file" placeholder="Password" name="image" class="form-control" multiple>
+                        <label>Image Moyenne </label>
+                        <input type="file" placeholder="Password" name="imageMoyenne" class="form-control" multiple>
                     </div>
                     <div class="form-group">
                         <label>Services:</label>
                         <select class="selectpicker" name="services">
-                            <?php $__currentLoopData = $services; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $service): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                            <option title="Combo 1"><?php echo e($service->intitule); ?></option>
+                            <?php $__currentLoopData = $categories; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $service): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                            <option title="Combo 1" value="<?php echo e($service->id); ?>"><?php echo e($service->intitule); ?></option>
                              <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     </select>
                     </div>
-
             </div>
         </div>
     </div>
@@ -71,8 +69,10 @@
                                 </div>
                             </div>
                     <div class="form-group">
-                        <label>Description</label>
-                        <textarea type="text" placeholder="Description" class="form-control"></textarea>
+                        <div class="form-group">
+                            <label>Image Minime de l'article</label>
+                            <input type="file" placeholder="Password" name="imagePetite" class="form-control" multiple>
+                        </div>
                     </div>
                     </div>
 

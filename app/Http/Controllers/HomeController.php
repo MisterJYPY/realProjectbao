@@ -26,6 +26,7 @@ class HomeController extends Controller
     public function logout()
     {
         Auth::logout();
+        session(['connect'=> 'non']);
         return redirect()->route('home');
     }
     /**
@@ -39,7 +40,14 @@ class HomeController extends Controller
         $nbrePersonnels=personels::all()->count();
         $nbreArticles=articles::all()->count();
         $nomUser=Auth::user()->name;
-        return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles','nomUser'));
-
+        $admin=Auth::user()->admin;
+        $connect=true;
+        session(['connect'=> 'connect']);
+        if($admin) {
+            return view('admin.dashbao', compact('nbreServices', 'nbrePersonnels', 'nbreArticles', 'nomUser'));
+        }
+        else{
+            return view('homeContent');
+        }
     }
 }

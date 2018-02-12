@@ -1,7 +1,7 @@
 @extends('admin.templateDash')
 @section('content')
 <div class="container-fluid">
-    <form id="articlesForm" method="post" class="form"  action="{{route('productRegister')}}">
+    <form id="articlesForm" method="post" class="form"  action="{{route('productRegister')}}" enctype="multipart/form-data">
         {{ csrf_field() }}
 <div class="row" >
     <div class="col-md-6 ">
@@ -11,7 +11,6 @@
             </div>
             <div class="card-body">
                 <p>Ceci permettra de dynamiser les affichages sur le site</p>
-                <form>
                     <div class="form-group">
                         <label>intulé de l'article</label>
                         <input type="text" placeholder="Intitule de l'article" name="intitule" class="form-control">
@@ -21,18 +20,17 @@
                         <textarea type="text" placeholder="Description" name="description" class="form-control"></textarea>
                     </div>
                     <div class="form-group">
-                        <label>Image de l'articles</label>
-                        <input type="file" placeholder="Password" name="image" class="form-control" multiple>
+                        <label>Image Moyenne </label>
+                        <input type="file" placeholder="Password" name="imageMoyenne" class="form-control" multiple>
                     </div>
                     <div class="form-group">
                         <label>Services:</label>
                         <select class="selectpicker" name="services">
-                            @foreach($services as $service)
-                            <option title="Combo 1">{{$service->intitule}}</option>
+                            @foreach($categories as $service)
+                            <option title="Combo 1" value="{{$service->id}}">{{$service->intitule}}</option>
                              @endforeach
                     </select>
                     </div>
-
             </div>
         </div>
     </div>
@@ -71,8 +69,10 @@
                                 </div>
                             </div>
                     <div class="form-group">
-                        <label>Description</label>
-                        <textarea type="text" placeholder="Description" class="form-control"></textarea>
+                        <div class="form-group">
+                            <label>Image Minime de l'article</label>
+                            <input type="file" placeholder="Password" name="imagePetite" class="form-control" multiple>
+                        </div>
                     </div>
                     </div>
 

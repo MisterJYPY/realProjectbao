@@ -24,7 +24,10 @@ class CreateArticlesTable extends Migration
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
             $table->timestamps();
+            $table->string('priorite');
+            $table->string('statut');
         });
+
     }
 
     /**
