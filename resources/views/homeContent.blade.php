@@ -59,7 +59,7 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
-                         style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn'>load more</a>
+                         style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='{{route('allServices')}}' class='trans-btn'>VOIR PLUS</a>
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -75,7 +75,7 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
-                         style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn2'>Portfolio</a>
+                         style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#produit' class='trans-btn2'>Produits</a>
                     </div>
 
                 </li>
@@ -295,7 +295,7 @@
 <section class="projects-section">
     <div class="container">
         <div class="project-title">
-            <h2>Nos - Derniers Produits</h2>
+            <h2 id="produits">Nos - Derniers Produits</h2>
             <p>Caracterisée par le respect des delais, des normes de qualités en la matiere, BAO-TECHNOLOGIES a su toujours repondre
             a l'attente de ses clients et partenaires avec les exigences d'un monde en plein changement</p>
         </div>
@@ -472,8 +472,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
