@@ -112,7 +112,7 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.05"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span style="align : center;">BOA-TECHNOLOGIES</span>
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">BOA-TECHNOLOGIES
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -142,7 +142,7 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
-                         style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn'>View Projects</a>
+                         style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href='{{route('projet')}}' class='trans-btn'>Voir Projet</a>
                     </div>
                 </li>
                 <!-- SLIDE  -->
@@ -163,7 +163,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
-                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span>Gros</span> Projet<br>
+                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span>Domaine</span> d'Expertise<br>
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -178,8 +178,9 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.1"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <br>
-                        nostrud exercitation ullamco laboris nisi ut aliquip commodo.
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"> LOCATION LOGISTIQUE EVENEMENTIELLE <br> CONFECTION ET COMMUNICATION DE MARQUE ET BRANDING<br>
+                            IMPRIMERIE ET IMPRESSION ET SUR TOUS SUPPORT </br> DEMATERIALISATION
+
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -225,7 +226,7 @@
     ================================================== -->
 <section class="banner-section">
     <div class="container">
-        <h2>Des projets Creative & Professionnel <a href="projects.html" class="button-one">click here</a></h2>
+        <h2>NOS SERVICES <a href="{{route('allServices')}}" class="button-one">VOIR SERVICES</a></h2>
     </div>
 </section>
 <!-- End banner section -->
@@ -283,7 +284,7 @@
 </section>
 <!-- End services-offer section -->
 
-<!-- projects
+<!-- projects NOS DERNIERS PRODUITS
     ================================================== -->
 <section class="projects-section">
     <div class="container">
@@ -362,7 +363,7 @@
 </section>
 <!-- End projects -->
 
-<!-- about section
+<!-- about section QUI SOMMES NOUS ?
     ================================================== -->
 <section class="about-section">
     <div class="container">
@@ -477,7 +478,7 @@
 </section>
 <!-- End about section -->
 
-<!-- testimonial-section
+<!-- testimonial-section TEMOIGNAGE CLIENTS
     ================================================== -->
 <section class="testimonial-section">
     <div class="container">
@@ -510,7 +511,7 @@
 </section>
 <!-- End testimonial section -->
 
-<!-- clients-section
+<!-- clients-section NOS CLIENTS ET REFERENCES
     ================================================== -->
 <section class="clients-section">
     <div class="container">
