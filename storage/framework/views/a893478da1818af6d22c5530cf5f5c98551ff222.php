@@ -109,8 +109,17 @@
 									<button type="submit">
 										<i class="fa fa-search"></i>
 									</button>
-								</form>
+				s				</form>
 							</li>
+
+						<?php if(session('connect')=='connect'): ?>
+							<li class="drop"><a href="<?php echo e(route('deconnect')); ?>">Log out</a>
+							</li>
+
+							<?php else: ?>
+								<li class="drop"><a href="<?php echo e(route('dashbao')); ?>">Log In</a>
+								</li>
+							<?php endif; ?>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container -->
@@ -134,11 +143,11 @@
 							<div class="footer-widget">
 								<h2>Spécialisation</h2>
 								<ul class="tag-list">
-									<li><a href="#">Serigraphie</a></li>
-									<li><a href="#">Imprimerie</a></li>
-									<li><a href="#">Bonerie</a></li>
-									<li><a href="#">Evenementiel</a></li>
-									<li><a href="#">Dematérialisation</a></li>
+									<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
+									<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
+									<li><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+									<li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
+									<li><a href="<?php echo e(route('dematerialisation')); ?>">Dematérialisation</a></li>
 
 								</ul>
 							</div>
