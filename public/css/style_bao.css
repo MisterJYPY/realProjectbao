@@ -34,3 +34,12 @@
 .services-offer-section .offer-post h2 a:hover {
     color: #00008B;
 }
+
+/*Footer*/
+footer .up-footer h2 {
+    color: #ffffff;
+}
+footer .up-footer ul.tag-list li a:hover {
+    background: none;
+    border: 1px solid #F7230C;
+}
