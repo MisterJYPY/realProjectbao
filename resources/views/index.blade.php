@@ -49,9 +49,9 @@
 		    ================================================== -->
 		<header class="clearfix">
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="top-line">
+				<div style="background-color: #00008B" class="top-line">
 					<div class="container">
-						<div class="row">
+						<div  class="row">
 							<div class="col-md-6">
 								<p>
 									<span><i class="fa fa-phone"></i>00225 - 224 468 87 </span>
@@ -177,9 +177,9 @@
 					</div>
 				</div>
 			</div>
-			<p class="copyright">
-				&copy; Copyright 2018. @BaoTeam All rights reserved.
-			</p>
+				<p style="background-color:#00008B" class="copyright">
+					&copy; Copyright 2018. @BaoTeam All rights reserved.
+				</p>
 		</footer>
 		<!-- End footer -->
 

@@ -27,7 +27,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
-                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">EN PANNES<br><span>D'IDEES ? </span> <br>
+                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">En Pannes<br><strong style="color: #F7230C">D'IDEES ? </strong> <br>
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -224,7 +224,7 @@
 
 <!-- banner-section
     ================================================== -->
-<section class="banner-section">
+<section style="background-color: #00008B" class="banner-section">
     <div class="container">
         <h2>NOS SERVICES <a href="<?php echo e(route('allServices')); ?>" class="button-one">VOIR SERVICES</a></h2>
     </div>

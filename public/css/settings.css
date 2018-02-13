@@ -227,7 +227,7 @@ color-stop(1, rgb(50,50,50)));display:table;max-width:100%;overflow:hidden;box-s
 .tp-simpleresponsive >ul >li{list-style:none;position:absolute;visibility:hidden}
 .caption.slidelink a div,
 .tp-caption.slidelink a div{width:3000px;height:1500px;background:url(../assets/coloredbg.html) repeat}
-.tp-caption.slidelink a span{background:url(../assets/coloredbg.html) repeat}
+.tp-caption.slidelink a {background:url(../assets/coloredbg.html) repeat}
 .tparrows .tp-arr-imgholder{display:none}
 .tparrows .tp-arr-titleholder{display:none}
 .tparrows.preview1{width:100px;height:100px;-webkit-transform-style:preserve-3d;-webkit-perspective:1000;-moz-perspective:1000;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;background:transparent}
