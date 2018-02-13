@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\articles;
 use App\personels;
 use App\services;
+use App\publications;
 use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
@@ -39,12 +40,13 @@ class HomeController extends Controller
         $nbreServices=services::all()->count();
         $nbrePersonnels=personels::all()->count();
         $nbreArticles=articles::all()->count();
+        $allNewpost=publications::whereStatut('nonlu')->get();
         $nomUser=Auth::user()->name;
         $admin=Auth::user()->admin;
         $connect=true;
         session(['connect'=> 'connect']);
         if($admin) {
-            return view('admin.dashbao', compact('nbreServices', 'nbrePersonnels', 'nbreArticles', 'nomUser'));
+            return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles','allNewpost','nomUser'));
         }
         else{
             return view('homeContent');

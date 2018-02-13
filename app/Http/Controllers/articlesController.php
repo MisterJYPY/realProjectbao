@@ -19,9 +19,21 @@ class articlesController extends Controller
      */
     public function index()
     {
-        $categories=categories::all();
-        $nomUser=Auth::user()->name;
-        return view('admin.articlesInsert',compact('categories','nomUser'));
+
+      //  $nomUser=Auth::user()->name;
+        $admin=(Auth::user()!=null)?Auth::user()->admin:false;
+        if($admin) {
+            $categories=categories::all();
+            $nomUser=Auth::user()->name;
+            //  $liste=articles::all()->paginate(5);
+            $liste=articles::whereStatutOrStatut('actif','inactif')->paginate(5);
+            return view('admin.articlesInsert',compact('categories','nomUser','liste'));
+        }
+        else{
+            return view('homeContent');
+        }
+
+
     }
 
     /**
@@ -107,9 +119,9 @@ class articlesController extends Controller
             return redirect()->route('insertNewArticle');
 
         } else{
-            Session::flash('EchecRapport','Echec  denvoi');
+            Session::flash('EchecRapport','Enregistrement');
 
-            return redirect()->route('listeRapport');
+            return redirect()->route('insertNewArticle');
         }
 
     }

@@ -51,6 +51,7 @@
                 <li><a href="forms.html"> <i class="icon-form"></i>Forms                             </a></li>
                 <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts                             </a></li>
                 <li><a href="tables.html"> <i class="icon-grid"></i>lettres</a></li>
+                <li><a href="{{route('configvideo')}}"> <i class="icon-home"></i>videos    </a></li>
                 <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Articles</a>
                     <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
                         <li><a href="{{route('insertNewArticle')}}">Enregistrer</a></li>
@@ -116,25 +117,18 @@
                                 <li><a rel="nofollow" href="#" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-bell"></i>view all notifications                                            </strong></a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown"> <a id="messages" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i class="fa fa-envelope"></i><span class="badge badge-info">10</span></a>
+                        <li class="nav-item dropdown"> <a id="messages" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i class="fa fa-envelope"></i><span class="badge badge-info">{{count($allNewpost)}}</span></a>
+                            @if(count($allNewpost)>0)
                             <ul aria-labelledby="notifications" class="dropdown-menu">
+                                @foreach($allNewpost as $pub)
                                 <li><a rel="nofollow" href="#" class="dropdown-item d-flex">
                                         <div class="msg-profile"> <img src="img/avatar-1.jpg" alt="..." class="img-fluid rounded-circle"></div>
                                         <div class="msg-body">
                                             <h3 class="h5">Jason Doe</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
                                         </div></a></li>
-                                <li><a rel="nofollow" href="#" class="dropdown-item d-flex">
-                                        <div class="msg-profile"> <img src="img/avatar-2.jpg" alt="..." class="img-fluid rounded-circle"></div>
-                                        <div class="msg-body">
-                                            <h3 class="h5">Frank Williams</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
-                                        </div></a></li>
-                                <li><a rel="nofollow" href="#" class="dropdown-item d-flex">
-                                        <div class="msg-profile"> <img src="img/avatar-3.jpg" alt="..." class="img-fluid rounded-circle"></div>
-                                        <div class="msg-body">
-                                            <h3 class="h5">Ashley Wood</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
-                                        </div></a></li>
-                                <li><a rel="nofollow" href="#" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-envelope"></i>Read all messages    </strong></a></li>
+                                @endforeach
                             </ul>
+                                @endif
                         </li>
                         <li class="nav-item"><a href="{{route('deconnect')}}" class="nav-link logout">Logout<i class="fa fa-sign-out"></i></a></li>
                     </ul>
