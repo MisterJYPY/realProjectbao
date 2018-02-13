@@ -29,7 +29,8 @@
 					</div>
 				</div>
 				<div class="col-md-7">
-					<form id="contact-form" method="post">
+					<form id="contact-form" method="post" class="form" action="{{route('UserMessage')}}">
+						{{ csrf_field() }}
 						<h2>Send us a message</h2>
 						<div class="form-group ">
 							<label>Votre Nom : </label>
