@@ -10,9 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
-    return view('homeContent');
-});
+Route::get('/', 'acceuilController@index')->name('home');
 /**
  * Home Route
  */
@@ -93,6 +91,18 @@ Route::get('insertNewArticle', 'articlesController@index')->name('insertNewArtic
  */
 Route::post('productRegister', 'articlesController@store')->name('productRegister');
 
+/**
+ * route pour l'ajout de nouvelles videos et le changement de statut
+ */
+
+Route::get('configvideo', 'videosController@index')->name('configvideo');
+
+/**
+ * route pour la mise a jour de la video
+ */
+Route::post('admin.videoRegister', 'videosController@store')->name('admin.videoRegister');
+
+
 //==========================ROUTE POUR LA CONNEXION=================//
 
 /**
@@ -106,3 +116,4 @@ Route::get('/dashbao', 'HomeController@index')->name('dashbao');
  * route pour le deconnexion
  */
 Route::get('deconnect', 'HomeController@logout')->name('deconnect');
+

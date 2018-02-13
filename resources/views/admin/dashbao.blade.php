@@ -268,7 +268,7 @@
                 <div id="feeds-header" class="card-header d-flex justify-content-between align-items-center">
                   <h2 class="h5 display"><a data-toggle="collapse" data-parent="#daily-feeds" href="#feeds-box" aria-expanded="true" aria-controls="feeds-box">Your daily Feeds </a></h2>
                   <div class="right-column">
-                    <div class="badge badge-primary">10 messages</div><a data-toggle="collapse" data-parent="#daily-feeds" href="#feeds-box" aria-expanded="true" aria-controls="feeds-box"><i class="fa fa-angle-down"></i></a>
+                    <div class="badge badge-primary">14 messages</div><a data-toggle="collapse" data-parent="#daily-feeds" href="#feeds-box" aria-expanded="true" aria-controls="feeds-box"><i class="fa fa-angle-down"></i></a>
                   </div>
                 </div>
                 <div id="feeds-box" role="tabpanel" class="collapse show">

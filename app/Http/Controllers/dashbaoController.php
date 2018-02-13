@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\articles;
 use App\personels;
+use App\publications;
 use App\services;
 use Illuminate\Http\Request;
 
@@ -19,7 +20,8 @@ class dashbaoController extends Controller
         $nbreServices=services::all()->count();
         $nbrePersonnels=personels::all()->count();
         $nbreArticles=articles::all()->count();
-        return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles'));
+        $allNewpost=publications::whereStatut('nonlu')->get();
+        return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles','allNewpost'));
     }
 
     /**
