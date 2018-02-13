@@ -1,0 +1,36 @@
+/*Modification apporter au style de base*/
+
+
+.accord-elem.active .accord-title h2 {
+    color: #ffffff;
+    border: 1px solid #00008B;
+    background: #00008B;
+}
+.accord-elem.active a.accord-link {
+    background: #333333;
+    border: 1px solid #333333;
+    border-right: none;
+}
+
+/*Modifier image de la banniere de fonds*/
+.testimonial-section {
+    background: url('../upload/banners/bao_banner.jpg') fixed;
+}
+/*Modification de la section Techniques de travail et les titres d'option*/
+.tab-posts-box ul.nav-tabs li a:hover {
+    border: none;
+    color: #F7230C;
+}
+.tab-posts-box ul.nav-tabs li.active a {
+    border: none;
+    background: #FD6C9E;
+    color: #ffffff;
+}
+
+/*Section services offert*/
+.services-offer-section .offer-post h2 a {
+    color: #F7230C;
+}
+.services-offer-section .offer-post h2 a:hover {
+    color: #00008B;
+}

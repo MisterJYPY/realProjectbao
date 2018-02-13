@@ -387,7 +387,6 @@ color: #8B0000;
   font-family: 'Montserrat', sans-serif;
   background-color: none;
   text-decoration: none;
-  text-transform: uppercase;
   border-width: 0px;
   border-color: transparent;
   border-style: none;
@@ -1022,6 +1021,7 @@ a.button-one {
   margin: 0 0 10px;
   margin: 12px 0 12px 72px;
 }
+
 .accord-elem.active .accord-title h2 {
   color: #ffffff;
   border: 1px solid #ffba00;

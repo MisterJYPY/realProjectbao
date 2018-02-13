@@ -1,6 +1,6 @@
 ;
 <?php $__env->startSection('content'); ?>
-<section id="home-section" class="slider1">
+<section id="home-section" class="slider1" xmlns="http://www.w3.org/1999/html">
 
     <!--
     #################################
@@ -42,7 +42,7 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.1"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Nous reflechissons pour vous ! Notre quotidien ? <br>
+                         style="font-weight: bold; font-family:'Verdana'; text-color: #2D241E;z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Nous reflechissons pour vous ! Notre quotidien ? <br>
                         Coordonner, Innover, Conseiller, Anticiper, Securiser, Imaginer, Negocier, Etre Constament a votre Ecoute
                     </div>
 
@@ -112,7 +112,7 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.05"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">BOA-TECHNOLOGIES
+                         style=" text-align:center; z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">BOITE A OUTILS-TECHNOLOGIE
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -126,7 +126,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span>Creatif & Professionnel </span>
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><strong style="color: #F7230C">Creatif & Professionnel </strong>
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -163,7 +163,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                         data-endelementdelay="0.1"
-                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span>Domaine</span> d'Expertise<br>
+                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><strong style="color: #F7230C">Domaine</strong> d'Expertise<br>
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -178,7 +178,7 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.1"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"> Location Logistique Evenementielle <br> Confection & Confection de Marque & Branding<br>
+                         style="font-weight: bold; background-color: white; text-color: #2D241E;z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"> Location Logistique Evenementielle <br> Confection & Confection de Marque & Branding<br>
                             Imprimerie & Impression & Sur tout Support </br> Dematerialisation
 
                     </div>
@@ -238,44 +238,46 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="offer-post">
-                    <a href="services.html"><img src="upload/others/bao_services2.jpg" alt=""></a>
-                    <h2><a href="services.html">Imprimerie tout support</a></h2>
+                    <a href="<?php echo e(route('imprimerie')); ?>"><img src="upload/others/bao_services2.jpg" alt=""></a>
+                    <h2><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie tout support</a></h2>
                     <p>BAO dispose du materiel repondant a toutes vos attentes dans le domaine de l'impremerie numerique, l'offset, du reportage...</p>
                     <p>Une equipe dynamique et creative dans le seul but de realiser votre communication par objet.</p>
+                    <ul class="offer-list">
                     <li><i class="fa fa-cube"></i> Carte de visite, Prospectus...</li>
                     <li><i class="fa fa-cube"></i> Numerique Petit & Grand </li>
                     <li><i class="fa fa-cube"></i> Affiche Publicitaire, Kakemono </li>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="offer-post">
-                    <a href="services.html"><img src="upload/others/bao_services4.jpg" alt=""></a>
-                    <h2><a href="services.html">Serigraphie</a></h2>
-                    <p>Serigraphes professionnels, notre maitrise des dernieres techniques d'impression nous permet de vous proposer des solutions optimales selon vos besoins</p>
-                    <li><i class="fa fa-flag"></i> Tricots, Polos, Banderole, Broderie</li>
-                    <li><i class="fa fa-flag"></i> Stylos, Porte Clé</li>
-                    <li><i class="fa fa-flag"></i> Sacs de Seminaire</li>
-                    <li><i class="fa fa-flag"></i> Pagnes, Casquettes, Tampons...</li>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="offer-post">
-                    <a href="services.html"><img src="upload/others/bao_services3.jpg" alt=""></a>
-                    <h2><a href="services.html">Manufacture</a></h2>
-                    <p>We are professional tile installers who can install tile in many areas of your home.</p>
-                    <ul class="offer-list">
-                        <li><i class="fa fa-cube"></i> Building House</li>
-                        <li><i class="fa fa-cube"></i> Door Installation</li>
-                        <li><i class="fa fa-cube"></i> Electrical</li>
-                        <li><i class="fa fa-cube"></i> Flooring</li>
-                        <li><i class="fa fa-cube"></i> Garages</li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="offer-post">
-                    <a href="services.html"><img src="upload/others/bao_services1.jpg" alt=""></a>
-                    <h2><a href="services.html">Communication Evenementiel</a></h2>
+                    <a href="<?php echo e(route('serigraphie')); ?>"><img src="upload/others/bao_services4.jpg" alt=""></a>
+                    <h2><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></h2>
+                    <p>Serigraphes professionnels, notre maitrise des dernieres techniques d'impression nous permet de vous proposer des solutions optimales selon vos besoins</p>
+                    <ul class="offer-list">
+                    <li><i class="fa fa-flag"></i> Tricots, Polos, Banderole, Broderie</li>
+                    <li><i class="fa fa-flag"></i> Stylos, Porte Clé</li>
+                    <li><i class="fa fa-flag"></i> Sacs de Seminaire</li>
+                    <li><i class="fa fa-flag"></i> Pagnes, Casquettes, Tampons...</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="offer-post">
+                    <a href="<?php echo e(route('bonerie')); ?>"><img src="upload/others/bao_services3.jpg" alt=""></a>
+                    <h2><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></h2>
+                    <p>Nous manufacturons des gadgets sur mesure et adapter a vos conditions</p>
+                    <ul class="offer-list">
+                        <li><i class="fa fa-cube"></i> Sacs de Seminaire</li>
+                        <li><i class="fa fa-cube"></i> Sacs de voyage</li>
+                        <li><i class="fa fa-cube"></i> Electrical</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="offer-post">
+                    <a href="<?php echo e(route('evenementiel')); ?>"><img src="upload/others/bao_services1.jpg" alt=""></a>
+                    <h2><a href="<?php echo e(route('evenementiel')); ?>">Communication Evenementiel</a></h2>
                     <p>Avec des techniques de dernières generation, nous travail faire de votre evenement celui qui doit etre entendu, vu et suivi par tous !</p>
                     <ul class="offer-list second">
                         <li><i class="fa fa-image"></i> Affichage Publicitaire</li>
@@ -407,32 +409,32 @@
                     <div class="tab-content">
                         <div class="tab-pane active" id="option1">
                             <img src="upload/others/bao6.jpg" alt="">
-                            <h3>Serigraphie</h3>
+                            <h3 style="color: #F7230C">Serigraphie</h3>
                             <p>Serigraphes professionnels,
                                 notre maitrise des dernieres techniques d'impression nous permet de
                                 vous proposer des solutions optimales selon vos besoins</p>
                         </div>
                         <div class="tab-pane" id="option2">
                             <img src="upload/others/bao5.jpg" alt="">
-                            <h3>Imprimerie</h3>
+                            <h3 style="color: #F7230C">Imprimerie</h3>
                             <p>Une equipe dynamique et creative dans le seul but de realiser votre communication par objet.</p>
                         </div>
                         <div class="tab-pane" id="option3">
                             <img src="upload/others/bao4.jpg" alt="">
-                            <h3>Bonerie</h3>
+                            <h3 style="color: #F7230C">Bonerie</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ullamco laboris nisi ut aliquip ex ea commodo.</p>
                         </div>
                         <div class="tab-pane" id="option4">
                             <img src="upload/others/6.jpg" alt="">
-                            <h3>Evenementiel</h3>
+                            <h3 style="color: #F7230C">Evenementiel</h3>
                             <p>Une source intarisable de conseil, d'orientation et de prise de decision en termes de communication marketing.
                             Nous fournissons des devis de communication adapté a vos exigences en 24h.</p>
                         </div>
                         <div class="tab-pane" id="option5">
                             <img src="upload/others/bao2.jpg" alt="">
-                            <h3>Dematerialisation</h3>
+                            <h3 style="color: #F7230C">Dematerialisation</h3>
                             <p>La dématérialisation des documents vous permettra d’économiser des ressources au sein de votre entreprise.
                                 Un document dématerialisé passe donc d’un support papier à un support numérique et devient donc accessible,
                                 au même moment, à plusieurs personnes.
@@ -484,25 +486,22 @@
     <div class="container">
 
         <div class="title-section">
-            <h1>Temoignage <span>Reference</span></h1>
+            <h1>Nos <strong style="color: #F7230C;">Valeurs</strong></h1>
         </div>
 
         <div class="testimonial-box">
             <ul class="bxslider">
                 <li>
-                    <h2>John Smith</h2>
-                    <span>Chef d'entreprise</span>
-                    <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. <br> Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a,<br> ultricies in, diam. Sed arcu. Cras consequat.</p>
+                    <h2 style="color: White">Professionalisme</h2>
+                    <p>Croyant que le professionalisme est la cle de voute <br> de toute entreprise qui veut emerger,<br> Nous en avons fait une valeur sûre</p>
                 </li>
                 <li>
-                    <h2>Besim Dauti</h2>
-                    <span>Directrice</span>
-                    <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. <br> Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a,<br> ultricies in, diam. Sed arcu. Cras consequat.</p>
+                    <h2 style="color: White">Ponctualité></h2>
+                    <p>Pour repondre aux exigences d'un monde qui evolue a grande vitesse<br> La ponctualité devient alors<br> qualite primordiale</p>
                 </li>
                 <li>
-                    <h2>Quan Ngyen</h2>
-                    <span>Electricity Engineer</span>
-                    <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. <br> Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a,<br> ultricies in, diam. Sed arcu. Cras consequat.</p>
+                    <h2 style="color: White">Professionalisme></h2>
+                    <p>Croyant que le professionalisme est la cle de voute <br> de toute entreprise qui veut emerger,<br> Nous en avons fait une valeur sûre</p>
                 </li>
             </ul>
         </div>
@@ -516,49 +515,40 @@
 <section class="clients-section">
     <div class="container">
         <div class="clients-title">
-            <h2>Clients - Nos references</h2>
-            <p>BAO-TECNOLOGIES possède un large carnet d'addresse de partenaires et clients, avec les quels elle a pu demontrer un savoir
+            <h2 style="text-align: center">Clients - Nos references</h2>
+            <p><b>BAO</b>-<strong style="color: #F7230C;"><b>TECNOLOGIES</b></strong> possède un large carnet d'addresse de partenaires et clients, avec les quels elle a pu demontrer un savoir
                 faire remarquable et une solide relation de confiance de par son experience</p>
         </div>
         <div class="row">
-            <div class="col-md-5">
-                <ul class="client-list">
-                    <li>
-                        <a href="#"><img src="images/clients/logo_allianz.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/clients/logo_hcr.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/clients/logo_pci.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/clients/logo_sib.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/clients/logo_bad.jpg" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/clients/logo_bnetd.jpg" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/clients/logo_cie.jpg" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/clients/logo_sir.jpg" alt=""></a>
-                    </li>
-                </ul>
+            <div class="col-md-3">
+                    <a href="#"><img src="images/clients/logo_allianz.png" alt=""></a>
             </div>
-            <div class="col-md-6">
-                <blockquote>
-                    <p>Certains de <span>nos partenaires</span> et <span>clients</span>, sont tres satisfait de notre travail. <br>Voulez vous être <span>le prochain</span> ?</p>
-                </blockquote>
+            <div class="col-md-3">
+                    <a href="#"><img src="images/clients/logo_hcr.png" alt=""></a>
+            </div>
+            <div class="col-md-3">
+                    <a href="#"><img src="images/clients/logo_pci.png" alt=""></a>
+            </div>
+            <div class="col-md-3">
+                    <a href="#"><img src="images/clients/logo_sib.png" alt=""></a>
             </div>
         </div>
-
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#"><img src="images/clients/logo_cie.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="images/clients/logo_sir.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="images/clients/logo_bnetd.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="images/clients/logo_bad.jpg" alt=""></a>
+            </div>
+        </div>
     </div>
 </section>
 <!-- End clients section -->
-
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

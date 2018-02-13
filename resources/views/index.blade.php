@@ -21,6 +21,7 @@
     <!-- REVOLUTION BANNER CSS SETTINGS -->
 	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style_bao.css" media="screen">
 	<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
 	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
