@@ -7,9 +7,9 @@
 					</div>
 					<div class="col-md-6">
 						<ul class="page-depth">
-							<li><a href="index.html">Housebuild</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="single-post.html">Building Procedure</a></li>
+							<li><a href="<?php echo e(route('home')); ?>">Bao-Technoligies</a></li>
+							<li><a href="<?php echo e(route('bao_blog')); ?>">Blog</a></li>
+
 						</ul>
 					</div>
 				</div>
