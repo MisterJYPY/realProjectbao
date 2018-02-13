@@ -80,6 +80,9 @@ class articlesController extends Controller
        // $CheminMoyen="c:/laragon/www/bao-technologies/public/BdfrontendImage/imageMoyen/".basename($_FILES['imageMoyenne']['name']);
       //  $cheminPetit="c:/laragon/www/bao-technologies/public/BdfrontendImage/imagePetite/".basename($_FILES['imagePetite']['name']);
 
+        $CheminMoyen="c:/laragon/www/bao-technologies/public/BdfrontendImage/imageMoyen/".basename($_FILES['imageMoyenne']['name']);
+        $cheminPetit="c:/laragon/www/bao-technologies/public/BdfrontendImage/imagePetite/".basename($_FILES['imagePetite']['name']);
+
 
         /** les informations pour la copie */
         if (copy($sourceMoyenne,   $CheminMoyen) && copy( $sourcePetit,   $cheminPetit)) {
