@@ -52,7 +52,7 @@
                 <li><a href="index.html"> <i class="icon-home"></i>Home                             </a></li>
                 <li><a href="forms.html"> <i class="icon-form"></i>Forms                             </a></li>
                 <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts                             </a></li>
-                <li><a href="viewUserMessage.blade.php"> <i class="icon-grid"></i>lettres</a></li>
+                <li><a href="<?php echo e(route('messageReceived')); ?>"> <i class="icon-grid"></i>lettres</a></li>
                 <li><a href="<?php echo e(route('configvideo')); ?>"> <i class="icon-home"></i>videos    </a></li>
                 <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Articles</a>
                     <ul id="exampledropdownDropdown" class="collapse list-unstyled ">

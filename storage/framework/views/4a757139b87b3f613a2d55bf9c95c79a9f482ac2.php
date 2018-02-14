@@ -11,12 +11,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h2>Qui sommes nous?</h2>
+					<h2>Contact</h2>
 				</div>
 				<div class="col-md-6">
 					<ul class="page-depth">
-						<li><a href="<?php echo e(route('home')); ?>">Bao-Technoligies</a></li>
-						<li><a href="<?php echo e(route('apropos')); ?>">Qui sommes nous ?</a></li>
+						<li><a href="<?php echo e(route('home')); ?> " >Bao-Technoligies</a></li>
+						<li><a href="<?php echo e(route('apropos')); ?>" style="color:maroon;font-size: 15px;font-weight: bold">Qui sommes nous ?</a></li>
 					</ul>
 				</div>
 			</div>
@@ -26,12 +26,12 @@
 			<div class="container">
 				<div class="col-md-5">
 					<div class="contact-info">
-						<h2>Contact Info</h2>
-						<p>You can contact or visit us in our office from Monday to Friday from 8:00 - 17:00</p>
+						<h2 style="color:#533f03">Nos Contacts</h2>
+						<p>Vous pouvez nous joindre tous les jours entre  8:00h - 17:00h GMT </p>
 						<ul class="information-list">
-							<li><i class="fa fa-map-marker"></i><span>907 N Randolph street, Arlington County, Virginia, United States</span></li>
-							<li><i class="fa fa-phone"></i><span>+1 703-697-1776</span><span>+1 605-315-8544</span></li>
-							<li><i class="fa fa-envelope-o"></i><a href="#">nunforest@gmail.com</a></li>
+							<li><i class="fa fa-map-marker"></i><span>Abidjan Codody cité des Arts, Cote d'Ivoire</span></li>
+							<li><i class="fa fa-phone"></i><span>+225 - 224 468 87</span><span>+225 - 079 312 93</span><span>Fax : +225 - 224 452 67</span></li>
+							<li><i class="fa fa-envelope-o"></i><a href="#" style="color:blue">contact@bao-technologie.com</a></li>
 						</ul>						
 					</div>
 				</div>
@@ -39,19 +39,19 @@
 					<form id="contact-form" method="post" class="form" action="<?php echo e(route('UserMessage')); ?>">
 						<?php echo e(csrf_field()); ?>
 
-						<h2>Send us a message</h2>
+						<h2 style="color:#533f03">Envoyez Nous Un message</h2>
 						<div class="form-group ">
 							<label>Votre Nom : </label>
-							<input name="nom" id="name" type="text" placeholder="Name">
+							<input name="nom" id="name" type="text" placeholder="Name" required>
 						</div>
 						<div class="form-group">
 							<label>Votre mail : </label>
-							<input name="mail" id="mail" type="text" placeholder="Email">
+							<input name="mail" id="mail" type="text" placeholder="Email" required>
 						</div>
 
 						<div class="form-group">
 							<label>Votre message:</label>
-							<textarea name="message" id="comment" placeholder="Message"></textarea>
+							<textarea name="message" id="comment" placeholder="Message" required></textarea>
 						</div>
 						<input type="submit"  value="Envoi mesage">
 						<div id="msg" class="message"></div>

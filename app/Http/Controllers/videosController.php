@@ -74,7 +74,7 @@ class videosController extends Controller
 
         $CheminMoyen = "/var/www/html/bao-technologies/public/BdfrontendImage/videos/" . basename($_FILES['imageMoyenne']['name']);
 
-        // $CheminMoyen="c:/laragon/www/bao-technologies/public/BdfrontendImage/imageMoyen/".basename($_FILES['imageMoyenne']['name']);
+         $CheminMoyen="c:/laragon/www/bao-technologies/public/BdfrontendImage/imageMoyen/".basename($_FILES['imageMoyenne']['name']);
         if (!empty($sourceMoyenne)) {
             $tailleFichier =$_FILES['imageMoyenne']['size'];
             $tailleMo = ($tailleFichier / 1024) / 1024;
