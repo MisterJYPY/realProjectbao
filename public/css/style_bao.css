@@ -1,6 +1,8 @@
+/*Banniere de la page Qui Sommes nous?*/
+.page-banner-section {
+    background: url('../upload/banners/ban.jpg') center;
+}
 /*Modification apporter au style de base*/
-
-
 .accord-elem.active .accord-title h2 {
     color: #ffffff;
     border: 1px solid #00008B;
