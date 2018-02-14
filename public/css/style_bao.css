@@ -1,6 +1,8 @@
+/*Banniere de la page Qui Sommes nous?*/
+.page-banner-section {
+    background: url('../upload/banners/ban.jpg') center;
+}
 /*Modification apporter au style de base*/
-
-
 .accord-elem.active .accord-title h2 {
     color: #ffffff;
     border: 1px solid #00008B;
@@ -15,6 +17,12 @@
 /*Modifier image de la banniere de fonds*/
 .testimonial-section {
     background: url('../upload/banners/bao_banner.jpg') fixed;
+}
+.testimonial-box {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
 }
 /*Modification de la section Techniques de travail et les titres d'option*/
 .tab-posts-box ul.nav-tabs li a:hover {
@@ -34,7 +42,7 @@
 .services-offer-section .offer-post h2 a:hover {
     color: #00008B;
 }
-
+/*references section*/
 /*Footer*/
 footer .up-footer h2 {
     color: #ffffff;

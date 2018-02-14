@@ -25,7 +25,24 @@
         }
 
     </style>
-<div class="container-fluid">
+
+    <?php if(Session::has('SuccesRapport')): ?>
+
+        <div class="alert alert-success">
+            <?php echo e(Session::get('SuccesRapport')); ?> <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
+        </div>
+    <?php endif; ?>
+
+    <?php if(Session::has('EchecRapport')): ?>
+
+        <div class="alert alert-warning">
+
+            <?php echo e(Session::get('EchecRapport')); ?><strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
+
+        </div>
+    <?php endif; ?>
+
+    <div class="container-fluid">
     <form id="articlesForm" method="post" class="form"  action="<?php echo e(route('productRegister')); ?>" enctype="multipart/form-data">
         <?php echo e(csrf_field()); ?>
 
@@ -73,11 +90,11 @@
                         <div class="col-sm-10">
 
                             <div>
-                                <input id="optionsRadios1" type="radio" checked="" value="option1" name="priorite">
+                                <input id="optionsRadios1" type="radio" checked="" value="eleve" name="priorite">
                                 <label for="optionsRadios1">Elevé</label>
                             </div>
                             <div>
-                                <input id="optionsRadios2" type="radio" checked="true" value="option2" name="priorite">
+                                <input id="optionsRadios2" type="radio" checked="true" value="normal" name="priorite">
                                 <label for="optionsRadios2">Normal</label>
                             </div>
                     </div>
@@ -86,11 +103,11 @@
                             <div class="col-sm-10">
 
                                 <div>
-                                    <input id="optionsRadios1" type="radio" checked="true" value="option1" name="statut">
+                                    <input id="optionsRadios1" type="radio" checked="true" value="actif" name="statut">
                                     <label for="optionsRadios1">Activé</label>
                                 </div>
                                 <div>
-                                    <input id="optionsRadios2" type="radio" value="option2" name="statut">
+                                    <input id="optionsRadios2" type="radio" value="option2" name="inactif">
                                     <label for="optionsRadios2">Désactivité</label>
                                 </div>
                             </div>
@@ -111,52 +128,79 @@
     </form>
 </div>
 </div>
-<div class="container">
-    <h3>The columns titles are merged with the filters inputs thanks to the placeholders attributes</h3>
-    <hr>
-    <p>Inspired by this <a href="http://bootsnipp.com/snippets/featured/panel-tables-with-filter">snippet</a></p>
-    <div class="row">
-        <div class="panel panel-primary filterable">
-            <div class="panel-heading">
-                <h3 class="panel-title">Users</h3>
-                <div class="pull-right">
-                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
-                </div>
-            </div>
-            <table class="table">
-                <thead>
-                <tr class="filters">
-                    <th><input type="text" class="form-control" placeholder="#" disabled></th>
-                    <th><input type="text" class="form-control" placeholder="First Name" disabled></th>
-                    <th><input type="text" class="form-control" placeholder="Last Name" disabled></th>
-                    <th><input type="text" class="form-control" placeholder="Username" disabled></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-                </tbody>
-            </table>
+    <div class="container">
+        <div class="row center">
+            <h3> La liste complete des articles enregistrés</h3>
         </div>
     </div>
-</div>
-</div>
+    <div class="col-md-12 col-sm-12 col-xs-12" style="background-color:rgb(185,220,255)">
+        <div class="x_panel">
+            <div class="x_title">
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content" >
+                <table id="datatable-buttons" class="table table-striped table-bordered" >
+                    <thead>
+                    <tr>
+                        <th>Numéro</th>
+                        <th>intitule</th>
+                        <th>Description</th>
+                        <th>lien sur le serveur</th>
+                        <th>Date</th>
+                        <th>Priorité</th>
+                        <th>Statut</th>
+                        <th>info</th>
+
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                        <th>Numéro</th>
+                        <th>intitule</th>
+                        <th>Description</th>
+                        <th>lien sur le serveur</th>
+                        <th>Date</th>
+                        <th>Priorité</th>
+                        <th>Statut</th>
+                        <th>info</th>
+
+                    </tr>
+                    </tfoot>
+                    <tbody>
+
+
+
+
+
+                    <?php $i=1; ?>
+                    <?php $__currentLoopData = $liste; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $list): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <tr>
+                            <td><?php echo e($i++); ?></td>
+                            <td><?php echo e($list->intitule); ?></td>
+                            <td><?php echo e($list->description); ?></td>
+                            <td><?php echo e($list->lienImage); ?></td>
+                            <td><?php echo e($list->created_at); ?></td>
+                            <td><?php echo e($list->priorite); ?></td>
+                            <td><?php echo e($list->statut); ?></td>
+                            <td> <a href="#" class="btn btn-info btn-xs"><i class="fa fa-edit" title="info"></i> </a> </td>
+
+                        </tr>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+            <?php echo e($liste->links()); ?>
+
+        </div>
+    </div>
+    </div>
+    <script src="js/jslist1.js" type="text/javascript"></script>
+    <script src="js/emailjs.js" type="text/javascript"></script>
 
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('admin.templateDash', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
