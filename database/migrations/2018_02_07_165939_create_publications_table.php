@@ -19,7 +19,6 @@ class CreatePublicationsTable extends Migration
             $table->string('description');
             $table->string('statut');
             $table->string('nom');
-            $table->string('intitule');
             $table->timestamps();
         });
     }

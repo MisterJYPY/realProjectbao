@@ -14,7 +14,56 @@
 
 /*Modifier image de la banniere de fonds*/
 .testimonial-section {
+    padding: 60px 0;
+    position: relative;
     background: url('../upload/banners/bao_banner.jpg') fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.testimonial-section .testimonial-box p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    padding: 0 40px;
+}
+.testimonial-section .testimonial-box h2 {
+    color: #222222;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #ffba00;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.testimonial-section .testimonial-box span {
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 0 10px;
+    margin: 0 0 30px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.testimonial-section .testimonial-box {
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 0 10px;
+    margin: 0 0 30px;
+    color: #ffffff;
+    display: inline-block;
 }
 /*Modification de la section Techniques de travail et les titres d'option*/
 .tab-posts-box ul.nav-tabs li a:hover {
@@ -34,6 +83,7 @@
 .services-offer-section .offer-post h2 a:hover {
     color: #00008B;
 }
+/*references section*/
 
 /*Footer*/
 footer .up-footer h2 {

@@ -9,6 +9,7 @@ use App\categories;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
+use App\publications;
 
 class articlesController extends Controller
 {
@@ -27,7 +28,8 @@ class articlesController extends Controller
             $nomUser=Auth::user()->name;
             //  $liste=articles::all()->paginate(5);
             $liste=articles::whereStatutOrStatut('actif','inactif')->paginate(5);
-            return view('admin.articlesInsert',compact('categories','nomUser','liste'));
+            $allNewpost=publications::whereStatut('nonlu')->get();
+            return view('admin.articlesInsert',compact('categories','nomUser','liste', 'allNewpost'));
         }
         else{
             return view('homeContent');

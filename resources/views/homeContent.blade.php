@@ -480,7 +480,7 @@
 </section>
 <!-- End about section -->
 
-<!-- testimonial-section TEMOIGNAGE CLIENTS
+<!-- testimonial-section NOS VALEURS
     ================================================== -->
 <section class="testimonial-section">
     <div class="container">
@@ -500,12 +500,11 @@
                     <p>Pour repondre aux exigences d'un monde qui evolue a grande vitesse<br> La ponctualité devient alors<br> qualite primordiale</p>
                 </li>
                 <li>
-                    <h2 style="color: White">Professionalisme></h2>
+                    <h2 style="color: White">Professionalisme</h2>
                     <p>Croyant que le professionalisme est la cle de voute <br> de toute entreprise qui veut emerger,<br> Nous en avons fait une valeur sûre</p>
                 </li>
             </ul>
         </div>
-
     </div>
 </section>
 <!-- End testimonial section -->

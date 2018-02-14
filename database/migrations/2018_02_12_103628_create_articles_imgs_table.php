@@ -17,6 +17,8 @@ class CreateArticlesImgsTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('nom');
+            $table->string('statut');
+            $table->string('priorite');
             $table->string('url');
             /**
              * le type de l'image signifie emplacement ( image moyenne pour l'affiochage

@@ -795,7 +795,7 @@ a.button-one {
   text-transform: uppercase;
   margin-bottom: 2px;
 }
-/*
+
 .testimonial-section .testimonial-box span {
   font-size: 14px;
   color: #666666;
@@ -806,7 +806,8 @@ a.button-one {
   margin: 0 0 30px;
   color: #ffffff;
   display: inline-block;
-}*/
+}
+
 .testimonial-section .testimonial-box {
   font-size: 14px;
   color: #666666;
