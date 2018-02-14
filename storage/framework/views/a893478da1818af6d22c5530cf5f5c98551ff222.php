@@ -21,6 +21,7 @@
     <!-- REVOLUTION BANNER CSS SETTINGS -->
 	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style_bao.css" media="screen">
 	<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
 	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
@@ -49,9 +50,9 @@
 		    ================================================== -->
 		<header class="clearfix">
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="top-line">
+				<div style="background-color: #00008B" class="top-line">
 					<div class="container">
-						<div class="row">
+						<div  class="row">
 							<div class="col-md-6">
 								<p>
 									<span><i class="fa fa-phone"></i>00225 - 224 468 87 </span>
@@ -177,9 +178,9 @@
 					</div>
 				</div>
 			</div>
-			<p class="copyright">
-				&copy; Copyright 2018. @BaoTeam  All rights reserved.
-			</p>
+				<p style="background-color:#00008B" class="copyright">
+					&copy; Copyright 2018. @BaoTeam  All rights reserved.
+				</p>
 		</footer>
 		<!-- End footer -->
 

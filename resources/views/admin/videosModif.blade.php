@@ -11,7 +11,7 @@
 
         <div class="alert alert-warning">
 
-            {{Session::get('EchecVideo')}}<strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
+            {{Session::get('EchecRapport')}}<strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
 
         </div>
     @endif

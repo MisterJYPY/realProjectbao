@@ -40,7 +40,7 @@ class HomeController extends Controller
         $nbreServices=services::all()->count();
         $nbrePersonnels=personels::all()->count();
         $nbreArticles=articles::all()->count();
-        $allNewpost=publications::whereStatut('nonlu')->get();
+        $allNewpost=publications::whereStatut('nl')->get();
         $nomUser=Auth::user()->name;
         $admin=Auth::user()->admin;
         $connect=true;

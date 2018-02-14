@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\articles;
 use App\articles_img;
 use App\services;
+use App\publications;
 use App\categories;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -26,8 +27,9 @@ class articlesController extends Controller
             $categories=categories::all();
             $nomUser=Auth::user()->name;
             //  $liste=articles::all()->paginate(5);
+            $allNewpost=publications::whereStatut('nl')->get();
             $liste=articles::whereStatutOrStatut('actif','inactif')->paginate(5);
-            return view('admin.articlesInsert',compact('categories','nomUser','liste'));
+            return view('admin.articlesInsert',compact('categories','nomUser','liste','allNewpost'));
         }
         else{
             return view('homeContent');
@@ -79,9 +81,6 @@ class articlesController extends Controller
 
        // $CheminMoyen="c:/laragon/www/bao-technologies/public/BdfrontendImage/imageMoyen/".basename($_FILES['imageMoyenne']['name']);
       //  $cheminPetit="c:/laragon/www/bao-technologies/public/BdfrontendImage/imagePetite/".basename($_FILES['imagePetite']['name']);
-
-        $CheminMoyen="c:/laragon/www/bao-technologies/public/BdfrontendImage/imageMoyen/".basename($_FILES['imageMoyenne']['name']);
-        $cheminPetit="c:/laragon/www/bao-technologies/public/BdfrontendImage/imagePetite/".basename($_FILES['imagePetite']['name']);
 
 
         /** les informations pour la copie */

@@ -67,11 +67,31 @@ Route::get('projet', 'projetController@index')->name('projet');
 Route::get('bao_blog', 'blogController@index')->name('bao_blog');
 
 /**
+ * route definissant le chemein pour le traitement des messages
+ */
+
+Route::post('UserMessage', 'PublicationsController@store')->name('UserMessage');
+
+/**
+ * route pour la lecture d'un message
+ */
+
+Route::get('viewMessage/{id}', 'PublicationsController@viewUserMessage')->name('viewMessage');
+/**
+ * route pour l'affichage des routes
+ */
+Route::get('viewAllMessages}', 'PublicationsController@viewAllMessages')->name('viewAllMessages');
+
+/**
  * Route pour la page d'accueil pour les contacts
  */
 
 Route::get('bao_contact', 'contactController@index')->name('bao_contact');
 
+/**
+ * route pour l'archivage des messages
+ */
+Route::get('delMessage/{id}', 'PublicationsController@archiveMessage')->name('delMessage');
 //***========================FIN ROUTE POUR LES SERVICES===============***//
 
 //==========================ROUTE POUR L'ADMINISTRATION=================//

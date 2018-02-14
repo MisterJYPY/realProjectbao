@@ -29,6 +29,8 @@
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
 </head>
 <body>
 <!-- Side Navbar -->
@@ -50,7 +52,7 @@
                 <li><a href="index.html"> <i class="icon-home"></i>Home                             </a></li>
                 <li><a href="forms.html"> <i class="icon-form"></i>Forms                             </a></li>
                 <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts                             </a></li>
-                <li><a href="tables.html"> <i class="icon-grid"></i>lettres</a></li>
+                <li><a href="viewUserMessage.blade.php"> <i class="icon-grid"></i>lettres</a></li>
                 <li><a href="{{route('configvideo')}}"> <i class="icon-home"></i>videos    </a></li>
                 <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Articles</a>
                     <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
@@ -121,12 +123,16 @@
                             @if(count($allNewpost)>0)
                             <ul aria-labelledby="notifications" class="dropdown-menu">
                                 @foreach($allNewpost as $pub)
-                                <li><a rel="nofollow" href="#" class="dropdown-item d-flex">
-                                        <div class="msg-profile"> <img src="img/avatar-1.jpg" alt="..." class="img-fluid rounded-circle"></div>
+                                <li><a rel="nofollow" href="{{route('viewMessage',$pub->id)}}" class="dropdown-item d-flex" >
+                                        <div class="msg-profile"> <img src="img/bao_sms.png" alt="..." class="img-fluid rounded-circle"></div>
                                         <div class="msg-body">
-                                            <h3 class="h5">Jason Doe</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
-                                        </div></a></li>
+                                            <h3 class="h5">{{$pub->nom}}</h3><span>Message envoyé depuis le site</span><small>{{$pub->created_at}}</small>
+                                        </div></a>
+
+                                </li>
                                 @endforeach
+
+
                             </ul>
                                 @endif
                         </li>
@@ -154,7 +160,7 @@
     </footer>
 </div>
 <!-- Javascript files-->
-<script src="vendor/jquery/jquery.min.js"></script>
+
 <script src="vendor/popper.js/umd/popper.min.js"> </script>
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <script src="js/grasp_mobile_progress_circle-1.0.0.min.js"></script>

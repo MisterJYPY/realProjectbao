@@ -1,5 +1,13 @@
 
 <?php $__env->startSection('content'); ?>
+	<?php if(Session::has('ErrorInsertMessage')): ?>
+
+		<div class="alert alert-warning">
+
+			<?php echo e(Session::get('ErrorInsertMessage')); ?><strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
+
+		</div>
+	<?php endif; ?>
 	<section class="page-banner-section">
 		<div class="container">
 			<div class="row">
@@ -29,11 +37,13 @@
 					</div>
 				</div>
 				<div class="col-md-7">
-					<form id="contact-form" method="post">
+					<form id="contact-form" method="post" class="form" action="<?php echo e(route('UserMessage')); ?>">
+						<?php echo e(csrf_field()); ?>
+
 						<h2>Send us a message</h2>
 						<div class="form-group ">
 							<label>Votre Nom : </label>
-							<input name="name" id="name" type="text" placeholder="Name">
+							<input name="nom" id="name" type="text" placeholder="Name">
 						</div>
 						<div class="form-group">
 							<label>Votre mail : </label>
@@ -42,9 +52,9 @@
 
 						<div class="form-group">
 							<label>Votre message:</label>
-							<textarea name="comment" id="comment" placeholder="Message"></textarea>
+							<textarea name="message" id="comment" placeholder="Message"></textarea>
 						</div>
-						<input type="submit" id="submit_contact" value="Send Message">
+						<input type="submit"  value="Envoi mesage">
 						<div id="msg" class="message"></div>
 					</form>
 				</div>

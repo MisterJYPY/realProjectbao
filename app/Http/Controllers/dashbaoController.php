@@ -20,7 +20,8 @@ class dashbaoController extends Controller
         $nbreServices=services::all()->count();
         $nbrePersonnels=personels::all()->count();
         $nbreArticles=articles::all()->count();
-        $allNewpost=publications::whereStatut('nonlu')->get();
+        $allNewpost=publications::whereStatut('nl')->get();
+    
         return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles','allNewpost'));
     }
 
