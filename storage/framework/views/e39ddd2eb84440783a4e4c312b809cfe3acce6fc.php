@@ -223,12 +223,22 @@
 <!-- End home section -->
 
 <!-- banner-section
+
     ================================================== -->
+
 <section style="background-color: #00008B" class="banner-section">
     <div class="container">
         <h2>NOS SERVICES <a href="<?php echo e(route('allServices')); ?>" class="button-one">VOIR SERVICES</a></h2>
     </div>
 </section>
+
+<?php if(Session::has('SuccesInsertMessage')): ?>
+
+    <div class="alert alert-success alert-dismissable">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <?php echo e(Session::get('SuccesInsertMessage')); ?> <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
+    </div>
+<?php endif; ?>
 <!-- End banner section -->
 
 <!-- services-offer    SERVIVES BAO

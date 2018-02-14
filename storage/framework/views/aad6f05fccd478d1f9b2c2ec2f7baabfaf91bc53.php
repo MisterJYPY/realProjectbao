@@ -10,7 +10,7 @@
 
         <div class="alert alert-warning">
 
-            <?php echo e(Session::get('EchecVideo')); ?><strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
+            <?php echo e(Session::get('EchecRapport')); ?><strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
 
         </div>
     <?php endif; ?>
