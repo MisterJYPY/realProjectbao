@@ -25,7 +25,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img-rounded" src="upload/others/4.jpg" alt="">
+                    <img class="img-rounded" src="upload/others/bao_welcome.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <h2 style="color: #00008B" class="mb-none">Mot de Bienvenue...</h2><hr class="solid">
@@ -62,22 +62,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="upload/others/4.jpg" alt="">
+                    <img class="img-rounded" src="upload/others/bao_work.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <h2 style="color: #F7230C">Que Faisons Nous?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p>Ut enim ad minim veniam,	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p>Ut enim ad minim veniam,	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>En pannes d'idées?, En Pannes de Solutions?, Besoin de Logistique evenementielle?,
+                        Voulez-vous une communication evenementielle de marque?</p>
+                    <p><strong style="color : #00008B">BAO</strong>-<strong style="color: #F7230C">TECNOLOGIE</strong> grace a ses outils et technologie de
+                    de derniere generation, travaille a satisfaire vos exigences en matiere de Communication de marque et Branding, Imprimerie sur tout support...</p>
+                    <p>Grace a une equipe d'expert de qualité, La Boite A Outils se positionne
+                        comme une source intarissable de conseil, d'orientation et de prises de decision
+                        en termes de communication marketing.
+                    </p>
+                    <p>Notre volonté : </p>
+                    <ul style="list-style: none" class="offer-list">
+                        <li><i class="fa fa-cube"></i><b class="text-success">Inventé le visuel pour vous !</b></li>
+                        <li><i class="fa fa-cube"></i> Guider votre demarche !</li>
+                        <li><i class="fa fa-cube"></i> Etres l'outils dont vous avez besoin !</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -94,29 +96,27 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="team-post">
-                                <img src="upload/team/5.jpg" alt="">
-                                <h2>John Doe</h2>
+                                <img class="img-rounded" src="upload/team/bao_manager.jpg" alt="">
+                                <h2>Mr ...</h2>
                                 <span style="color: #00008B"><b>Chef d'Entreprise</b></span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Ingenieur de haut niveau il est le garant moral de l'entreprise et represente la membrane
+                                    principale du systeme decisionnelle de La Boite A Outils.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="team-post">
-                                <img src="upload/team/2.jpg" alt="">
-                                <h2>Kenan Januzi</h2>
+                                <img class="img-rounded" src="upload/team/bao_dr.png" alt="">
+                                <h2>Madame ...</h2>
                                 <span style="color: #00008B"><b>Directeur General</b></span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Il est charge du management Operationel de l'entreprise, il s'assure de la bonne gestion des ressources de l'entreprise</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="team-post">
-                                <img src="upload/team/6.jpg" alt="">
-                                <h2>Hunejs Dauti</h2>
+                                <img class="img-rounded" src="upload/team/bao_schef.jpg" alt="">
+                                <h2>Mr ...</h2>
                                 <span style="color: #00008B"><b>Chef de Service</b></span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Agent principale d'encadrement et de suivi du personnel de l'entreprise.</p>
                             </div>
                         </div>
                     </div>

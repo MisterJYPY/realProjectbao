@@ -43,6 +43,9 @@
     color: #00008B;
 }
 /*references section*/
+ul.offer-list{
+   list-style: none;
+}
 /*Footer*/
 footer .up-footer h2 {
     color: #ffffff;
