@@ -80,7 +80,11 @@ Route::get('viewMessage/{id}', 'PublicationsController@viewUserMessage')->name('
 /**
  * route pour l'affichage des routes
  */
-Route::get('viewAllMessages}', 'PublicationsController@viewAllMessages')->name('viewAllMessages');
+
+Route::get('viewAllMessages', 'PublicationsController@viewAllMessages')->name('viewAllMessages');
+
+Route::get('messageReceived', 'PublicationsController@giveAllMessage')->name('messageReceived');
+
 
 /**
  * Route pour la page d'accueil pour les contacts
@@ -122,6 +126,10 @@ Route::get('configvideo', 'videosController@index')->name('configvideo');
  */
 Route::post('admin.videoRegister', 'videosController@store')->name('admin.videoRegister');
 
+/**
+ * Route pour la modification de videos
+ */
+Route::get('videoModif.html/{id}', 'videosController@destroy')->name('videoModif.html');
 
 //==========================ROUTE POUR LA CONNEXION=================//
 

@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\publications;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
+
 
 
 class videosController extends Controller
@@ -26,6 +29,9 @@ class videosController extends Controller
             //  $liste=articles::all()->paginate(5);
             $allNewpost=publications::whereStatut('nonlu')->get();
             $Allvideos=videos::whereStatutOrStatut('actif','inactif')->paginate(5);
+
+            Session::flash('infoAllVideo', 'ci-dessous, vous avez toutes vos videos, vous avez la possibilité de les manipuler à votre aise');
+
             return view('admin.videosModif',compact('Allvideos','nomUser','allNewpost'));
         }
         else{
@@ -135,6 +141,8 @@ class videosController extends Controller
      */
     public function destroy($id)
     {
-        //
+          $cheminFichier=videos::select('lien')->whereId($id);
+          File::delete($cheminFichier);
+
     }
 }
