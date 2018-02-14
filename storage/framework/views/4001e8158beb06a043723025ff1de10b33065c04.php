@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="upload/others/4.jpg" alt="">
+                    <img class="img-rounded" src="upload/others/bao_welcome.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <h2 style="color: #00008B" class="mb-none">Mot de Bienvenue...</h2><hr class="solid">
@@ -61,22 +61,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="upload/others/4.jpg" alt="">
+                    <img class="img-rounded" src="upload/others/bao_work.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <h2 style="color: #F7230C">Que Faisons Nous?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p>Ut enim ad minim veniam,	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p>Ut enim ad minim veniam,	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>En pannes d'idées?, En Pannes de Solutions?, Besoin de Logistique evenementielle?,
+                        Voulez-vous une communication evenementielle de marque?</p>
+                    <p><strong style="color : #00008B">BAO</strong>-<strong style="color: #F7230C">TECNOLOGIE</strong> grace a ses outils et technologie de
+                    de derniere generation, travaille a satisfaire vos exigences en matiere de Communication de marque et Branding, Imprimerie sur tout support...</p>
+                    <p>Grace a une equipe d'expert de qualité, La Boite A Outils se positionne
+                        comme une source intarissable de conseil, d'orientation et de prises de decision
+                        en termes de communication marketing.
+                    </p>
+                    <p>Notre volonté : </p>
+                    <ul style="list-style: none" class="offer-list">
+                        <li><i class="fa fa-cube"></i><b class="text-success">Inventé le visuel pour vous !</b></li>
+                        <li><i class="fa fa-cube"></i> Guider votre demarche !</li>
+                        <li><i class="fa fa-cube"></i> Etres l'outils dont vous avez besoin !</li>
+                    </ul>
                 </div>
             </div>
         </div>
