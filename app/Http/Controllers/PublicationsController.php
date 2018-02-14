@@ -165,6 +165,31 @@ class PublicationsController extends Controller
           return view('homeContent');
       }
   }
+    public function giveAllMessage()
+    {
+        $admin=(Auth::user()!=null)?Auth::user()->admin:false;
+        $nomUser=(Auth::user()!=null)?Auth::user()->name:'inconnu';
+        $nbreServices=services::all()->count();
+        $nbrePersonnels=personels::all()->count();
+        $nbreArticles=articles::all()->count();
+        $allNewpost=publications::whereStatut('nl')->paginate(5);
+        $allReadPost=publications::whereStatut('lu')->paginate(5);
+        $allBackMessage=publications::whereStatut('del')->paginate(5);
+    //  dd($allReadPost);
+
+        $connect=true;
+        session(['connect'=> 'connect']);
+        if($admin) {
+
+                Session::flash('infListePublications', 'Ci-dessous la liste de tous vos mesages');
+
+                return view('admin.allMessage',compact('nbreServices','nbrePersonnels','nbreArticles','allNewpost','allReadPost','nomUser','allBackMessage'));
+
+        }
+        else{
+            return 'oooo';
+        }
+    }
     /**
      * Display the specified resource.
      *

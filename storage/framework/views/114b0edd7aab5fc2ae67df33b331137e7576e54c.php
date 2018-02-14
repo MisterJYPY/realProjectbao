@@ -14,7 +14,13 @@
 
         </div>
     <?php endif; ?>
+    <?php if(Session::has('infoAllVideo')): ?>
 
+        <div class="alert alert-info alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <?php echo e(Session::get('infoAllVideo')); ?> <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
+        </div>
+    <?php endif; ?>
     <div class="container-fluid">
         <form id="articlesForm" method="post" class="form"  action="<?php echo e(route('admin.videoRegister')); ?>" enctype="multipart/form-data">
             <?php echo e(csrf_field()); ?>
@@ -87,6 +93,57 @@
                         <input type="submit" value="Signin" class="btn btn-primary">
                     </div>
         </form>
+
+    </div>
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 style="color: maroon">Toutes vos videos <mark>(<?php echo e(count($Allvideos)); ?>)</mark></h4>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>intitulé</th>
+                            <th>description</th>
+                            <th>statut</th>
+                            <th>priorite</th>
+                            <th>lien</th>
+                            <th>st_action</th>
+                            <th>pr_action</th>
+                            <th>date</th>
+                            <th>delete</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php $j=1; $cpt=0;?>
+                        <?php $__currentLoopData = $Allvideos; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $currentMessageNotRead): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                            <tr>
+                                <th scope="row"><?php echo e($j); ?></th>
+                                <td><?php echo e($currentMessageNotRead['intitule']); ?></td>
+                                <td><?php echo e($currentMessageNotRead['description']); ?></td>
+                                <td> <?php echo e($currentMessageNotRead['statut']); ?></td>
+                                <td> <?php echo e($currentMessageNotRead['priorite']); ?></td>
+                                <td> <?php echo e($currentMessageNotRead['lien']); ?></td>
+                                <td class="alert-danger"><?php echo e(($currentMessageNotRead['statut']=='actif')?'desactivé':'activé'); ?></td>
+                                <td class="alert-warning"><?php echo e(($currentMessageNotRead['priorite']=='normal')?'eleve':'normal'); ?></td>
+                                <td><?php echo e($currentMessageNotRead['created_at']); ?></td>
+                                <td><a href="<?php echo e(route('videoModif.html',$currentMessageNotRead['id'])); ?>" >delete</a></td>
+
+
+                            </tr>
+                            <?php $j++;?>
+                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+            <?php echo e($Allvideos ->links()); ?>
+
+        </div>
     </div>
     </div>
     </div>

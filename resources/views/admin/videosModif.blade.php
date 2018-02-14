@@ -15,7 +15,13 @@
 
         </div>
     @endif
+    @if(Session::has('infoAllVideo'))
 
+        <div class="alert alert-info alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            {{Session::get('infoAllVideo')}} <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
+        </div>
+    @endif
     <div class="container-fluid">
         <form id="articlesForm" method="post" class="form"  action="{{route('admin.videoRegister')}}" enctype="multipart/form-data">
             {{ csrf_field() }}
@@ -87,6 +93,56 @@
                         <input type="submit" value="Signin" class="btn btn-primary">
                     </div>
         </form>
+
+    </div>
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 style="color: maroon">Toutes vos videos <mark>({{count($Allvideos)}})</mark></h4>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>intitulé</th>
+                            <th>description</th>
+                            <th>statut</th>
+                            <th>priorite</th>
+                            <th>lien</th>
+                            <th>st_action</th>
+                            <th>pr_action</th>
+                            <th>date</th>
+                            <th>delete</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php $j=1; $cpt=0;?>
+                        @foreach($Allvideos as $currentMessageNotRead)
+                            <tr>
+                                <th scope="row">{{$j}}</th>
+                                <td>{{$currentMessageNotRead['intitule']}}</td>
+                                <td>{{$currentMessageNotRead['description']}}</td>
+                                <td> {{$currentMessageNotRead['statut']}}</td>
+                                <td> {{$currentMessageNotRead['priorite']}}</td>
+                                <td> {{$currentMessageNotRead['lien']}}</td>
+                                <td class="alert-danger">{{($currentMessageNotRead['statut']=='actif')?'desactivé':'activé'}}</td>
+                                <td class="alert-warning">{{($currentMessageNotRead['priorite']=='normal')?'eleve':'normal'}}</td>
+                                <td>{{$currentMessageNotRead['created_at']}}</td>
+                                <td><a href="{{route('videoModif.html',$currentMessageNotRead['id'])}}" >delete</a></td>
+
+
+                            </tr>
+                            <?php $j++;?>
+                        @endforeach
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+            {{ $Allvideos ->links()}}
+        </div>
     </div>
     </div>
     </div>

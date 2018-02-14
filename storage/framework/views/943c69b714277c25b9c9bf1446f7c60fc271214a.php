@@ -63,7 +63,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Tous les messages lu</h4>
+                        <h4>Tous les messages lu <mark>(<?php echo e(count($allReadPost)); ?>)</mark></h4>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
@@ -105,7 +105,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Tous vos messages Non encore lu </h4>
+                        <h4>Tous vos messages Non encore lu <mark>(<?php echo e(count($allNewpost)); ?>)</mark> </h4>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
