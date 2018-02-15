@@ -24,6 +24,10 @@
     padding: 10px;
     text-decoration: none;
 }
+ ul.side-navigation-list li a:hover,
+ ul.side-navigation-list li a.active {
+    border: 1px solid #00008B;
+}
 /*Modification de la section Techniques de travail et les titres d'option*/
 .tab-posts-box ul.nav-tabs li a:hover {
     border: none;
@@ -34,6 +38,9 @@
     background: #FD6C9E;
     color: #ffffff;
 }
+/*-------------------------------------------------*/
+/* =  services pages
+/*-------------------------------------------------*/
 
 /*Section services offert*/
 .services-offer-section .offer-post h2 a {
@@ -42,10 +49,12 @@
 .services-offer-section .offer-post h2 a:hover {
     color: #00008B;
 }
+
 /*references section*/
 ul.offer-list{
    list-style: none;
 }
+
 /*Footer*/
 footer .up-footer h2 {
     color: #ffffff;
