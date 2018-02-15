@@ -1,6 +1,6 @@
 /*Banniere de la page Qui Sommes nous?*/
 .page-banner-section {
-    background: url('../upload/banners/ban.jpg') center;
+    background: url('../upload/banners/bao_ban1.png') center;
 }
 /*Modification apporter au style de base*/
 .accord-elem.active .accord-title h2 {
@@ -43,6 +43,9 @@
     color: #00008B;
 }
 /*references section*/
+ul.offer-list{
+   list-style: none;
+}
 /*Footer*/
 footer .up-footer h2 {
     color: #ffffff;
