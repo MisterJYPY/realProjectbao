@@ -10,4 +10,9 @@ class articles extends Model
         'intitule', 'description', 'categories', 'lienImage', 'priorite', 'statut'
     ];
 
+    public function categories()
+    {
+        return $this->belongsTo(\App\categories::class);
+    }
+
 }

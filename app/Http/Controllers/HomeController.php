@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\articles;
+use App\articles_img;
+use App\videos;
+use App\categories;
 use App\personels;
 use App\services;
 use App\publications;
@@ -49,7 +52,17 @@ class HomeController extends Controller
             return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles','allNewpost','nomUser'));
         }
         else{
-            return view('homeContent');
+            //return view('homeContent');
+            $allMidleImages = articles::whereStatut('actif')->take(12)->get();
+            $allBottomImages = articles_img::wheretype('petit')->take(6)->get();
+            $uniqueVideo = videos::whereStatutAndPriorite('actif', 'eleve')->take(1)->get();
+            //dd($uniqueVideo);
+            //dd($allBottomImages);
+            //dd($allMidleImages);
+            $categories = categories::pluck('intitule','id');
+            $allCategorie=categories::all();
+            //dd($categories);
+            return view('homeContent',compact('connect', 'allCategorie', 'categories', 'allMidleImages', 'allBottomImages', 'uniqueVideo'));
         }
     }
 }

@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\articles;
+use App\articles_img;
+use App\categories;
+use App\videos;
 use Illuminate\Http\Request;
 
 class acceuilController extends Controller
@@ -15,7 +19,19 @@ class acceuilController extends Controller
     {
         $connect=false;
         session(['connect'=> 'non']);
-        return view('homeContent',compact('connect'));
+        /**
+         * Requete pour recupe image
+         */
+        $allMidleImages = articles::whereStatut('actif')->take(12)->get();
+        $allBottomImages = articles_img::wheretype('petit')->take(6)->get();
+        $uniqueVideo = videos::whereStatutAndPriorite('actif', 'eleve')->take(1)->get();
+        //dd($uniqueVideo);
+        //dd($allBottomImages);
+        //dd($allMidleImages);
+        $categories = categories::pluck('intitule','id');
+        $allCategorie=categories::all();
+        //dd($categories);
+        return view('homeContent',compact('connect', 'allCategorie', 'categories', 'allMidleImages', 'allBottomImages', 'uniqueVideo'));
     }
 
     /**

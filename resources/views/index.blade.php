@@ -157,12 +157,9 @@
 							<div class="footer-widget">
 								<h2>quelques widgets</h2>
 								<ul class="flickr">
-									<li><a href="#"><img src="images/gadgetBao/bao_complet.jpg" alt=""></a></li>
-									<li><a href="#"><img src="images/gadgetBao/bao_habit.jpg" alt=""></a></li>
-									<li><a href="#"><img src="images/gadgetBao/bao_maquillage.jpg" alt=""></a></li>
-									<li><a href="#"><img src="images/gadgetBao/bao_tshirt.jpg" alt=""></a></li>
-									<li><a href="#"><img src="images/gadgetBao/bao_cartable.jpg" alt=""></a></li>
-									<li><a href="#"><img src="images/gadgetBao/bao_calendar.jpg" alt=""></a></li>
+									@foreach($allBottomImages as $img)
+									<li><a href="#"><img src="{{$img->url}}" alt=""></a></li>
+									@endforeach
 								</ul>
 							</div>
 						</div>
