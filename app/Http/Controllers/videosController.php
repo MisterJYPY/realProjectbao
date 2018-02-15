@@ -74,7 +74,8 @@ class videosController extends Controller
 
         $CheminMoyen = "/var/www/html/bao-technologies/public/BdfrontendImage/videos/" . basename($_FILES['imageMoyenne']['name']);
 
-         $CheminMoyen="c:/laragon/www/bao-technologies/public/BdfrontendImage/imageMoyen/".basename($_FILES['imageMoyenne']['name']);
+        $CheminMoyen="c:/laragon/www/bao-technologies/public/BdfrontendImage/imageMoyen/".basename($_FILES['imageMoyenne']['name']);
+        $CheminMoyen = "BdfrontendImage/videos/" . basename($_FILES['imageMoyenne']['name']);
         if (!empty($sourceMoyenne)) {
             $tailleFichier =$_FILES['imageMoyenne']['size'];
             $tailleMo = ($tailleFichier / 1024) / 1024;
@@ -141,8 +142,26 @@ class videosController extends Controller
      */
     public function destroy($id)
     {
-          $cheminFichier=videos::select('lien')->whereId($id);
-          File::delete($cheminFichier);
 
-    }
+          $cheminFichier=videos::whereId($id)->get();
+          $url=$cheminFichier[0]['lien'];
+        if(File::delete($url))
+        {
+            Session::flash('successDelFile','La Video a ete Supprimer avec succes');
+
+
+                videos::where('id',$id)->delete();
+
+                return redirect()->route('configvideo');
+        }
+
+        else
+        {
+            Session::flash('errorSuppressVideo','Erreur produite lors de la suppression de la video');
+
+            return redirect()->route('configvideo');
+        }
+        }
+
+
 }

@@ -145,3 +145,13 @@ Route::get('/dashbao', 'HomeController@index')->name('dashbao');
  */
 Route::get('deconnect', 'HomeController@logout')->name('deconnect');
 
+//=============================Route Pour la Gestion du catalogue )===============//
+/**
+ * route pour l'affichage de la page pour la gestion des catalogues
+ */
+Route::get('admin.catalogue', 'catalogueController@index')->name('admin.catalogue');
+
+/**
+ * Route pour le traitement du formulaire
+ */
+Route::post('admin.catalogue.insert', 'catalogueController@store')->name('admin.catalogue.insert');

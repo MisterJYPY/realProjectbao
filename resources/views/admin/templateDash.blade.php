@@ -49,7 +49,7 @@
         <div class="main-menu">
             <h5 class="sidenav-heading">Menu</h5>
             <ul id="side-main-menu" class="side-menu list-unstyled">
-                <li><a href="index.html"> <i class="icon-home"></i>Home                             </a></li>
+                <li><a href="{{route('dashbao')}}"> <i class="icon-home"></i>Home                             </a></li>
                 <li><a href="forms.html"> <i class="icon-form"></i>Forms                             </a></li>
                 <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts                             </a></li>
                 <li><a href="{{route('messageReceived')}}"> <i class="icon-grid"></i>lettres</a></li>
@@ -68,21 +68,12 @@
                         <li><a href="#">Modifier</a></li>
                     </ul>
                 </li>
-                <li><a href="login.html"> <i class="icon-interface-windows"></i>Login page                             </a></li>
+                <li><a href="{{route('admin.catalogue')}}"> <i class="icon-interface-windows"></i>Catalogue</a></li>
                 <li> <a href="#"> <i class="icon-mail"></i>Demo
                         <div class="badge badge-warning">6 New</div></a></li>
             </ul>
         </div>
-        <div class="admin-menu">
-            <h5 class="sidenav-heading">Second menu</h5>
-            <ul id="side-admin-menu" class="side-menu list-unstyled">
-                <li> <a href="#"> <i class="icon-screen"> </i>Demo</a></li>
-                <li> <a href="#"> <i class="icon-flask"> </i>Demo
-                        <div class="badge badge-info">Special</div></a></li>
-                <li> <a href=""> <i class="icon-flask"> </i>Demo</a></li>
-                <li> <a href=""> <i class="icon-picture"> </i>Demo</a></li>
-            </ul>
-        </div>
+
     </div>
 </nav>
 <div class="page">
@@ -92,33 +83,8 @@
             <div class="container-fluid">
                 <div class="navbar-holder d-flex align-items-center justify-content-between">
                     <div class="navbar-header"><a id="toggle-btn" href="#" class="menu-btn"><i class="icon-bars"> </i></a><a href="index.html" class="navbar-brand">
-                            <div class="brand-text d-none d-md-inline-block"><span>Bpoite à Outils Technologie</span><strong class="text-primary">Administration</strong></div></a></div>
+                            <div class="brand-text d-none d-md-inline-block"><strong class="text-warning">Administration</strong></div></a></div>
                     <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
-                        <li class="nav-item dropdown"> <a id="notifications" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i class="fa fa-bell"></i><span class="badge badge-warning">12</span></a>
-                            <ul aria-labelledby="notifications" class="dropdown-menu">
-                                <li><a rel="nofollow" href="#" class="dropdown-item">
-                                        <div class="notification d-flex justify-content-between">
-                                            <div class="notification-content"><i class="fa fa-envelope"></i>You have 6 new messages </div>
-                                            <div class="notification-time"><small>4 minutes ago</small></div>
-                                        </div></a></li>
-                                <li><a rel="nofollow" href="#" class="dropdown-item">
-                                        <div class="notification d-flex justify-content-between">
-                                            <div class="notification-content"><i class="fa fa-twitter"></i>You have 2 followers</div>
-                                            <div class="notification-time"><small>4 minutes ago</small></div>
-                                        </div></a></li>
-                                <li><a rel="nofollow" href="#" class="dropdown-item">
-                                        <div class="notification d-flex justify-content-between">
-                                            <div class="notification-content"><i class="fa fa-upload"></i>Server Rebooted</div>
-                                            <div class="notification-time"><small>4 minutes ago</small></div>
-                                        </div></a></li>
-                                <li><a rel="nofollow" href="#" class="dropdown-item">
-                                        <div class="notification d-flex justify-content-between">
-                                            <div class="notification-content"><i class="fa fa-twitter"></i>You have 2 followers</div>
-                                            <div class="notification-time"><small>10 minutes ago</small></div>
-                                        </div></a></li>
-                                <li><a rel="nofollow" href="#" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-bell"></i>view all notifications                                            </strong></a></li>
-                            </ul>
-                        </li>
                         <li class="nav-item dropdown"> <a id="messages" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i class="fa fa-envelope"></i><span class="badge badge-info">{{count($allNewpost)}}</span></a>
                             @if(count($allNewpost)>0)
                             <ul aria-labelledby="notifications" class="dropdown-menu">
@@ -149,10 +115,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6">
-                    <p>Your company &copy; 2017-2019</p>
+                    <p> <strong style="color:whitesmoke">BAO<strong style="color:darkred"> Technologie</strong> </strong> &copy; 2018-2019</p>
                 </div>
                 <div class="col-sm-6 text-right">
-                    <p>Design by <a href="https://bootstrapious.com" class="external">Bootstrapious</a></p>
+                    <p>Copyright <a href="#" >Fevrier @2018 BAO-TEAM</a></p>
                     <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
                 </div>
             </div>
