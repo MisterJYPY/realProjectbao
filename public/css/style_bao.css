@@ -24,9 +24,27 @@
     padding: 10px;
     text-decoration: none;
 }
- ul.side-navigation-list li a:hover,
- ul.side-navigation-list li a.active {
-    border: 1px solid #00008B;
+/*-------------------------------------------------*/
+/* =  services pages
+/*-------------------------------------------------*/
+
+.services-page-section ul.side-navigation-list li a:hover,
+.services-page-section ul.side-navigation-list li a.active {
+    color:#00008B;
+    font-weight: bold;
+    background: #f1f1f1;
+}
+.services-page-section .contact-info {
+    padding: 25px 30px;
+    background: #ffffff;
+}
+.services-page-section .contact-info ul.information-list li i {
+    margin-left: 2px;
+    font-weight: bold;
+    color: #F7230C;
+}
+.services-page-section .services-wrapp .services-post a:hover {
+    color: #F7230C;
 }
 /*Modification de la section Techniques de travail et les titres d'option*/
 .tab-posts-box ul.nav-tabs li a:hover {

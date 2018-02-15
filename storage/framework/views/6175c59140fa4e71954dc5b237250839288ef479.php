@@ -9,8 +9,8 @@
             </div>
             <div class="col-md-6">
                 <ul class="page-depth">
-                    <li><a href="<?php echo e(route('home')); ?>">Bao-Technologies</a></li>
-                    <li><a href="<?php echo e(route('allServices')); ?>">Services</a></li>
+                    <li><a href="<?php echo e(route('home')); ?>"><b>Bao-Technologies</b></a></li>
+                    <li><a href="<?php echo e(route('allServices')); ?>"><b>Services</b></a></li>
                 </ul>
             </div>
         </div>
@@ -51,11 +51,9 @@
                             <div class="services-post">
                                 <a href="<?php echo e(route('serigraphie')); ?>"><img src="upload/others/bao_serigraphie.jpg" alt=""></a>
                                 <h2 style="color: #00008B">SERIGRAPHIE</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
-                                <a href="<?php echo e(route('serigraphie')); ?>">Read More</a>
+                                <p>Avec plus de 13 ans d'experience, La Boite A Outils a une developper une solide experience dans
+                                la sserigraphie avec des outils a la pointe de la technologie...</p>
+                                <a href="<?php echo e(route('serigraphie')); ?>">Lire Plus</a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -66,7 +64,7 @@
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.</p>
-                                <a href="<?php echo e(route('imprimerie')); ?>">Read More</a>
+                                <a href="<?php echo e(route('imprimerie')); ?>">Lire Plus</a>
                             </div>
                         </div>
                     </div>
@@ -79,18 +77,17 @@
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.</p>
-                                <a href="<?php echo e(route('bonerie')); ?>">Read More</a>
+                                <a href="<?php echo e(route('bonerie')); ?>">Lire Plus</a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="services-post">
                                 <a href="<?php echo e(route('evenementiel')); ?>"><img src="upload/others/bao_event.jpg" alt=""></a>
                                 <h2 style="color: #00008B">EVENEMENTIELLE</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
-                                <a href="<?php echo e(route('evenementiel')); ?>">Read More</a>
+                                <p>Doté d’un atelier de marquage et d’un studio graphique, une équipe d’hommes et
+                                    de femmes passionnés vous propose la solution adaptée à votre image et
+                                    à votre métier...</p>
+                                <a href="<?php echo e(route('evenementiel')); ?>" class="fa fa-search-plus">Lire Plus</a>
                             </div>
                         </div>
                     </div>
@@ -103,7 +100,7 @@
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.</p>
-                                <a href="<?php echo e(route('dematerialisation')); ?>">Read More</a>
+                                <a href="<?php echo e(route('dematerialisation')); ?>">Lire Plus</a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -114,7 +111,7 @@
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.</p>
-                                <a href="<?php echo e(route('projet')); ?>">Read More</a>
+                                <a href="<?php echo e(route('projet')); ?>">Lire Plus</a>
                             </div>
                         </div>
                     </div>

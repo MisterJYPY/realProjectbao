@@ -25,28 +25,28 @@
 		<section class="services-page-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="side-navigation">
 							<ul class="side-navigation-list">
-								<li><a href="{{route('allServices')}}">Nos Services</a></li>
+								<li><a class="active" href="{{route('allServices')}}">Nos Services</a></li>
 								<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
 								<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
 								<li><a href="{{route('bonerie')}}">Bonerie</a></li>
-								<li><a class="active" href="{{route('evenementiel')}}">Evenementiel</a></li>
+								<li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
 								<li><a href="{{route('dematerialisation')}}">Dematerialisation</a></li>
 								<li><a href="{{route('projet')}}">Projet</a></li>
 							</ul>
 							<div class="contact-info">
 								<h2>Contact Info</h2>
 								<ul class="information-list">
-									<li><i class="fa fa-map-marker"></i><span>907 N Randolph street, Virginia</span></li>
-									<li><i class="fa fa-phone"></i><span>+1 703-697-1776</span><span>+1 605-315-8544</span></li>
-									<li><i class="fa fa-envelope-o"></i><a href="#">nunforest@gmail.com</a></li>
-								</ul>						
+									<li><i class="fa fa-map-marker"></i><span>Abidjan Codody cité des Arts, Cote d'Ivoire</span></li>
+									<li><i class="fa fa-phone"></i><span>+225 - 224 468 87</span><span>+225 - 079 312 93</span><span>Fax : +225 - 224 452 67</span></li>
+									<li><i class="fa fa-envelope-o"></i><a href="#">contact@bao-technologie.com</a></li>
+								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-9">
+					<div class="col-md-8">
 						<div class="services-wrapp">
 							<div class="row">
 								<div class="col-md-6">
