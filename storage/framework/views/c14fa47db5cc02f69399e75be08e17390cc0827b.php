@@ -55,8 +55,8 @@
 						<div  class="row">
 							<div class="col-md-6">
 								<p>
-									<span><i class="fa fa-phone"></i>00225 - 224 468 87 </span>
-									<span><i class="fa fa-envelope-o"></i>baotechnologie@gmail.com</span>
+									<span style="color:white"><i class="fa fa-phone"></i>00225 - 224 468 87 </span>
+									<span style="color:white"><i class="fa fa-envelope-o"></i><b>contact@bao-technologie.com</b></span>
 								</p>
 							</div>	
 							<div class="col-md-6">

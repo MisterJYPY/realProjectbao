@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\articles_img;
 use Illuminate\Http\Request;
 
 class contactController extends Controller
@@ -13,7 +14,8 @@ class contactController extends Controller
      */
     public function index()
     {
-        return view('contact');
+        $allBottomImages = articles_img::wheretype('petit')->take(6)->get();
+        return view('contact', compact('allBottomImages'));
     }
 
     /**

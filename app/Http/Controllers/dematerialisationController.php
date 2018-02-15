@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\articles_img;
 use Illuminate\Http\Request;
 
 class dematerialisationController extends Controller
@@ -13,7 +14,8 @@ class dematerialisationController extends Controller
      */
     public function index()
     {
-       return view('services.dematerialisation');
+        $allBottomImages = articles_img::wheretype('petit')->take(6)->get();
+       return view('services.dematerialisation', compact('allBottomImages'));
     }
 
     /**

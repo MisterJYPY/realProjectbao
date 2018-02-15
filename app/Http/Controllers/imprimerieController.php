@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\articles_img;
 use Illuminate\Http\Request;
 
 class imprimerieController extends Controller
@@ -13,7 +14,8 @@ class imprimerieController extends Controller
      */
     public function index()
     {
-      return view('services.imprimerie');
+        $allBottomImages = articles_img::wheretype('petit')->take(6)->get();
+      return view('services.imprimerie', compact('allBottomImages'));
     }
 
     /**

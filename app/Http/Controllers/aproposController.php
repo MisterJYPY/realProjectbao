@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\articles_img;
 use Illuminate\Http\Request;
 
 class aproposController extends Controller
@@ -13,7 +14,8 @@ class aproposController extends Controller
      */
     public function index()
     {
-        return view('apropos');
+        $allBottomImages = articles_img::wheretype('petit')->take(6)->get();
+        return view('apropos', compact('allBottomImages'));
     }
 
     /**
