@@ -1,15 +1,16 @@
 <?php $__env->startSection('content'); ?>
     <?php if(Session::has('SuccesVideo')): ?>
 
-        <div class="alert alert-success">
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             <?php echo e(Session::get('SuccesVideo')); ?> <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
         </div>
     <?php endif; ?>
 
     <?php if(Session::has('EchecVideo')): ?>
 
-        <div class="alert alert-warning">
-
+        <div class="alert alert-warning alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             <?php echo e(Session::get('EchecRapport')); ?><strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
 
         </div>
@@ -19,6 +20,22 @@
         <div class="alert alert-info alert-dismissible">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             <?php echo e(Session::get('infoAllVideo')); ?> <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
+        </div>
+    <?php endif; ?>
+    <?php if(Session::has('successDelFile')): ?>
+
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <?php echo e(Session::get('successDelFile')); ?><strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
+
+        </div>
+    <?php endif; ?>
+    <?php if(Session::has('errorSuppressVideo')): ?>
+
+        <div class="alert alert-danger alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <?php echo e(Session::get('errorSuppressVideo')); ?><strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
+
         </div>
     <?php endif; ?>
     <div class="container-fluid">
