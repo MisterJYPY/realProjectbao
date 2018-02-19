@@ -9,9 +9,9 @@
 					</div>
 					<div class="col-md-6">
 						<ul class="page-depth">
-							<li><a href="<?php echo e(route('home')); ?>">Bao-Technoligies</a></li>
-							<li><a href="<?php echo e(route('allServices')); ?>">Services</a></li>
-							<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
+							<li><a href="<?php echo e(route('home')); ?>"><b>Bao-Technoligies</b></a></li>
+							<li><a href="<?php echo e(route('allServices')); ?>"><b>Services</b></a></li>
+							<li><a href="<?php echo e(route('imprimerie')); ?>"><b>Imprimerie</b></a></li>
 						</ul>
 					</div>
 				</div>
@@ -50,34 +50,35 @@
 							<div class="services-post">
 								<div class="row">
 									<div class="col-md-4">
-										<img src="upload/others/build1.jpg" alt="">
+										<img class="img-fluid" src="upload/others/bao_pg_imprim2.jpg" alt="">
 									</div>
 									<div class="col-md-4">
-										<img src="upload/others/build2.jpg" alt="">
+										<img class="img-fluid" src="upload/others/bao_pg_imprim4.png" alt="">
 									</div>
 									<div class="col-md-4">
-										<img src="upload/others/build3.jpg" alt="">
+										<img class="img-fluid" src="upload/others/bao_pg_imprim5.jpg" alt="">
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-md-6">
-										<img src="upload/others/8.jpg" alt="">
+										<img  class="img-rounded" src="upload/others/bao_pg_imprim1.jpg" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="upload/others/4.jpg" alt="">
+										<img  class="img-rounded" src="upload/others/bao_pg_imprim3.jpg" alt="">
 									</div>
 								</div>
 								
-								<h2>Great Buildings</h2>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<h2>Nous vous proposons des solutions d'impression sur tout support</h2>
+								<p>Avec des logiciels et equipements de derniere generation nous vous proposons des graphique
+								de haute qualité</p>
+								<p>
+									Notre équipe d'Infographe propose des organisations clés en main, mais également de
+									mettre à votre disposition une ou plusieurs de ses compétences de façon
+									indépendante.
+									Organisation d’événements « clé en main » Vous souhaitez rassembler pour motiver, remercier, fédérer, convaincre,
+									transmettre, vivre l’entreprise et ses enjeux.
+									Conception de votre événement
+								</p>
 							</div>
 						</div>
 					</div>

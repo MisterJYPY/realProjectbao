@@ -10,9 +10,9 @@
 					</div>
 					<div class="col-md-6">
 						<ul class="page-depth">
-							<li><a href="<?php echo e(route('home')); ?>">Bao-Technoligies</a></li>
-							<li><a href="<?php echo e(route('allServices')); ?>">Services</a></li>
-							<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
+							<li><a href="<?php echo e(route('home')); ?>"><b>Bao-Technoligies</b></a></li>
+							<li><a href="<?php echo e(route('allServices')); ?>"><b>Services</b></a></li>
+							<li><a href="<?php echo e(route('serigraphie')); ?>"><b>>Serigraphie</b></a></li>
 						</ul>
 					</div>
 				</div>
@@ -48,40 +48,80 @@
                     </div>
 					<div class="col-md-8">
 						<div class="services-wrapp">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="services-post">
-										<img src="upload/others/con2.jpg" alt="">
-										<h2>Great Planning</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat.</p>
+							<div class="services-post">
+								<img src="upload/others/bao_pg_serig1.jpg" alt="">
+								<h2 style="color: #00008B">NOUS INVENTONS LE VISUEL POUR LES ENTREPRISES</h2>
+								<p>
+									De la réflexion stratégique à la mise en place opérationnelle, l’agence a comme leitmotiv le service, la creativité
+									et la satisfaction finale. L'Agence en tant que maitre d'oeuvre assure la production et la logistique tant au
+									au niveau humain que technique.
+								</p>
+								<div class="row">
+									<div class="col-md-3 ">
+										<ul style="color: #00008B" class="offer-list second">
+											<li><i class="fa fa-flag"></i> Matieres Textiles</li>
+											<li><i class="fa fa-flag"></i> Cuir </li>
+											<li><i class="fa fa-flag"></i> Plastiques</li>
+										</ul>
 									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="services-post">
-										<img src="upload/others/con3.jpg" alt="">
-										<h2>Hard &amp; Fast Working</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat.</p>
+									<div class="col-md-3">
+										<ul style="color: #DB1702" class="offer-list second">
+											<li><i class="fa fa-flag"></i> Verre</li>
+											<li><i class="fa fa-flag"></i> Porcelaine </li>
+											<li><i class="fa fa-flag"></i> Catalogue</li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<ul style="color: #00008B" class="offer-list second">
+											<li><i class="fa fa-flag"></i> Metal</li>
+											<li><i class="fa fa-flag"></i> Enseigne </li>
+											<li><i class="fa fa-flag"></i> Vehicule</li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<ul style="color: #DB1702" class="offer-list second">
+											<li><i class="fa fa-flag"></i> Flyers</li>
+											<li><i class="fa fa-flag"></i> Bache Murale </li>
+											<li><i class="fa fa-flag"></i> Edition</li>
+										</ul>
 									</div>
 								</div>
 							</div>
-							<div class="services-post">
-								<img src="upload/others/con1.jpg" alt="">
-								<h2>Satisfied and Precise work</h2>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="services-wrapp">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="services-post">
+										<img class="img-rounded" src="upload/others/bao_pg_serig2.jpg" alt="">
+										<h2 style="color: #F7230C">Creativité</h2>
+										<p>Imaginez une salle somptueuse, une organisation efficace et discrète, des équipes
+											au service de votre créativité, une gastronomie soignée… N’imaginez plus, c’est
+											votre événement sur-mesure avec la boite à outils : créateurs d’émotions et de
+											relations fortes.</p>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="services-post">
+										<img  class="img-rounded" src="upload/others/bao_pg_serig3.jpg" alt="">
+										<h2 style="color: #F7230C">Exeperience</h2>
+										<p>L’agence, forte de son expérience dans l’organisation (+ de 50 événements à son
+											actif) est le partenaire conseil indispensable à toutes vos manifestations
+											professionnelles ou privées.</p>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="services-post">
+										<img  class="img-rounded" src="upload/others/bao_pg_serig4.jpg" alt="">
+										<h2 style="color: #F7230C">Qualité &amp; Coût</h2>
+										<p>En adéquation avec votre budget,
+											le terme « clé en main » signifie
+											le choix d’un lieu,
+											d’une thématique, et d’une
+											solution traiteur appropriés.</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

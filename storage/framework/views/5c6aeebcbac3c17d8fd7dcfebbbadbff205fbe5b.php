@@ -50,32 +50,32 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="services-post">
-										<img src="upload/others/paint2.jpg" alt="">
-										<h2>All isolation</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat.</p>
-										<p>Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat.</p>
+										<img class="img-thumbnail" src="upload/others/paint2.jpg" alt="">
+										<h2>Plateforme de qualité</h2>
+										<p>La pluridimensionalité d’une plateforme de qualité.
+											La communication événementielle est un outil de communication hors-média,
+											interne ou externe, utilisé par une entreprise ou une institution ou tout autre organisme
+											(association...) consistant à créer un événement, généralement sous la forme de salon,
+											congrès, festival, convention, soirée festive, cocktail, remise de prix ou ...
+										</p>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="services-post">
-										<img src="upload/others/paint3.jpg" alt="">
-										<h2>Perfect work</h2>
-										<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat.</p>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat.</p>
+										<img class="img-thumbnail" src="upload/others/paint3.jpg" alt="">
+										<h2>Orientation & Aides a la decision en Communication Marketing</h2>
+										<p>Une source intarissable de conseil, d’orientation et de prises
+											de décisions en termes de communication-marketing !
+											La communication événementielle est un outil de communication hors-média,
+											interne ou externe, utilisé par une entreprise ou une institution ou tout autre organisme
+											(association...) consistant à créer un événement, généralement sous la forme de salon,
+											congrès, festival, convention, soirée festive, cocktail, remise de prix ou ...
+										</p>
 									</div>
 								</div>
 							</div>
 							<div class="services-post">
-								<img src="upload/others/paint1.jpg" alt="">
+								<img class="img-rounded" src="upload/others/paint1.jpg" alt="">
 							</div>
 						</div>
 					</div>

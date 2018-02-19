@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\articles;
+use App\catalogue;
 use App\articles_img;
 use App\categories;
 use App\connexion;
