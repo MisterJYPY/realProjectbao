@@ -10,6 +10,7 @@ use App\categories;
 use App\personels;
 use App\services;
 use App\publications;
+use App\connexion;
 use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
@@ -47,8 +48,11 @@ class HomeController extends Controller
         $nomUser=Auth::user()->name;
         $admin=Auth::user()->admin;
         $connect=true;
+        $dateComplet=$this->getSessionDateCode();
+        $nprePrsneConnectDay=connexion::Where('code','like','%' . $dateComplet . '%')->count();
         session(['connect'=> 'connect']);
         if($admin) {
+            session(['connectDay'=> $nprePrsneConnectDay]);
             return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles','allNewpost','nomUser'));
         }
         else{
@@ -64,5 +68,21 @@ class HomeController extends Controller
             //dd($categories);
             return view('homeContent',compact('connect', 'allCategorie', 'categories', 'allMidleImages', 'allBottomImages', 'uniqueVideo'));
         }
+    }
+    public function getSessionDateCode()
+    {
+        $dateComplet="";
+        $dateD=date("d");//jour
+        $dateM=date("m");//mois
+        $dateY=date("Y");//annee
+
+        $dateComplet.=$dateD;
+        $dateComplet.=$dateM;
+        $dateComplet.=$dateY;
+
+
+
+        return $dateComplet;
+
     }
 }

@@ -18,8 +18,8 @@
          <div class="col-xl-2 col-md-4 col-6">
            <div class="wrapper count-title d-flex">
              <div class="icon"><i class="icon-padnote"></i></div>
-             <div class="name"><strong class="text-uppercase">Nbre Visites</strong><span> Jours</span>
-               <div class="count-number">0</div>
+             <div class="name"><strong class="text-uppercase">Visites</strong><span> Jour</span>
+               <div class="count-number">{{ Session::get('connectDay')}}</div>
              </div>
            </div>
          </div>

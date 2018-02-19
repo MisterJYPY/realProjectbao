@@ -55,8 +55,8 @@
 						<div  class="row">
 							<div class="col-md-6">
 								<p>
-									<span><i class="fa fa-phone"></i>00225 - 224 468 87 </span>
-									<span><i class="fa fa-envelope-o"></i>baotechnologie@gmail.com</span>
+									<span style="color:white"><i class="fa fa-phone"></i>00225 - 224 468 87 </span>
+									<span style="color:white"><i class="fa fa-envelope-o"></i><b>contact@bao-technologie.com</b></span>
 								</p>
 							</div>	
 							<div class="col-md-6">
@@ -157,12 +157,9 @@
 							<div class="footer-widget">
 								<h2>quelques widgets</h2>
 								<ul class="flickr">
-									<li><a href="#"><img src="images/gadgetBao/bao_complet.jpg" alt=""></a></li>
-									<li><a href="#"><img src="images/gadgetBao/bao_habit.jpg" alt=""></a></li>
-									<li><a href="#"><img src="images/gadgetBao/bao_maquillage.jpg" alt=""></a></li>
-									<li><a href="#"><img src="images/gadgetBao/bao_tshirt.jpg" alt=""></a></li>
-									<li><a href="#"><img src="images/gadgetBao/bao_cartable.jpg" alt=""></a></li>
-									<li><a href="#"><img src="images/gadgetBao/bao_calendar.jpg" alt=""></a></li>
+									<?php $__currentLoopData = $allBottomImages; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $img): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+									<li><a href="#"><img src="<?php echo e($img->url); ?>" alt=""></a></li>
+									<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 								</ul>
 							</div>
 						</div>

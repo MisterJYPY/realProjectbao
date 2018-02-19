@@ -19,6 +19,7 @@ class CreateConnexionsTable extends Migration
             $table->timestamps('debut');
             $table->string('ip');
             $table->string('fin');
+            $table->string('code');
         });
     }
 
