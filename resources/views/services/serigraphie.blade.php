@@ -28,8 +28,8 @@
                     <div class="col-md-4">
                         <div class="side-navigation">
                             <ul class="side-navigation-list">
-                                <li><a class="active" href="{{route('allServices')}}">Nos Services</a></li>
-                                <li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
+                                <li><a href="{{route('allServices')}}">Nos Services</a></li>
+                                <li><a class="active" href="{{route('serigraphie')}}">Serigraphie</a></li>
                                 <li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
                                 <li><a href="{{route('bonerie')}}">Bonerie</a></li>
                                 <li><a href="{{route('evenementiel')}}">Evenementiel</a></li>

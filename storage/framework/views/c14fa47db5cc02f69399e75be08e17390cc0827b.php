@@ -61,7 +61,7 @@
 							</div>	
 							<div class="col-md-6">
 								<ul class="social-icons">
-									<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a class="facebook" target="_blank"  href="#" ><i class="fa fa-facebook"></i></a></li>
 									<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
 									<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
 									<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
@@ -88,7 +88,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="drop"><a class="active" href="<?php echo e(route('home')); ?>">Acceuil</a></li>
-							<li class="drop"><a href="<?php echo e(route('projet')); ?>">Nos Projets</a></li>
+							<!-- <li class="drop"><a href="<?php echo e(route('projet')); ?>">Nos Projets</a></li> -->
 							<li><a href="<?php echo e(route('apropos')); ?>">Qui sommes-nous?</a></li>
 							<li class="drop"><a href="<?php echo e(route('allServices')); ?>">Nos Services</a>
 								<ul class="dropdown">
@@ -100,7 +100,7 @@
 									<li><a href="<?php echo e(route('projet')); ?>">Projecting</a></li>
 								</ul>
 							</li>
-							<li class="drop"><a href="<?php echo e(route('bao_blog')); ?>">Blog</a>
+							<!-- <li class="drop"><a href="<?php echo e(route('bao_blog')); ?>">Blog</a> -->
 
 							</li>
 							<li><a href="<?php echo e(route('bao_contact')); ?>">Contact</a></li>

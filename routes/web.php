@@ -16,7 +16,6 @@ Route::get('/', 'acceuilController@index')->name('home');
  */
 Route::get('home', 'acceuilController@index')->name('home');
 //==========================ROUTE POUR LES SERVICES=================//
-
 /**
  * QUI SOMMES NOUS? ROUTE
  */
