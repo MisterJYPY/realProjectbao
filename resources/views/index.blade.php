@@ -155,7 +155,7 @@
 						</div>
 						<div class="col-md-3">
 							<div class="footer-widget">
-								<h2>quelques widgets</h2>
+								<h2>Quelques widgets</h2>
 								<ul class="flickr">
 									@foreach($allBottomImages as $img)
 									<li><a href="#"><img src="{{$img->url}}" alt=""></a></li>
