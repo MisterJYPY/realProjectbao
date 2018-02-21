@@ -34,7 +34,6 @@
 								<li><a href="{{route('bonneterie')}}">Bonneterie & Maroquinerie</a></li>
 								<li><a class="active" href="{{route('evenementiel')}}">Evenementiel</a></li>
 								<!--<li><a href="#">Dematerialisation</a></li> -->
-								<li><a href="{{route('maroquinerie')}}">Maroquinerie</a></li>
 							</ul>
 							<div class="contact-info">
 								<h2>Contact Info</h2>

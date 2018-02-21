@@ -275,7 +275,7 @@
             <div class="col-md-3">
                 <div class="offer-post">
                     <a href="<?php echo e(route('bonneterie')); ?>"><img src="upload/others/bao_services3.jpg" alt=""></a>
-                    <h2><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie</a></h2>
+                    <h2><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie & Maroquinerie</a></h2>
                     <p>Nous manufacturons des gadgets sur mesure et adapter a vos conditions</p>
                     <ul class="offer-list">
                         <li><i class="fa fa-cube"></i> Sacs de Seminaire</li>

@@ -155,7 +155,7 @@
 						</div>
 						<div class="col-md-3">
 							<div class="footer-widget">
-								<h2>quelques widgets</h2>
+								<h2>Quelques widgets</h2>
 								<ul class="flickr">
 									<?php $__currentLoopData = $allBottomImages; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $img): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 									<li><a href="#"><img src="<?php echo e($img->url); ?>" alt=""></a></li>

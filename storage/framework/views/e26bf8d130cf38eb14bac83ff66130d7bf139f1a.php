@@ -30,7 +30,7 @@
 								<li><a  href="<?php echo e(route('allServices')); ?>">Nos Services</a></li>
 								<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
 								<li><a class="active" href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
-								<li><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie</a></li>
+								<li><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie & Maroquinerie</a></li>
 								<li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
 								<!--<li><a href="#">Dematerialisation</a></li> -->
 								<!--<li><a href="#">Projet</a></li> -->
