@@ -9,7 +9,7 @@
 						<ul class="page-depth">
 							<li><a href="<?php echo e(route('home')); ?>">Bao-Technoligies</a></li>
 							<li><a href="<?php echo e(route('allServices')); ?>">Services</a></li>
-							<li><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+							<li><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie</a></li>
 						</ul>
 					</div>
 				</div>
@@ -28,10 +28,10 @@
 								<li><a href="<?php echo e(route('allServices')); ?>">Nos Services</a></li>
 								<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
 								<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
-								<li><a class="active" href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+								<li><a class="active" href="<?php echo e(route('bonneterie')); ?>">Bonneterie & Maroquinerie</a></li>
 								<li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
-								<li><a href="<?php echo e(route('dematerialisation')); ?>">Dematerialisation</a></li>
-								<li><a href="<?php echo e(route('projet')); ?>">Projet</a></li>
+								<!--<li><a href="#">Dematerialisation</a></li> -->
+							    <!--<li><a href="#">Projet</a></li> -->
 							</ul>
 							<div class="contact-info">
 								<h2>Contact Info</h2>
@@ -48,29 +48,26 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="services-post">
-										<img src="upload/others/iso1.jpg" alt="">
-										<img src="upload/others/iso3.jpg" alt="">
-										<h2>All isolation</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat.</p>
-										<p>Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat.</p>
+										<img class="img-rounded" src="upload/others/bao_bone2.jpg" alt="">
+										<img class="img-rounded" src="upload/others/bao_bone1.jpg" alt="">
+										<h2 style="color: #00008B">Notre Atelier de BONNETERIE</h2>
+										<p>Dans cet Atelier, nous creons des Tee-shirt, des Polos, des Tricots sur mesure
+											et de qualité pour les entreprises</p>
+										<p>En plus des entreprises classiques que vous connaisser, nous crreons aussi les tenus des Etablissement : le Primaire,
+										le Secondaire et le Superieure...
+										Ces elements sont brodes avec les dernieres techniques de broderie...</p>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="services-post">
-										<img src="upload/others/iso2.jpg" alt="">
-										<img src="upload/others/iso4.jpg" alt="">
-										<h2>Perfect work</h2>
-										<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat.</p>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat.</p>
+										<img class="img-rounded" src="upload/others/bao_maro2.jpg" alt="">
+										<img class="img-rounded" src="upload/others/bao_maro1.jpg" alt="">
+										<h2 style="color: #F7230C">Notre Atelier de MAROQUINERIE</h2>
+										<p> Cet Atelier, vous offre des sacs personnalisées et tous ce qui concerne la bagarerie.
+										il est important de noté que dans nos ateliers tous ce qui sort est personnalisé...</p>
+										<p>Nos les produits offerts dans cet atelier sont :
+										les SACS en CUIR, le VYNIL, les TISSUS, les Sacs de Seminaire...
+										</p>
 									</div>
 								</div>
 							</div>

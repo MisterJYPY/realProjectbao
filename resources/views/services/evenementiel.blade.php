@@ -31,10 +31,10 @@
 								<li><a href="{{route('allServices')}}">Nos Services</a></li>
 								<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
 								<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
-								<li><a href="{{route('bonerie')}}">Bonerie</a></li>
+								<li><a href="{{route('bonneterie')}}">Bonneterie & Maroquinerie</a></li>
 								<li><a class="active" href="{{route('evenementiel')}}">Evenementiel</a></li>
-								<li><a href="{{route('dematerialisation')}}">Dematerialisation</a></li>
-								<li><a href="{{route('projet')}}">Projet</a></li>
+								<!--<li><a href="#">Dematerialisation</a></li> -->
+								<li><a href="{{route('maroquinerie')}}">Maroquinerie</a></li>
 							</ul>
 							<div class="contact-info">
 								<h2>Contact Info</h2>
@@ -51,7 +51,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="services-post">
-										<img class="img-thumbnail" src="upload/others/paint2.jpg" alt="">
+										<img class="img-thumbnail" src="upload/others/bao_event2.jpg" alt="">
 										<h2>Plateforme de qualité</h2>
 										<p>La pluridimensionalité d’une plateforme de qualité.
 											La communication événementielle est un outil de communication hors-média,
@@ -63,7 +63,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="services-post">
-										<img class="img-thumbnail" src="upload/others/paint3.jpg" alt="">
+										<img class="img-thumbnail" src="upload/others/bao_event3.jpg" alt="">
 										<h2>Orientation & Aides a la decision en Communication Marketing</h2>
 										<p>Une source intarissable de conseil, d’orientation et de prises
 											de décisions en termes de communication-marketing !
@@ -76,7 +76,7 @@
 								</div>
 							</div>
 							<div class="services-post">
-								<img class="img-rounded" src="upload/others/paint1.jpg" alt="">
+								<img class="img-rounded" src="upload/others/bao_event1.jpg" alt="">
 							</div>
 						</div>
 					</div>

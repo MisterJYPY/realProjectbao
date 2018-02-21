@@ -31,10 +31,10 @@
 								<li><a  href="{{route('allServices')}}">Nos Services</a></li>
 								<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
 								<li><a class="active" href="{{route('imprimerie')}}">Imprimerie</a></li>
-								<li><a href="{{route('bonerie')}}">Bonerie</a></li>
+								<li><a href="{{route('bonneterie')}}">Bonneterie & Maroquinerie</a></li>
 								<li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
-								<li><a href="{{route('dematerialisation')}}">Dematerialisation</a></li>
-								<li><a href="{{route('projet')}}">Projet</a></li>
+								<!--<li><a href="#">Dematerialisation</a></li> -->
+								<!--<li><a href="#">Projet</a></li> -->
 							</ul>
 							<div class="contact-info">
 								<h2>Contact Info</h2>

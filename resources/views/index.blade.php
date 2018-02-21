@@ -94,10 +94,10 @@
 								<ul class="dropdown">
 									<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
 									<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
-									<li><a href="{{route('bonerie')}}">Bonerie</a></li>
+									<li><a href="{{route('bonneterie')}}">Bonneterie & Maroquinerie</a></li>
 									<li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
-									<li><a href="{{route('dematerialisation')}}">Dematerialisation</a></li>
-									<li><a href="{{route('projet')}}">Projecting</a></li>
+									<!-- <li><a href="#">Dematerialisation</a></li> -->
+									<!-- <li><a href="#">Projecting</a></li> -->
 								</ul>
 							</li>
 							<!-- <li class="drop"><a href="{{route('bao_blog')}}">Blog</a> -->
@@ -110,7 +110,7 @@
 									<button type="submit">
 										<i class="fa fa-search"></i>
 									</button>
-				s				</form>
+								</form>
 							</li>
 
 						@if(session('connect')=='connect')
@@ -146,9 +146,9 @@
 								<ul class="tag-list">
 									<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
 									<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
-									<li><a href="{{route('bonerie')}}">Bonerie</a></li>
+									<li><a href="{{route('bonneterie')}}">Bonneterie</a></li>
 									<li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
-									<li><a href="{{route('dematerialisation')}}">Dematérialisation</a></li>
+									<!-- <li><a href="#">Dematérialisation</a></li> -->
 
 								</ul>
 							</div>

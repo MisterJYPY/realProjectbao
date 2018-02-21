@@ -30,10 +30,10 @@
 								<li><a  href="<?php echo e(route('allServices')); ?>">Nos Services</a></li>
 								<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
 								<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
-								<li><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+								<li><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie</a></li>
 								<li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
 								<li><a href="<?php echo e(route('dematerialisation')); ?>">Dematerialisation</a></li>
-								<li><a class="active" href="<?php echo e(route('projet')); ?>">Projet</a></li>
+								<!-- <li><a class="active" href="<?php echo e(route('projet')); ?>">Projet</a></li> -->
 							</ul>
 							<div class="contact-info">
 								<h2>Contact Info</h2>

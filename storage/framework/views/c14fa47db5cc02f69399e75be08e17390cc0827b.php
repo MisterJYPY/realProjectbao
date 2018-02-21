@@ -94,10 +94,10 @@
 								<ul class="dropdown">
 									<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
 									<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
-									<li><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+									<li><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie & Maroquinerie</a></li>
 									<li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
-									<li><a href="<?php echo e(route('dematerialisation')); ?>">Dematerialisation</a></li>
-									<li><a href="<?php echo e(route('projet')); ?>">Projecting</a></li>
+									<!-- <li><a href="#">Dematerialisation</a></li> -->
+									<!-- <li><a href="#">Projecting</a></li> -->
 								</ul>
 							</li>
 							<!-- <li class="drop"><a href="<?php echo e(route('bao_blog')); ?>">Blog</a> -->
@@ -110,7 +110,7 @@
 									<button type="submit">
 										<i class="fa fa-search"></i>
 									</button>
-				s				</form>
+								</form>
 							</li>
 
 						<?php if(session('connect')=='connect'): ?>
@@ -146,9 +146,9 @@
 								<ul class="tag-list">
 									<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
 									<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
-									<li><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+									<li><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie</a></li>
 									<li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
-									<li><a href="<?php echo e(route('dematerialisation')); ?>">Dematérialisation</a></li>
+									<!-- <li><a href="#">Dematérialisation</a></li> -->
 
 								</ul>
 							</div>

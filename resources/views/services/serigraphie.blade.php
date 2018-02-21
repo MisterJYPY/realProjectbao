@@ -12,7 +12,7 @@
 						<ul class="page-depth">
 							<li><a href="{{route('home')}}"><b>Bao-Technoligies</b></a></li>
 							<li><a href="{{route('allServices')}}"><b>Services</b></a></li>
-							<li><a href="{{route('serigraphie')}}"><b>>Serigraphie</b></a></li>
+							<li><a href="{{route('serigraphie')}}"><b>Serigraphie</b></a></li>
 						</ul>
 					</div>
 				</div>
@@ -31,10 +31,10 @@
                                 <li><a href="{{route('allServices')}}">Nos Services</a></li>
                                 <li><a class="active" href="{{route('serigraphie')}}">Serigraphie</a></li>
                                 <li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
-                                <li><a href="{{route('bonerie')}}">Bonerie</a></li>
+								<li><a href="{{route('bonneterie')}}">Bonneterie & Maroquinerie</a></li>
                                 <li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
-                                <li><a href="{{route('dematerialisation')}}">Dematerialisation</a></li>
-                                <li><a href="{{route('projet')}}">Projet</a></li>
+                                <li><a href="#">Dematerialisation</a></li>
+								<li><a href="{{route('maroquinerie')}}">Maroquinerie</a></li>
                             </ul>
                             <div class="contact-info">
                                 <h2>Contact Info</h2>
@@ -125,6 +125,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				</div>
 			</div>
 		</section>

@@ -38,7 +38,7 @@ Route::get('imprimerie', 'imprimerieController@index')->name('imprimerie');
 /**
  * Route pour bonerie
  */
-Route::get('bonerie', 'bonerieController@index')->name('bonerie');
+Route::get('bonneterie', 'bonerieController@index')->name('bonneterie');
 
 /**
  * Route pour evenementiel
@@ -54,7 +54,6 @@ Route::get('dematerialisation', 'dematerialisationController@index')->name('dema
  * Route pour ingenierie dematerialisation
  */
 Route::get('projet', 'projetController@index')->name('projet');
-
 
 //***========================FIN ROUTE POUR LES SERVICES===============***//
 
