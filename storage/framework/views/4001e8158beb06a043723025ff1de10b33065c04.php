@@ -104,7 +104,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="team-post">
-                                <img class="img-rounded" src="upload/team/bao_dr.png" alt="">
+                                <img class="img-rounded" src="upload/team/bao_dr.jpg" alt="">
                                 <h2>Madame ...</h2>
                                 <span style="color: #00008B"><b>Directeur General</b></span>
                                 <p>Il est charge du management Operationel de l'entreprise, il s'assure de la bonne gestion des ressources de l'entreprise</p>

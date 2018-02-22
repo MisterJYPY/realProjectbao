@@ -30,10 +30,9 @@
                         <li><a class="active" href="{{route('allServices')}}">Nos Services</a></li>
                         <li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
                         <li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
-                        <li><a href="{{route('bonerie')}}">Bonerie</a></li>
+                        <li><a href="{{route('bonneterie')}}">Bonneterie & Maroquinerie</a></li>
                         <li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
-                        <li><a href="{{route('dematerialisation')}}">Dematerialisation</a></li>
-                        <li><a href="{{route('projet')}}">Projet</a></li>
+                        <!--<li><a href="#">Projet</a></li> -->
                     </ul>
                     <div class="contact-info">
                         <h2>Contact Info</h2>
@@ -61,10 +60,9 @@
                             <div class="services-post">
                                 <a href="{{route('imprimerie')}}"><img src="upload/others/bao_imprim.jpg" alt=""></a>
                                 <h2 style="color: #00008B">IMPRIMERIE</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
+                                <p>L'impression constitue la base de l'expertise de la Boite A Outils technologie,
+                                Nous mettons cette experience a votre dispositionb pour donner une image de marque a votre entreprise !
+                                </p>
                                 <a href="{{route('imprimerie')}}">Lire Plus</a>
                             </div>
                         </div>
@@ -72,15 +70,26 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="services-post">
-                                <a href="{{route('bonerie')}}"><img src="upload/others/services.png" alt=""></a>
-                                <h2 style="color: #00008B">BONETERIE</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                <a href="{{route('bonneterie')}}"><img src="upload/others/bao_bone2.jpg" alt=""></a>
+                                <h2 style="color: #00008B">BONNETERIE</h2>
+                                <p>Vous avez dit : Tee-shirt, Polos, pour ameliorer votres communication : L'Atelier de Bonneterie de La Boite
+                                    A Outils a votre disposition pour vous accompagner !
                                     consequat.</p>
-                                <a href="{{route('bonerie')}}">Lire Plus</a>
+                                <a href="{{route('bonneterie')}}">Lire Plus</a>
                             </div>
                         </div>
+                        <div class="col-md-6">
+                            <div class="services-post">
+                                <a href="{{route('evenementiel')}}"><img src="upload/others/bao_maro1.jpg" alt=""></a>
+                                <h2 style="color: #00008B">MAROQUINERIE</h2>
+                                <p>Doté d’un atelier de marquage et d’un studio graphique, une équipe d’hommes et
+                                    de femmes passionnés vous propose la solution adaptée à votre image et
+                                    à votre métier...</p>
+                                <a href="{{route('bonneterie')}}">Lire Plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-6">
                             <div class="services-post">
                                 <a href="{{route('evenementiel')}}"><img src="upload/others/bao_event.jpg" alt=""></a>
@@ -88,31 +97,17 @@
                                 <p>Doté d’un atelier de marquage et d’un studio graphique, une équipe d’hommes et
                                     de femmes passionnés vous propose la solution adaptée à votre image et
                                     à votre métier...</p>
-                                <a href="{{route('evenementiel')}}" class="fa fa-search-plus">Lire Plus</a>
+                                <a href="{{route('evenementiel')}}">Lire Plus</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-6">
                             <div class="services-post">
                                 <a href="{{route('dematerialisation')}}"><img src="upload/others/bao_demat.jpg" alt=""></a>
                                 <h2 style="color: #00008B">DEMATERIALISATION</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
+                                <p>La BOITE A OUTILS met à votre un logiciel GED (Gestion Electronique de Documents), pour faciliter la gestion de vos
+                                documents et informations importantes en entreprise. Nous Analysoons votre systeme d'information et concevons un logiciel
+                                sur mesure pour vous</p>
                                 <a href="{{route('dematerialisation')}}">Lire Plus</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="services-post">
-                                <a href="{{route('projet')}}"><img src="upload/others/bao_projet.jpg" alt=""></a>
-                                <h2 style="color: #00008B">PROJET</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
-                                <a href="{{route('projet')}}">Lire Plus</a>
                             </div>
                         </div>
                     </div>

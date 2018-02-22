@@ -12,7 +12,7 @@
 						<ul class="page-depth">
 							<li><a href="<?php echo e(route('home')); ?>"><b>Bao-Technoligies</b></a></li>
 							<li><a href="<?php echo e(route('allServices')); ?>"><b>Services</b></a></li>
-							<li><a href="<?php echo e(route('serigraphie')); ?>"><b>>Serigraphie</b></a></li>
+							<li><a href="<?php echo e(route('serigraphie')); ?>"><b>Serigraphie</b></a></li>
 						</ul>
 					</div>
 				</div>
@@ -28,13 +28,13 @@
                     <div class="col-md-4">
                         <div class="side-navigation">
                             <ul class="side-navigation-list">
-                                <li><a class="active" href="<?php echo e(route('allServices')); ?>">Nos Services</a></li>
-                                <li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
+                                <li><a href="<?php echo e(route('allServices')); ?>">Nos Services</a></li>
+                                <li><a class="active" href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
                                 <li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
-                                <li><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></li>
+								<li><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie & Maroquinerie</a></li>
                                 <li><a href="<?php echo e(route('evenementiel')); ?>">Evenementiel</a></li>
-                                <li><a href="<?php echo e(route('dematerialisation')); ?>">Dematerialisation</a></li>
-                                <li><a href="<?php echo e(route('projet')); ?>">Projet</a></li>
+                                <li><a href="#">Dematerialisation</a></li>
+								<li><a href="#">Projet</a></li>
                             </ul>
                             <div class="contact-info">
                                 <h2>Contact Info</h2>
@@ -125,6 +125,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				</div>
 			</div>
 		</section>

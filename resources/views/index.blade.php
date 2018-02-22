@@ -61,7 +61,7 @@
 							</div>	
 							<div class="col-md-6">
 								<ul class="social-icons">
-									<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a class="facebook" target="_blank"  href="#" ><i class="fa fa-facebook"></i></a></li>
 									<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
 									<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
 									<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
@@ -88,19 +88,19 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="drop"><a class="active" href="{{route('home')}}">Acceuil</a></li>
-							<li class="drop"><a href="{{route('projet')}}">Nos Projets</a></li>
+							<!-- <li class="drop"><a href="{{route('projet')}}">Nos Projets</a></li> -->
 							<li><a href="{{route('apropos')}}">Qui sommes-nous?</a></li>
 							<li class="drop"><a href="{{route('allServices')}}">Nos Services</a>
 								<ul class="dropdown">
 									<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
 									<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
-									<li><a href="{{route('bonerie')}}">Bonerie</a></li>
+									<li><a href="{{route('bonneterie')}}">Bonneterie & Maroquinerie</a></li>
 									<li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
-									<li><a href="{{route('dematerialisation')}}">Dematerialisation</a></li>
-									<li><a href="{{route('projet')}}">Projecting</a></li>
+									<!-- <li><a href="#">Dematerialisation</a></li> -->
+									<!-- <li><a href="#">Projecting</a></li> -->
 								</ul>
 							</li>
-							<li class="drop"><a href="{{route('bao_blog')}}">Blog</a>
+							<!-- <li class="drop"><a href="{{route('bao_blog')}}">Blog</a> -->
 
 							</li>
 							<li><a href="{{route('bao_contact')}}">Contact</a></li>
@@ -110,7 +110,7 @@
 									<button type="submit">
 										<i class="fa fa-search"></i>
 									</button>
-				s				</form>
+								</form>
 							</li>
 
 						@if(session('connect')=='connect')
@@ -146,16 +146,16 @@
 								<ul class="tag-list">
 									<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
 									<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
-									<li><a href="{{route('bonerie')}}">Bonerie</a></li>
+									<li><a href="{{route('bonneterie')}}">Bonneterie</a></li>
 									<li><a href="{{route('evenementiel')}}">Evenementiel</a></li>
-									<li><a href="{{route('dematerialisation')}}">Dematérialisation</a></li>
+									<!-- <li><a href="#">Dematérialisation</a></li> -->
 
 								</ul>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="footer-widget">
-								<h2>quelques widgets</h2>
+								<h2>Quelques widgets</h2>
 								<ul class="flickr">
 									@foreach($allBottomImages as $img)
 									<li><a href="#"><img src="{{$img->url}}" alt=""></a></li>

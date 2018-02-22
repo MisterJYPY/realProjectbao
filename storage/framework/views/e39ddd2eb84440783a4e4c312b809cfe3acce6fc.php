@@ -274,8 +274,8 @@
             </div>
             <div class="col-md-3">
                 <div class="offer-post">
-                    <a href="<?php echo e(route('bonerie')); ?>"><img src="upload/others/bao_services3.jpg" alt=""></a>
-                    <h2><a href="<?php echo e(route('bonerie')); ?>">Bonerie</a></h2>
+                    <a href="<?php echo e(route('bonneterie')); ?>"><img src="upload/others/bao_services3.jpg" alt=""></a>
+                    <h2><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie & Maroquinerie</a></h2>
                     <p>Nous manufacturons des gadgets sur mesure et adapter a vos conditions</p>
                     <ul class="offer-list">
                         <li><i class="fa fa-cube"></i> Sacs de Seminaire</li>
@@ -357,7 +357,7 @@
                             <a href="#option2" data-toggle="tab">Imprimerie</a>
                         </li>
                         <li>
-                            <a href="#option3" data-toggle="tab">Bonerie</a>
+                            <a href="#option3" data-toggle="tab">Bonneterie</a>
                         </li>
                         <li>
                             <a href="#option4" data-toggle="tab">Evenementiel</a>
