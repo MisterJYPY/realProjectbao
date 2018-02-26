@@ -97,7 +97,7 @@
                                 <input id="optionsRadios2" type="radio" checked="true" value="normal" name="priorite">
                                 <label for="optionsRadios2">Normal</label>
                             </div>
-                    </div>
+                            </div>
                         <div class="form-group">
                             <label>Statut</label>
                             <div class="col-sm-10">
@@ -107,7 +107,7 @@
                                     <label for="optionsRadios1">Activé</label>
                                 </div>
                                 <div>
-                                    <input id="optionsRadios2" type="radio" value="option2" name="inactif">
+                                    <input id="optionsRadios2" type="radio" value="inactif" name="statut">
                                     <label for="optionsRadios2">Désactivité</label>
                                 </div>
                             </div>

@@ -21,10 +21,25 @@ class dashbaoController extends Controller
         $nbrePersonnels=personels::all()->count();
         $nbreArticles=articles::all()->count();
         $allNewpost=publications::whereStatut('nl')->get();
-    
+        
         return view('admin.dashbao',compact('nbreServices','nbrePersonnels','nbreArticles','allNewpost'));
     }
+    public function getSessionDateCode()
+    {
+        $dateComplet="";
+        $dateD=date("d");//jour
+        $dateM=date("m");//mois
+        $dateY=date("Y");//annee
 
+        $dateComplet.=$dateD;
+        $dateComplet.=$dateM;
+        $dateComplet.=$dateY;
+
+
+
+        return $dateComplet;
+
+    }
     /**
      * Show the form for creating a new resource.
      *

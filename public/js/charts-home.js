@@ -1,4 +1,13 @@
 /*global $, document, Chart, LINECHART, data, options, window*/
+
+
+function getElement(tableau)
+{
+   for(var i=0;i<5;i++)
+   {
+
+   }
+}
 $(document).ready(function () {
 
     'use strict';
@@ -75,18 +84,22 @@ $(document).ready(function () {
     // ------------------------------------------------------- //
     // Pie Chart
     // ------------------------------------------------------ //
+
     var PIECHART = $('#pieChart');
+
+    var dt=[300, 50, 100,345];
     var myPieChart = new Chart(PIECHART, {
         type: 'doughnut',
         data: {
             labels: [
                 "First",
                 "Second",
+                "Seconds",
                 "Third"
             ],
             datasets: [
                 {
-                    data: [300, 50, 100],
+                    data: dt,
                     borderWidth: [1, 1, 1],
                     backgroundColor: [
                         brandPrimary,
@@ -98,7 +111,8 @@ $(document).ready(function () {
                         "rgba(75,192,192,1)",
                         "#FFCE56"
                     ]
-                }]
+                }
+            ]
         }
     });
 

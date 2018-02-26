@@ -9,8 +9,8 @@
             </div>
             <div class="col-md-6">
                 <ul class="page-depth">
-                    <li><a href="<?php echo e(route('home')); ?>">Bao-Technologies</a></li>
-                    <li><a href="<?php echo e(route('allServices')); ?>">Services</a></li>
+                    <li><a href="<?php echo e(route('home')); ?>"><b>Bao-Technologies</b></a></li>
+                    <li><a href="<?php echo e(route('allServices')); ?>"><b>Services</b></a></li>
                 </ul>
             </div>
         </div>
@@ -23,7 +23,7 @@
 <section class="services-page-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="side-navigation">
                     <ul class="side-navigation-list">
                         <li><a class="active" href="<?php echo e(route('allServices')); ?>">Nos Services</a></li>
@@ -37,84 +37,81 @@
                     <div class="contact-info">
                         <h2>Contact Info</h2>
                         <ul class="information-list">
-                            <li><i class="fa fa-map-marker"></i><span>907 N Randolph street, Virginia</span></li>
-                            <li><i class="fa fa-phone"></i><span>+1 703-697-1776</span><span>+1 605-315-8544</span></li>
-                            <li><i class="fa fa-envelope-o"></i><a href="#">nunforest@gmail.com</a></li>
+                            <li><i class="fa fa-map-marker"></i><span>Abidjan Codody cité des Arts, Cote d'Ivoire</span></li>
+                            <li><i class="fa fa-phone"></i><span>+225 - 224 468 87</span><span>+225 - 079 312 93</span><span>Fax : +225 - 224 452 67</span></li>
+                            <li><i class="fa fa-envelope-o"></i><a href="#">contact@bao-technologie.com</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <div class="services-wrapp">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="services-post">
-                                <img src="upload/others/con2.jpg" alt="">
-                                <h2>Construction</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
-                                <a href="construction.html">Read More</a>
+                                <a href="<?php echo e(route('serigraphie')); ?>"><img src="upload/others/bao_serigraphie.jpg" alt=""></a>
+                                <h2 style="color: #00008B">SERIGRAPHIE</h2>
+                                <p>Avec plus de 13 ans d'experience, La Boite A Outils a une developper une solide experience dans
+                                la sserigraphie avec des outils a la pointe de la technologie...</p>
+                                <a href="<?php echo e(route('serigraphie')); ?>">Lire Plus</a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="services-post">
-                                <img src="upload/others/build4.jpg" alt="">
-                                <h2>Building</h2>
+                                <a href="<?php echo e(route('imprimerie')); ?>"><img src="upload/others/bao_imprim.jpg" alt=""></a>
+                                <h2 style="color: #00008B">IMPRIMERIE</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.</p>
-                                <a href="building.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="services-post">
-                                <img src="upload/others/iso1.jpg" alt="">
-                                <h2>Isolation</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
-                                <a href="isolation.html">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="services-post">
-                                <img src="upload/others/paint2.jpg" alt="">
-                                <h2>Painting</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
-                                <a href="painting.html">Read More</a>
+                                <a href="<?php echo e(route('imprimerie')); ?>">Lire Plus</a>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="services-post">
-                                <img src="upload/others/el2.jpg" alt="">
-                                <h2>Electricy</h2>
+                                <a href="<?php echo e(route('bonerie')); ?>"><img src="upload/others/services.png" alt=""></a>
+                                <h2 style="color: #00008B">BONETERIE</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.</p>
-                                <a href="electricy.html">Read More</a>
+                                <a href="<?php echo e(route('bonerie')); ?>">Lire Plus</a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="services-post">
-                                <img src="upload/others/project1.jpg" alt="">
-                                <h2>Projecting</h2>
+                                <a href="<?php echo e(route('evenementiel')); ?>"><img src="upload/others/bao_event.jpg" alt=""></a>
+                                <h2 style="color: #00008B">EVENEMENTIELLE</h2>
+                                <p>Doté d’un atelier de marquage et d’un studio graphique, une équipe d’hommes et
+                                    de femmes passionnés vous propose la solution adaptée à votre image et
+                                    à votre métier...</p>
+                                <a href="<?php echo e(route('evenementiel')); ?>" class="fa fa-search-plus">Lire Plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="services-post">
+                                <a href="<?php echo e(route('dematerialisation')); ?>"><img src="upload/others/bao_demat.jpg" alt=""></a>
+                                <h2 style="color: #00008B">DEMATERIALISATION</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.</p>
-                                <a href="projecting.html">Read More</a>
+                                <a href="<?php echo e(route('dematerialisation')); ?>">Lire Plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-post">
+                                <a href="<?php echo e(route('projet')); ?>"><img src="upload/others/bao_projet.jpg" alt=""></a>
+                                <h2 style="color: #00008B">PROJET</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</p>
+                                <a href="<?php echo e(route('projet')); ?>">Lire Plus</a>
                             </div>
                         </div>
                     </div>

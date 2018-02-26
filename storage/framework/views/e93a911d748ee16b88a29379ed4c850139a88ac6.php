@@ -313,69 +313,20 @@
         </div>
         <ul class="filter">
             <li><a class="active" href="#" data-filter="*">Tout</a></li>
-            <li><a href="#" data-filter=".buildings">Serigraphie</a></li>
-            <li><a href="#" data-filter=".interior">Bonerie</a></li>
-            <li><a href="#" data-filter=".energy">Evenementiel</a></li>
-            <li><a href="#" data-filter=".isolation">Imprimerie</a></li>
-            <li><a href="#" data-filter=".interior">Dematerialisation</a></li>
+            <?php $__currentLoopData = $allCategorie; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $categorie): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            <li><a href="#" data-filter=".<?php echo e($categorie->intitule); ?>"><?php echo e($categorie->intitule); ?></a></li>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </ul>
         <div class="project-box iso-call">
-            <div class="project-post buildings isolation">
-                <img src="upload/projects/produit8.jpg" alt="">
+            <?php $__currentLoopData = $allMidleImages; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $articles): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            <div class="project-post buildings <?php echo e($categories[$articles->categories]); ?>">
+                <img class="img-rounded" src="<?php echo e($articles->lienImage); ?>" alt="">
                 <div class="hover-box">
-                    <h2><a href="single-project.html">Elegant Building</a></h2>
-                    <span>bulding, house</span>
+                    <h2><a href="#"><?php echo e($articles->intitule); ?></a></h2>
+                    <span><?php echo e($articles->description); ?></span>
                 </div>
             </div>
-            <div class="project-post interior">
-                <img src="upload/projects/produit1.jpg" alt="">
-                <div class="hover-box">
-                    <h2><a href="single-project.html">Beatiful House</a></h2>
-                    <span>bulding, house</span>
-                </div>
-            </div>
-            <div class="project-post buildings isolation">
-                <img src="upload/projects/produit2.jpg" alt="">
-                <div class="hover-box">
-                    <h2><a href="single-project.html">Classic House</a></h2>
-                    <span>bulding, house</span>
-                </div>
-            </div>
-            <div class="project-post buildings">
-                <img src="upload/projects/produit3.jpg" alt="">
-                <div class="hover-box">
-                    <h2><a href="single-project.html">Modern and trending house</a></h2>
-                    <span>bulding, house</span>
-                </div>
-            </div>
-            <div class="project-post interior isolation">
-                <img src="upload/projects/produit4.jpg" alt="">
-                <div class="hover-box">
-                    <h2><a href="single-project.html">Afarist Building</a></h2>
-                    <span>bulding, house</span>
-                </div>
-            </div>
-            <div class="project-post energy">
-                <img src="upload/projects/produit5.jpg" alt="">
-                <div class="hover-box">
-                    <h2><a href="single-project.html">traditional Building</a></h2>
-                    <span>bulding, house</span>
-                </div>
-            </div>
-            <div class="project-post buildings">
-                <img src="upload/projects/produit6.jpg" alt="">
-                <div class="hover-box">
-                    <h2><a href="single-project.html">Small house</a></h2>
-                    <span>bulding, house</span>
-                </div>
-            </div>
-            <div class="project-post isolation">
-                <img src="upload/projects/produit7.jpg" alt="">
-                <div class="hover-box">
-                    <h2><a href="single-project.html">Large town Buildings</a></h2>
-                    <span>bulding, house</span>
-                </div>
-            </div>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </div>
     </div>
 </section>
@@ -387,7 +338,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <video style="margin-bottom:5px" autoplay="true" width="350" height="200" controls="controls"><source src="videos/test.mp4" type="video/mp4"/></video>
+                <video style="margin-bottom:5px" autoplay="true" width="350" height="200" controls="controls"><source src="<?php echo e($uniqueVideo[0]['lien']); ?>" type="video/mp4"/></video>
                 <h2 style="margin:5px">Qui sommes nous</h2>
                 <p>Existant depuis 2005, La Boîte A Outils est une entreprise à responsabilité limité (SARL) au capital de 3 000 000. Située a la cité
                  à la cité des Arts, Rue C46, nous avons pour coeur de metier le manufaturier de textile, cuir et métal, Fournitures et mobilier de bureau

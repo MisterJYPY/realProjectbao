@@ -24,14 +24,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img-rounded" src="upload/others/bao_welcome.jpg" alt="">
+                    <img class="img-rounded" src="upload/others/bao_team.JPG" alt="">
                 </div>
                 <div class="col-md-6">
                     <h2 style="color: #00008B" class="mb-none">Mot de Bienvenue...</h2><hr class="solid">
                     <p>Disposé d'une technologie de pointe dans ce present siècle, n'est plus une option pour les entrepries.</p>
                     <p>Mais une neccesité vitale qui s'est impose a toutes entreprises qui se veut serieuse et dynamique, car la technologie conditionnne la bonne circulation et
                         utilisation de l'information qui constitue la moelle epiniere de l'entreprise.</p>
-                    <p>C'est dans cette optique que <strong style="color : #00008B">BAO</strong>-<strong style="color: #F7230C">TECNOLOGIE</strong>est née, pour etre une reponse efficiente et efficace. </p>
+                    <p>C'est dans cette optique que <strong style="color : #00008B">BAO</strong>-<strong style="color: #F7230C">TECNOLOGIE</strong> est née, pour etre une reponse efficiente et efficace. </p>
                     <p>Notre principale raison d'etre est de vous accompagner depuis la naissance de l'idée jusqu'a sa concretisation</p>
                     Qu’il soit question de Muliti-Nationale, PME localisée en un
                     seul endroit ou encore de grandes entreprises

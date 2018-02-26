@@ -73,11 +73,12 @@ $(document).ready(function () {
             labels: [
                 "First",
                 "Second",
+                "Seconde",
                 "Third"
             ],
             datasets: [
                 {
-                    data: [300, 50, 100],
+                    data: [300, 50, 100,300],
                     borderWidth: [1, 1, 1],
                     backgroundColor: [
                         brandPrimary,

@@ -25,7 +25,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img-rounded" src="upload/others/bao_welcome.jpg" alt="">
+                    <img class="img-rounded" src="upload/others/bao_team.JPG" alt="">
                 </div>
                 <div class="col-md-6">
                     <h2 style="color: #00008B" class="mb-none">Mot de Bienvenue...</h2><hr class="solid">
