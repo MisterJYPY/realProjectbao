@@ -66,13 +66,11 @@
                 </div>
                 <div class="col-md-6">
                     <h2 style="color: #F7230C">Que Faisons Nous?</h2>
-                    <p>En pannes d'idées?, En Pannes de Solutions?, Besoin de Logistique evenementielle?,
-                        Voulez-vous une communication evenementielle de marque?</p>
-                    <p><strong style="color : #00008B">BAO</strong>-<strong style="color: #F7230C">TECNOLOGIE</strong> grace a ses outils et technologie de
-                    de derniere generation, travaille a satisfaire vos exigences en matiere de Communication de marque et Branding, Imprimerie sur tout support...</p>
-                    <p>Grace a une equipe d'expert de qualité, La Boite A Outils se positionne
-                        comme une source intarissable de conseil, d'orientation et de prises de decision
-                        en termes de communication marketing.
+                    Notre philosophie historique sur la polyvalence de nos collaborateurs contribue à l’élaboration d’organisations optimisées favorisant la réduction des coûts sans altérer la qualité de service.
+                    Grâce à la qualité de ses recrutements et de son management opérationnel,
+                    BAO TECHNOLOGIE se veut être le  leader des services aux occupants,
+                    met a disposition des équipes stables qui participent à la construction
+                    et à la mise en place de vos projets stratégiques dans la durée
                     </p>
                     <p>Notre volonté : </p>
                     <ul style="list-style: none" class="offer-list">

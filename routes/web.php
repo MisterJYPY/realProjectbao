@@ -15,6 +15,12 @@ Route::get('/', 'acceuilController@index')->name('home');
  * Home Route
  */
 Route::get('home', 'acceuilController@index')->name('home');
+
+/**
+ *Route Galerie Photo
+ */
+Route::get('galerie', 'galerieController@index')->name('galerie');
+
 //==========================ROUTE POUR LES SERVICES=================//
 /**
  * QUI SOMMES NOUS? ROUTE

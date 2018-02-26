@@ -90,6 +90,7 @@
 							<li class="drop"><a class="active" href="{{route('home')}}">Acceuil</a></li>
 							<!-- <li class="drop"><a href="{{route('projet')}}">Nos Projets</a></li> -->
 							<li><a href="{{route('apropos')}}">Qui sommes-nous?</a></li>
+							<li><a href="{{route('galerie')}}">Galerie Photos</a></li>
 							<li class="drop"><a href="{{route('allServices')}}">Nos Services</a>
 								<ul class="dropdown">
 									<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
@@ -144,6 +145,7 @@
 							<div class="footer-widget">
 								<h2>Spécialisation</h2>
 								<ul class="tag-list">
+									<li><a href="{{route('galerie')}}">Galerie</a></li>
 									<li><a href="{{route('serigraphie')}}">Serigraphie</a></li>
 									<li><a href="{{route('imprimerie')}}">Imprimerie</a></li>
 									<li><a href="{{route('bonneterie')}}">Bonneterie</a></li>

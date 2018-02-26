@@ -27,7 +27,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
-                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">En Pannes<br><strong style="color: #F7230C">D'IDEES ? </strong> <br>
+                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">En Pannes </br> <strong style="color: #F7230C">D'IDEES ?</strong> <br>
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -43,7 +43,8 @@
                          data-elementdelay="0.05"
                          data-endelementdelay="0.1"
                          style="font-weight: bold; font-family:'Verdana'; text-color: #2D241E;z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Nous reflechissons pour vous ! Notre quotidien ? <br>
-                        Coordonner, Innover, Conseiller, Anticiper, Securiser, Imaginer, Negocier, Etre Constament a votre Ecoute
+                        Nous avons les Outils, Nous avons les Idées,
+                        Nous avons Ressources neccessaire pour vous accompagner...
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -142,7 +143,7 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
-                         style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href='<?php echo e(route('projet')); ?>' class='trans-btn'>Voir Projet</a>
+                         style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href='<?php echo e(route('allServices')); ?>' class='trans-btn'>Savoir Faire</a>
                     </div>
                 </li>
                 <!-- SLIDE  -->
@@ -196,7 +197,7 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
-                         style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn'>Voir plus</a>
+                         style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='<?php echo e(route('allServices')); ?>' class='trans-btn'>Voir plus</a>
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -212,7 +213,7 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
-                         style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn2'>Projects</a>
+                         style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn2'>Produits</a>
                     </div>
                 </li>
             </ul>
@@ -228,7 +229,7 @@
 
 <section style="background-color: #00008B" class="banner-section">
     <div class="container">
-        <h2>NOS SERVICES <a href="<?php echo e(route('allServices')); ?>" class="button-one">VOIR SERVICES</a></h2>
+        <h2>Avec La Boite A Outils, vous êtes vu par les bonnes personnes, au bon moment !<a href="<?php echo e(route('allServices')); ?>" class="button-one">NOS SERVICES</a></h2>
     </div>
 </section>
 
@@ -453,16 +454,19 @@
         <div class="testimonial-box">
             <ul class="bxslider">
                 <li>
-                    <h2 style="color: White">Professionalisme</h2>
-                    <p>Croyant que le professionalisme est la cle de voute <br> de toute entreprise qui veut emerger,<br> Nous en avons fait une valeur sûre</p>
+                    <h2 style="color: White">Strategie de Communication participante</h2>
+                    <p> En fonction des objtectifs a atteindre nous vous aidons dans l'organisation de tout type evenement<br> depuis l'idée, la recherche de
+                    de financement jusqu'a l'effectivité de l'evenement !
+                    </p>
                 </li>
                 <li>
-                    <h2 style="color: White">Ponctualité</h2>
+                    <h2 style="color: White">Efficacité de la Publicité</h2>
                     <p>Pour repondre aux exigences d'un monde qui evolue a grande vitesse<br> La ponctualité devient alors<br> qualite primordiale</p>
                 </li>
                 <li>
-                    <h2 style="color: White">Professionalisme</h2>
-                    <p>Croyant que le professionalisme est la cle de voute <br> de toute entreprise qui veut emerger,<br> Nous en avons fait une valeur sûre</p>
+                    <h2 style="color: White">Assurez votre visibilté</h2>
+                    <p>L'essentiel d'une entreprise est d'etre vu, par les bonnes personnes au bon moment <br> Nous travaiilons chaque jour encore plus
+                    a rendre votre entreprise visble !</p>
                 </li>
             </ul>
         </div>

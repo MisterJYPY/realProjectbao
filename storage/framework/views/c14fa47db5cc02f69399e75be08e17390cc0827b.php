@@ -90,6 +90,7 @@
 							<li class="drop"><a class="active" href="<?php echo e(route('home')); ?>">Acceuil</a></li>
 							<!-- <li class="drop"><a href="<?php echo e(route('projet')); ?>">Nos Projets</a></li> -->
 							<li><a href="<?php echo e(route('apropos')); ?>">Qui sommes-nous?</a></li>
+							<li><a href="<?php echo e(route('galerie')); ?>">Galerie Photos</a></li>
 							<li class="drop"><a href="<?php echo e(route('allServices')); ?>">Nos Services</a>
 								<ul class="dropdown">
 									<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
@@ -144,6 +145,7 @@
 							<div class="footer-widget">
 								<h2>Spécialisation</h2>
 								<ul class="tag-list">
+									<li><a href="<?php echo e(route('galerie')); ?>">Galerie</a></li>
 									<li><a href="<?php echo e(route('serigraphie')); ?>">Serigraphie</a></li>
 									<li><a href="<?php echo e(route('imprimerie')); ?>">Imprimerie</a></li>
 									<li><a href="<?php echo e(route('bonneterie')); ?>">Bonneterie</a></li>
