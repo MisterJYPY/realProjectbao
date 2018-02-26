@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img-rounded" src="upload/others/bao_work.jpg" alt="">
+                    <img class="img-rounded" src="upload/others/bao_apropos.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <h2 style="color: #F7230C">Que Faisons Nous?</h2>
@@ -74,7 +74,7 @@
                     </p>
                     <p>Notre volonté : </p>
                     <ul style="list-style: none" class="offer-list">
-                        <li><i class="fa fa-cube"></i><b class="text-success">Inventé le visuel pour vous !</b></li>
+                        <li><i class="fa fa-cube"></i> Inventé le visuel pour vous !</li>
                         <li><i class="fa fa-cube"></i> Guider votre demarche !</li>
                         <li><i class="fa fa-cube"></i> Etres l'outils dont vous avez besoin !</li>
                     </ul>
@@ -104,7 +104,7 @@
                         <div class="col-md-4">
                             <div class="team-post">
                                 <img class="img-rounded" src="upload/team/bao_dr.jpg" alt="">
-                                <h2>Madame ...</h2>
+                                <h2>Madame Honorine DONHO</h2>
                                 <span style="color: #00008B"><b>Directeur General</b></span>
                                 <p>Il est charge du management Operationel de l'entreprise, il s'assure de la bonne gestion des ressources de l'entreprise</p>
                             </div>

@@ -12,7 +12,7 @@
             <ul>	<!-- SLIDE  -->
                 <li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"  data-title="Intro Slide">
                     <!-- MAIN IMAGE -->
-                    <img src="upload/slide/bao_bg1.jpg"  alt="slidebg1" data-lazyload="upload/slide/bao_bg1.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                    <img src="upload/slide/bao_slide1.jpg"  alt="slidebg1" data-lazyload="upload/slide/bao_slide1.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -27,7 +27,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
-                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">En Pannes </br> <strong style="color: #F7230C">D'IDEES ?</strong> <br>
+                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">BAO-<strong style="color: #F7230C"> </br>TECNOLOGIES</strong> <br>
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -42,8 +42,8 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.1"
-                         style="font-weight: bold; font-family:'Verdana'; text-color: #2D241E;z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Nous reflechissons pour vous ! Notre quotidien ? <br>
-                        Nous avons les Outils, Nous avons les Idées,
+                         style="font-weight: bold; font-family:'Verdana'; text-color: #2D241E;z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Manufacturier de Support de promotion d'Entreprise<br>
+                       Specialisé en Communication Evenementielle & En Strategie MArketing </br>
                         Nous avons Ressources neccessaire pour vous accompagner...
                     </div>
 
@@ -76,7 +76,7 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
-                         style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#produit' class='trans-btn2'>Produits</a>
+                         style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><a href='{{route('galerie')}}' class='trans-btn2'>Galerie</a>
                     </div>
 
                 </li>
@@ -113,7 +113,8 @@
                          data-splitout="none"
                          data-elementdelay="0.05"
                          data-endelementdelay="0.05"
-                         style=" text-align:center; z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">BOITE A OUTILS-TECHNOLOGIE
+                         style=" text-align:center; z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                        LA BOITE A OUTILS
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -127,7 +128,7 @@
                          data-splitout="none"
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
-                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><strong style="color: #F7230C">Creatif & Professionnel </strong>
+                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><strong style="color: #F7230C">De l'Idée à la Realitée </strong>
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -143,13 +144,13 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
-                         style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href='{{route('allServices')}}' class='trans-btn'>Savoir Faire</a>
+                         style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href='{{route('galerie')}}' class='trans-btn'>Savoir Faire</a>
                     </div>
                 </li>
                 <!-- SLIDE  -->
                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on"  data-title="Parallax 3D">
                     <!-- MAIN IMAGE -->
-                    <img src="upload/slide/bao_bg3.jpg"  alt="3dbg" data-lazyload="upload/slide/bao_bg3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                    <img src="upload/slide/bao_slide3.jpg"  alt="3dbg" data-lazyload="upload/slide/bao_slide3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -213,7 +214,7 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
-                         style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn2'>Produits</a>
+                         style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><a href='{{route('galerie')}}' class='trans-btn2'>Galerie</a>
                     </div>
                 </li>
             </ul>
@@ -249,7 +250,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="offer-post">
-                    <a href="{{route('imprimerie')}}"><img src="upload/others/bao_services2.jpg" alt=""></a>
+                    <a href="{{route('imprimerie')}}"><img src="upload/others/bao_himprim.jpg" alt=""></a>
                     <h2><a href="{{route('imprimerie')}}">Imprimerie tout support</a></h2>
                     <p>BAO dispose du materiel repondant a toutes vos attentes dans le domaine de l'impremerie numerique, l'offset, du reportage...</p>
                     <p>Une equipe dynamique et creative dans le seul but de realiser votre communication par objet.</p>
@@ -262,7 +263,7 @@
             </div>
             <div class="col-md-3">
                 <div class="offer-post">
-                    <a href="{{route('serigraphie')}}"><img src="upload/others/bao_services4.jpg" alt=""></a>
+                    <a href="{{route('serigraphie')}}"><img src="upload/others/bao_hserig.jpg" alt=""></a>
                     <h2><a href="{{route('serigraphie')}}">Serigraphie</a></h2>
                     <p>Serigraphes professionnels, notre maitrise des dernieres techniques d'impression nous permet de vous proposer des solutions optimales selon vos besoins</p>
                     <ul class="offer-list">
@@ -275,7 +276,7 @@
             </div>
             <div class="col-md-3">
                 <div class="offer-post">
-                    <a href="{{route('bonneterie')}}"><img src="upload/others/bao_services3.jpg" alt=""></a>
+                    <a href="{{route('bonneterie')}}"><img src="upload/others/bao_hmaroquinerie.jpg" alt=""></a>
                     <h2><a href="{{route('bonneterie')}}">Bonneterie & Maroquinerie</a></h2>
                     <p>Nous manufacturons des gadgets sur mesure et adapter a vos conditions</p>
                     <ul class="offer-list">
@@ -287,7 +288,7 @@
             </div>
             <div class="col-md-3">
                 <div class="offer-post">
-                    <a href="{{route('evenementiel')}}"><img src="upload/others/bao_services1.jpg" alt=""></a>
+                    <a href="{{route('evenementiel')}}"><img src="upload/others/bao_hevent.jpg" alt=""></a>
                     <h2><a href="{{route('evenementiel')}}">Communication Evenementiel</a></h2>
                     <p>Avec des techniques de dernières generation, nous travail faire de votre evenement celui qui doit etre entendu, vu et suivi par tous !</p>
                     <ul class="offer-list second">
@@ -339,7 +340,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <video style="margin-bottom:5px" autoplay="true" width="350" height="200" controls="controls"><source src="{{$uniqueVideo[0]['lien']}}" type="video/mp4"/></video>
+                <video style="margin-bottom:5px"  width="350" height="200" controls="controls"><source src="{{$uniqueVideo[0]['lien']}}" type="video/mp4"/></video>
                 <h2 style="margin:5px">Qui sommes nous</h2>
                 <p>Existant depuis 2005, La Boîte A Outils est une entreprise à responsabilité limité (SARL) au capital de 3 000 000. Située a la cité
                  à la cité des Arts, Rue C46, nous avons pour coeur de metier le manufaturier de textile, cuir et métal, Fournitures et mobilier de bureau
@@ -358,50 +359,50 @@
                             <a href="#option2" data-toggle="tab">Imprimerie</a>
                         </li>
                         <li>
-                            <a href="#option3" data-toggle="tab">Bonneterie</a>
+                            <a href="#option3" data-toggle="tab">Bonneterie & Maroquinerie</a>
                         </li>
                         <li>
                             <a href="#option4" data-toggle="tab">Evenementiel</a>
                         </li>
-                        <li>
+                       <!-- <li>
                             <a href="#option5" data-toggle="tab">Dematerialisation</a>
-                        </li>
+                        </li> -->
                     </ul>
 
                     <div class="tab-content">
                         <div class="tab-pane active" id="option1">
-                            <img src="upload/others/bao6.jpg" alt="">
+                            <img src="upload/others/bao_serig.jpg" alt="">
                             <h3 style="color: #F7230C">Serigraphie</h3>
                             <p>Serigraphes professionnels,
                                 notre maitrise des dernieres techniques d'impression nous permet de
                                 vous proposer des solutions optimales selon vos besoins</p>
                         </div>
                         <div class="tab-pane" id="option2">
-                            <img src="upload/others/bao5.jpg" alt="">
+                            <img src="upload/others/bao_imprimerie.jpg" alt="">
                             <h3 style="color: #F7230C">Imprimerie</h3>
                             <p>Une equipe dynamique et creative dans le seul but de realiser votre communication par objet.</p>
                         </div>
                         <div class="tab-pane" id="option3">
-                            <img src="upload/others/bao4.jpg" alt="">
-                            <h3 style="color: #F7230C">Bonerie</h3>
+                            <img src="upload/others/bao_maroquinerie.jpg" alt="">
+                            <h3 style="color: #F7230C">Bonerie &  Maroquinerie</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ullamco laboris nisi ut aliquip ex ea commodo.</p>
                         </div>
                         <div class="tab-pane" id="option4">
-                            <img src="upload/others/6.jpg" alt="">
+                            <img src="upload/others/bao_evenementiel.jpg" alt="">
                             <h3 style="color: #F7230C">Evenementiel</h3>
                             <p>Une source intarisable de conseil, d'orientation et de prise de decision en termes de communication marketing.
                             Nous fournissons des devis de communication adapté a vos exigences en 24h.</p>
                         </div>
-                        <div class="tab-pane" id="option5">
+                        <!-- <div class="tab-pane" id="option5">
                             <img src="upload/others/bao2.jpg" alt="">
                             <h3 style="color: #F7230C">Dematerialisation</h3>
                             <p>La dématérialisation des documents vous permettra d’économiser des ressources au sein de votre entreprise.
                                 Un document dématerialisé passe donc d’un support papier à un support numérique et devient donc accessible,
                                 au même moment, à plusieurs personnes.
                                 Un Logiciel de GED permet une gestion documentaire plus aisée.</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
